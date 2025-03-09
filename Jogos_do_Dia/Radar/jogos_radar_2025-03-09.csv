@@ -5,29 +5,68 @@ ITALY 1,2025-03-09,08:30,Verona,Bologna,5.0,3.3,1.8,https://www.radarfutebol.com
 AUSTRIA 2,2025-03-09,08:30,Liefering,Ried,4.9,4.1,1.57,https://www.radarfutebol.com/radar/fc-liefering-sv-ried/12484610,12484610
 ENGLAND 2,2025-03-09,09:00,Portsmouth,Leeds,7.5,4.5,1.37,https://www.radarfutebol.com/radar/leeds-united-portsmouth/12468398,12468398
 CZECH 1,2025-03-09,09:00,Ostrava,Mlada Boleslav,1.53,4.33,5.5,https://www.radarfutebol.com/radar/mlada-boleslav-banik-ostrava/12580800,12580800
-ESTONIA 1,2025-03-09,09:30,Paide,Kalju,2.15,3.45,2.82,https://www.radarfutebol.com/radar/paide-linnameeskond-nomme-kalju/13405908,13405908
-BELGIUM 2,2025-03-09,09:30,RFC Liege,RAAL La Louviere,3.4,3.9,1.91,https://www.radarfutebol.com/radar/rfc-liege-raal-la-louviere/12448588,12448588
-GERMANY 2,2025-03-09,09:30,Preussen Munster,Nurnberg,2.9,3.4,2.35,https://www.radarfutebol.com/radar/preussen-munster-1-fc-nurnberg/12499217,12499217
-GERMANY 2,2025-03-09,09:30,Hannover,Braunschweig,1.62,4.1,5.0,https://www.radarfutebol.com/radar/eintracht-braunschweig-hannover-96/12499218,12499218
-BULGARIA 1,2025-03-09,09:30,Levski Sofia,Slavia Sofia,1.45,3.9,8.5,https://www.radarfutebol.com/radar/slavia-sofia-levski-sofia/12421762,12421762
 GERMANY 2,2025-03-09,09:30,Regensburg,Paderborn,4.75,3.8,1.7,https://www.radarfutebol.com/radar/ssv-jahn-regensburg-sc-paderborn-07/12499224,12499224
+BULGARIA 1,2025-03-09,09:30,Levski Sofia,Slavia Sofia,1.45,3.9,8.5,https://www.radarfutebol.com/radar/slavia-sofia-levski-sofia/12421762,12421762
+GERMANY 2,2025-03-09,09:30,Hannover,Braunschweig,1.62,4.1,5.0,https://www.radarfutebol.com/radar/eintracht-braunschweig-hannover-96/12499218,12499218
+BELGIUM 2,2025-03-09,09:30,RFC Liege,RAAL La Louviere,3.4,3.9,1.91,https://www.radarfutebol.com/radar/rfc-liege-raal-la-louviere/12448588,12448588
+ESTONIA 1,2025-03-09,09:30,Paide,Kalju,2.15,3.45,2.82,https://www.radarfutebol.com/radar/paide-linnameeskond-nomme-kalju/13405908,13405908
+GERMANY 2,2025-03-09,09:30,Preussen Munster,Nurnberg,2.9,3.4,2.35,https://www.radarfutebol.com/radar/preussen-munster-1-fc-nurnberg/12499217,12499217
 DENMARK 2,2025-03-09,10:00,Roskilde,Vendsyssel,3.1,3.5,2.15,https://www.radarfutebol.com/radar/fc-roskilde-vendsyssel-ff/12442069,12442069
 DENMARK 1,2025-03-09,10:00,Silkeborg,Lyngby,1.73,3.6,4.75,https://www.radarfutebol.com/radar/lyngby-silkeborg-if/12407875,12407875
 NETHERLANDS 1,2025-03-09,10:30,Zwolle,Ajax,5.75,4.1,1.57,https://www.radarfutebol.com/radar/pec-zwolle-afc-ajax/12448289,12448289
-ITALY 2,2025-03-09,11:00,Spezia,Pisa,2.05,3.0,4.2,https://www.radarfutebol.com/radar/pisa-spezia/12527542,12527542
-ENGLAND 1,2025-03-09,11:00,Chelsea,Leicester,1.18,8.0,12.0,https://www.radarfutebol.com/radar/chelsea-leicester-city/12436998,12436998
-ITALY 1,2025-03-09,11:00,Napoli,Fiorentina,1.55,4.0,6.25,https://www.radarfutebol.com/radar/napoli-fiorentina/12504373,12504373
-ITALY 2,2025-03-09,11:00,Sassuolo,Bari,1.57,4.0,5.5,https://www.radarfutebol.com/radar/sassuolo-bari/12527535,12527535
-FRANCE 1,2025-03-09,11:00,Brest,Angers,1.73,3.6,5.0,https://www.radarfutebol.com/radar/stade-brestois-angers/12450249,12450249
 CROATIA 1,2025-03-09,11:00,Hajduk Split,Gorica,1.4,4.5,7.0,https://www.radarfutebol.com/radar/hnk-gorica-hnk-hajduk-split/12403311,12403311
-CYPRUS 1,2025-03-09,11:00,Paralimni,Aris,8.75,5.1,1.32,https://www.radarfutebol.com/radar/enosis-neon-paralimniou-aris-limassol/12497182,12497182
 ENGLAND 1,2025-03-09,11:00,Tottenham,Bournemouth,2.7,3.8,2.38,https://www.radarfutebol.com/radar/bournemouth-tottenham-hotspur/12437009,12437009
+CYPRUS 1,2025-03-09,11:00,Paralimni,Aris,8.75,5.1,1.32,https://www.radarfutebol.com/radar/enosis-neon-paralimniou-aris-limassol/12497182,12497182
+FRANCE 1,2025-03-09,11:00,Brest,Angers,1.73,3.6,5.0,https://www.radarfutebol.com/radar/stade-brestois-angers/12450249,12450249
+ITALY 2,2025-03-09,11:00,Spezia,Pisa,2.05,3.0,4.2,https://www.radarfutebol.com/radar/pisa-spezia/12527542,12527542
+ITALY 1,2025-03-09,11:00,Napoli,Fiorentina,1.55,4.0,6.25,https://www.radarfutebol.com/radar/napoli-fiorentina/12504373,12504373
+ENGLAND 1,2025-03-09,11:00,Chelsea,Leicester,1.18,8.0,12.0,https://www.radarfutebol.com/radar/chelsea-leicester-city/12436998,12436998
+ITALY 2,2025-03-09,11:00,Sassuolo,Bari,1.57,4.0,5.5,https://www.radarfutebol.com/radar/sassuolo-bari/12527535,12527535
 CZECH 1,2025-03-09,11:30,Bohemians,Sigma Olomouc,2.2,3.3,3.3,https://www.radarfutebol.com/radar/bohemians-praha-1905-sk-sigma-olomouc/12580795,12580795
 CZECH 1,2025-03-09,11:30,Hradec Kralove,Karvina,1.9,3.25,4.33,https://www.radarfutebol.com/radar/mfk-karvina-fc-hradec-kralove/12580802,12580802
 GERMANY 1,2025-03-09,11:30,Eintracht Frankfurt,Union Berlin,1.73,4.0,4.5,https://www.radarfutebol.com/radar/eintracht-frankfurt-1-fc-union-berlin/12499417,12499417
+CHILE 1,2025-03-09,12:00,Coquimbo,Cobresal,1.7,3.6,4.75,https://www.radarfutebol.com/radar/cobresal-coquimbo-unido/13443442,13443442
 BELGIUM 1,2025-03-09,12:00,Westerlo,Anderlecht,3.1,3.4,2.25,https://www.radarfutebol.com/radar/rsc-anderlecht-kvc-westerlo/12421252,12421252
 CHILE 1,2025-03-09,12:00,Coquimbo,Cobresal,1.7,3.6,4.75,https://www.radarfutebol.com/radar/cobresal-coquimbo-unido/13443442,13443442
 BELGIUM 2,2025-03-09,12:00,Patro Eisden,Beveren,2.05,3.3,3.6,https://www.radarfutebol.com/radar/patro-eisden-maasmechelen-sk-beveren/12448584,12448584
+BELGIUM 2,2025-03-09,12:00,Patro Eisden,Beveren,2.05,3.3,3.6,https://www.radarfutebol.com/radar/patro-eisden-maasmechelen-sk-beveren/12448584,12448584
+BELGIUM 1,2025-03-09,12:00,Westerlo,Anderlecht,3.1,3.4,2.25,https://www.radarfutebol.com/radar/rsc-anderlecht-kvc-westerlo/12421252,12421252
+SPAIN 1,2025-03-09,12:15,Real Madrid,Rayo Vallecano,1.29,5.75,9.5,https://www.radarfutebol.com/radar/real-madrid-rayo-vallecano/12437549,12437549
 SPAIN 1,2025-03-09,12:15,Real Madrid,Rayo Vallecano,1.29,5.75,9.5,https://www.radarfutebol.com/radar/real-madrid-rayo-vallecano/12437549,12437549
 GERMANY 3,2025-03-09,12:30,Aue,Viktoria Koln,2.05,3.75,3.1,https://www.radarfutebol.com/radar/fc-viktoria-koln-erzgebirge-aue/12525783,12525783
+GERMANY 3,2025-03-09,12:30,Aue,Viktoria Koln,2.05,3.75,3.1,https://www.radarfutebol.com/radar/fc-viktoria-koln-erzgebirge-aue/12525783,12525783
 NETHERLANDS 1,2025-03-09,12:45,Twente,Almere City,1.25,6.5,10.0,https://www.radarfutebol.com/radar/almere-city-fc-fc-twente/12448265,12448265
+NETHERLANDS 1,2025-03-09,12:45,Twente,Almere City,1.25,6.5,10.0,https://www.radarfutebol.com/radar/almere-city-fc-fc-twente/12448265,12448265
+AUSTRIA 1,2025-03-09,13:00,Altach,Salzburg,5.75,4.0,1.57,https://www.radarfutebol.com/radar/sc-rheindorf-altach-red-bull-salzburg/12481038,12481038
+AUSTRIA 1,2025-03-09,13:00,Grazer AK,Sturm Graz,5.25,4.0,1.6,https://www.radarfutebol.com/radar/grazer-ak-1902-sk-sturm-graz/12481035,12481035
+AUSTRIA 1,2025-03-09,13:00,Hartberg,SK Rapid,3.6,3.5,2.0,https://www.radarfutebol.com/radar/tsv-hartberg-sk-rapid-wien/12481032,12481032
+AUSTRIA 1,2025-03-09,13:00,LASK,Tirol,1.73,3.5,5.0,https://www.radarfutebol.com/radar/wsg-tirol-lask/12481041,12481041
+ITALY 2,2025-03-09,13:15,Cittadella,Sudtirol,2.7,2.75,3.0,https://www.radarfutebol.com/radar/sudtirol-cittadella/12527526,12527526
+FRANCE 1,2025-03-09,13:15,Nantes,Strasbourg,2.63,3.25,2.7,https://www.radarfutebol.com/radar/rc-strasbourg-nantes/12450250,12450250
+FRANCE 1,2025-03-09,13:15,Reims,Auxerre,2.45,3.3,2.9,https://www.radarfutebol.com/radar/stade-de-reims-auxerre/12450243,12450243
+GERMANY 1,2025-03-09,13:30,Hoffenheim,Heidenheim,1.8,3.9,4.2,https://www.radarfutebol.com/radar/1-fc-heidenheim-tsg-hoffenheim/12499419,12499419
+CYPRUS 1,2025-03-09,14:00,Omonia Aradippou,AEK Larnaca,10.25,5.4,1.27,https://www.radarfutebol.com/radar/omonia-aradippou-aek-larnaca/12497186,12497186
+GREECE 1,2025-03-09,14:00,Panetolikos,Levadiakos,2.2,2.9,3.6,https://www.radarfutebol.com/radar/panetolikos-apo-levadiakos/12568295,12568295
+GREECE 1,2025-03-09,14:00,Athens Kallithea,PAOK,8.5,4.2,1.42,https://www.radarfutebol.com/radar/athens-kallithea-fc-paok/12568280,12568280
+CYPRUS 1,2025-03-09,14:00,Pafos,Achnas,1.2,5.9,15.0,https://www.radarfutebol.com/radar/pafos-fc-ethnikos-achnas/12497184,12497184
+GREECE 1,2025-03-09,14:00,Lamia,Volos,6.0,3.3,1.67,https://www.radarfutebol.com/radar/nps-volos-pas-lamia-1964/12568278,12568278
+HUNGARY 1,2025-03-09,14:00,Debrecen,Ferencvaros,5.5,4.0,1.57,https://www.radarfutebol.com/radar/ferencvaros-tc-debreceni-vsc/12448660,12448660
+GREECE 1,2025-03-09,14:00,Atromitos,Panathinaikos,4.33,3.5,1.83,https://www.radarfutebol.com/radar/atromitos-athens-panathinaikos/12568282,12568282
+SPAIN 1,2025-03-09,14:30,Betis,Las Palmas,1.42,4.5,7.5,https://www.radarfutebol.com/radar/las-palmas-real-betis/12437876,12437876
+CZECH 1,2025-03-09,14:30,FK Pardubice,Plzen,8.0,5.0,1.33,https://www.radarfutebol.com/radar/viktoria-plzen-fk-pardubice/12580801,12580801
+BELGIUM 1,2025-03-09,14:30,Antwerp,Gent,2.15,3.5,3.1,https://www.radarfutebol.com/radar/kaa-gent-royal-antwerp-fc/12421248,12421248
+BELGIUM 2,2025-03-09,15:15,RWDM,Lokeren-Temse,1.55,4.0,5.5,https://www.radarfutebol.com/radar/ksc-lokeren-temse-rwd-molenbeek/13319072,13319072
+ITALY 1,2025-03-09,16:45,Juventus,Atalanta,2.55,3.3,2.8,https://www.radarfutebol.com/radar/juventus-atalanta/12504369,12504369
+FRANCE 1,2025-03-09,16:45,Nice,Lyon,2.0,3.7,3.5,https://www.radarfutebol.com/radar/nice-olympique-lyonnais/12450246,12450246
+SPAIN 1,2025-03-09,17:00,Real Sociedad,Sevilla,2.2,3.2,3.5,https://www.radarfutebol.com/radar/sevilla-real-sociedad/12437878,12437878
+ARGENTINA 2,2025-03-09,17:00,San Miguel,Alvarado,1.75,3.3,5.25,https://www.radarfutebol.com/radar/alvarado-san-miguel/13366688,13366688
+COLOMBIA 1,2025-03-09,17:00,Santa Fe,Fortaleza,1.8,3.4,4.75,https://www.radarfutebol.com/radar/fortaleza-ceif-independiente-santa-fe/13380345,13380345
+ARGENTINA 1,2025-03-09,17:00,Aldosivi,Tigre,2.9,2.9,2.75,https://www.radarfutebol.com/radar/aldosivi-tigre/13292250,13292250
+ARGENTINA 2,2025-03-09,17:00,Agropecuario,Deportivo Moron,2.63,2.88,3.0,https://www.radarfutebol.com/radar/agropecuario-argentino-deportivo-moron/13366696,13366696
+ECUADOR 1,2025-03-09,17:30,Macara,Aucas,2.38,3.0,3.1,https://www.radarfutebol.com/radar/macara-aucas/13378583,13378583
+ARGENTINA 2,2025-03-09,18:00,Central Norte,Temperley,2.7,2.63,3.2,https://www.radarfutebol.com/radar/central-norte-de-salta-temperley/13366699,13366699
+CHILE 1,2025-03-09,18:00,O'Higgins,La Serena,1.73,3.6,4.75,https://www.radarfutebol.com/radar/deportes-la-serena-ohiggins/13434705,13434705
+ARGENTINA 2,2025-03-09,19:00,Patronato,Gimnasia y Tiro,2.25,2.63,4.1,https://www.radarfutebol.com/radar/gimnasia-y-tiro-de-salta-patronato/13366685,13366685
+COLOMBIA 1,2025-03-09,19:30,Junior,Millonarios,2.5,3.1,2.9,https://www.radarfutebol.com/radar/millonarios-junior-barranquilla/13380338,13380338
+ECUADOR 1,2025-03-09,20:00,Vinotinto,Emelec,2.1,3.1,3.6,https://www.radarfutebol.com/radar/vinotinto-futbol-club-emelec/13378582,13378582
+CHILE 1,2025-03-09,20:30,Colo Colo,Everton,1.42,4.33,7.0,https://www.radarfutebol.com/radar/everton-de-vina-del-mar-colo-colo/13434704,13434704
