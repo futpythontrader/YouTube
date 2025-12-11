@@ -1,10 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-FlashScore Scraper V2 - Baseado no projeto funcionando
-Usa flashscore.com (sem .br) e BeautifulSoup para mais velocidade
-"""
-
 import json
 import time
 from datetime import datetime
@@ -37,9 +30,15 @@ class FlashScoreScraper:
         chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
         chrome_options.add_experimental_option('useAutomationExtension', False)
         
-        service = Service('./chromedriver')
-        driver = webdriver.Chrome(service=service, options=chrome_options)
-        driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
+        try:
+            service = Service('./chromedriver')
+            driver = webdriver.Chrome(service=service, options=chrome_options)
+            driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
+        
+        except:
+            service = Service('./chromedriver.exe')
+            driver = webdriver.Chrome(service=service, options=chrome_options)
+            driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
         
         return driver
     
@@ -921,7 +920,7 @@ class FlashScoreScraper:
         if data.get('Odds_DC_FT'):
             print(f"  ✓ DC FT: {len(data['Odds_DC_FT'])} casas")
         
-        # 8. Odds Correct Score FT 
+        # 8. Odds Correct Score FT - REMOVIDO para acelerar scraping
         # data = self.extract_odds_cs_ft(match_id, data)
         # if data.get('Odds_CS_FT'):
         #     total_scores = len(data['Odds_CS_FT'])

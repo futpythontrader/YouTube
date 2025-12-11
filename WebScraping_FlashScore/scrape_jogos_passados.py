@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-"""
-Script COMPLETO para scraping de TODAS as ligas do FlashScore
-Temporadas: 2021, 2021-2022, 2022, 2022-2023, 2023, 2023-2024, 2024, 2024-2025, 2025, 2025-2026
-Total: ~780 ligas (10 temporadas × 78 ligas)
-Duração estimada: Várias semanas
-"""
-
 import json
 import os
 import time
@@ -447,36 +439,6 @@ LINKS_2025_2026 = [
 'https://www.flashscore.com/football/wales/cymru-premier-2025-2026/results/'
 ]
 
-def git_commit(message, file_path=None):
-    """
-    Faz commit automático no git e push para o GitHub
-    Args:
-        message: Mensagem do commit
-        file_path: Arquivo específico para adicionar (opcional, se None adiciona tudo)
-    """
-    try:
-        if file_path:
-            subprocess.run(['git', 'add', file_path], check=True, capture_output=True)
-        else:
-            subprocess.run(['git', 'add', '.'], check=True, capture_output=True)
-        
-        result = subprocess.run(['git', 'commit', '-m', message], 
-                              check=True, capture_output=True, text=True)
-        print(f"  ✓ Git commit: {message}")
-        
-        # Push automático para o GitHub
-        push_result = subprocess.run(['git', 'push'], 
-                                    check=True, capture_output=True, text=True)
-        print(f"  ✓ Git push: Enviado para GitHub")
-        return True
-    except subprocess.CalledProcessError:
-        # Ignora erro (pode ser que não tenha mudanças para commitar)
-        return False
-    except Exception as e:
-        print(f"  ⚠️ Erro no git commit/push: {e}")
-        return False
-
-
 def extract_country_from_url(url):
     """Extrai o país da URL"""
     parts = url.split('/football/')
@@ -799,9 +761,7 @@ def process_season(scraper, league_urls, season_name, output_dir):
             total_scraped = len(existing_league['matches'])
             print(f"  ✅ {total_scraped}/{len(match_ids)} jogos extraídos nesta liga")
             
-            # Commit automático após cada liga
-            git_commit(f"Scraping: {league_name} ({country.upper()}, {season_name}) - {total_scraped} jogos", filename)
-        
+            
         # Salva final do país
         save_country_data(filename, country_data)
         

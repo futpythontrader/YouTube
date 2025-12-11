@@ -1,15 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Gerador de DataFrame para Jogos Futuros
-Converte JSON de jogos futuros em DataFrame tabular
-
-Regras:
-- Bookie preferencial: Bet365 > Betfair > Primeiro disponível
-- Um jogo por linha
-- Odds: 1X2 HT/FT, O/U HT (0.5, 1.5, 2.5), O/U FT (0.5-4.5), BTTS, DC
-"""
-
 import json
 import os
 import pandas as pd

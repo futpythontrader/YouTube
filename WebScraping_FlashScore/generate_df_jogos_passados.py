@@ -1,20 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Gerador de DataFrame para Jogos Passados (All Seasons)
-Converte JSON de jogos históricos em DataFrame tabular
-
-Baseado no gerador de jogos futuros, mas adiciona:
-- Placar final (Home_Score, Away_Score)
-- Minutos dos gols (Min_Goals_Home, Min_Goals_Away)
-- Estatísticas FT, HT e 2T
-
-Regras de Odds:
-- Bookie preferencial: Bet365 > Betfair > Primeiro disponível
-- Um jogo por linha
-- Odds: 1X2 HT/FT, O/U HT (0.5, 1.5, 2.5), O/U FT (0.5-4.5), BTTS, DC
-"""
-
 import json
 import os
 import pandas as pd
@@ -90,11 +73,11 @@ def process_match_to_row(match_data, league_name, country, season, prefer_bookma
     row['Home'] = match_data.get('Home')
     row['Away'] = match_data.get('Away')
     
-    # === PLACAR FINAL (NOVO!) ===
+    # === PLACAR FINAL ===
     row['Home_Score'] = match_data.get('Home_Score')
     row['Away_Score'] = match_data.get('Away_Score')
     
-    # === MINUTOS DOS GOLS (NOVO!) ===
+    # === MINUTOS DOS GOLS  ===
     min_goals_home = match_data.get('Min_Goals_Home', [])
     min_goals_away = match_data.get('Min_Goals_Away', [])
     
@@ -180,7 +163,7 @@ def process_match_to_row(match_data, league_name, country, season, prefer_bookma
         row['DC_12'] = 0
         row['DC_X2'] = 0
     
-    # === ESTATÍSTICAS FULL TIME (NOVO!) ===
+    # === ESTATÍSTICAS FULL TIME  ===
     stats_ft = match_data.get('Statistics_FT', {})
     
     if stats_ft:
@@ -224,7 +207,7 @@ def process_match_to_row(match_data, league_name, country, season, prefer_bookma
             row[f'{stat}_Home_FT'] = None
             row[f'{stat}_Away_FT'] = None
     
-    # === ESTATÍSTICAS HALF TIME (NOVO!) ===
+    # === ESTATÍSTICAS HALF TIME  ===
     stats_ht = match_data.get('Statistics_HT', {})
     
     if stats_ht:
@@ -241,7 +224,7 @@ def process_match_to_row(match_data, league_name, country, season, prefer_bookma
             row[f'{stat}_Home_HT'] = None
             row[f'{stat}_Away_HT'] = None
     
-    # === ESTATÍSTICAS 2º TEMPO (NOVO!) ===
+    # === ESTATÍSTICAS 2º TEMPO  ===
     stats_2t = match_data.get('Statistics_2T', {})
     
     if stats_2t:
