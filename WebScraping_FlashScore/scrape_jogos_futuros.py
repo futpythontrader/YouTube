@@ -1,3 +1,12 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Scraper de Jogos Futuros - FlashScore
+Coleta jogos de hoje, amanhã e depois de amanhã
+Extrai todas as odds mas NÃO extrai estatísticas (jogos não aconteceram)
+Tenta filtrar por países das ligas, se não conseguir pega tudo
+"""
+
 import os
 import json
 import time
@@ -170,21 +179,21 @@ def collect_match_ids(driver):
         except Exception:
             continue
     
-    # print(f"✓ Total de jogos encontrados: {len(all_ids)}")
+    print(f"✓ Total de jogos encontrados: {len(all_ids)}")
     
     # Se tem países configurados, tenta filtrar
     if ALLOWED_COUNTRIES:
-        # print(f"🔍 Tentando filtrar por {len(ALLOWED_COUNTRIES)} países configurados...")
+        print(f"🔍 Tentando filtrar por {len(ALLOWED_COUNTRIES)} países configurados...")
         filtered_ids = filter_matches_by_country(driver, all_ids)
         
         if filtered_ids:
-            # print(f"✓ Filtrados: {len(filtered_ids)} jogos dos países configurados")
+            print(f"✓ Filtrados: {len(filtered_ids)} jogos dos países configurados")
             return filtered_ids
         else:
-            # print(f"⚠️ Filtro não funcionou, usando TODOS os {len(all_ids)} jogos")
+            print(f"⚠️ Filtro não funcionou, usando TODOS os {len(all_ids)} jogos")
             return all_ids
     else:
-        # print(f"⚠️ Sem países configurados, usando TODOS os {len(all_ids)} jogos")
+        print(f"⚠️ Sem países configurados, usando TODOS os {len(all_ids)} jogos")
         return all_ids
 
 

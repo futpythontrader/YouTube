@@ -1,7 +1,20 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Gerador de DataFrame para Jogos Futuros
+Converte JSON de jogos futuros em DataFrame tabular
+
+Regras:
+- Bookie preferencial: Bet365 > Betfair > Primeiro disponível
+- Um jogo por linha
+- Odds: 1X2 HT/FT, O/U HT (0.5, 1.5, 2.5), O/U FT (0.5-4.5), BTTS, DC
+"""
+
 import json
 import os
 import pandas as pd
 from pathlib import Path
+from league_mapping import standardize_league_name
 
 
 def find_best_bookmaker(odds_list, prefer=['bet365', 'betfair']):
@@ -66,7 +79,11 @@ def process_match_to_row(match_data, prefer_bookmakers=['bet365', 'betfair']):
     row['Match_ID'] = match_data.get('Match_ID', match_data.get('Id'))
     row['Date'] = match_data.get('Date')
     row['Time'] = match_data.get('Time')
-    row['League'] = match_data.get('League')
+    
+    # Padroniza o nome da liga automaticamente
+    original_league = match_data.get('League')
+    row['League'] = standardize_league_name(league_name=original_league)
+    
     row['Round'] = match_data.get('Round')
     row['Home'] = match_data.get('Home')
     row['Away'] = match_data.get('Away')

@@ -1,0 +1,15 @@
+{
+  "country": "JAPAN",
+  "season": "2026",
+  "scrape_date": "2026-01-26T09:54:36.665359",
+  "total_leagues": 1,
+  "leagues": [
+    {
+      "name": "J1 League 2026",
+      "url": "https://www.flashscore.com/football/japan/j1-league-2026/results/",
+      "total_matches": 0,
+      "scraped_matches": 0,
+      "matches": []
+    }
+  ]
+}

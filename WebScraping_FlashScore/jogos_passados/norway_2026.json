@@ -1,0 +1,15 @@
+{
+  "country": "NORWAY",
+  "season": "2026",
+  "scrape_date": "2026-01-26T09:54:46.217618",
+  "total_leagues": 1,
+  "leagues": [
+    {
+      "name": "Eliteserien 2026",
+      "url": "https://www.flashscore.com/football/norway/eliteserien-2026/results/",
+      "total_matches": 0,
+      "scraped_matches": 0,
+      "matches": []
+    }
+  ]
+}

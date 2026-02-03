@@ -1,0 +1,36 @@
+{
+  "country": "SCOTLAND",
+  "season": "2021-2022",
+  "scrape_date": "2026-01-18T12:48:07.991605",
+  "total_leagues": 4,
+  "leagues": [
+    {
+      "name": "Championship 2021 2022",
+      "url": "https://www.flashscore.com/football/scotland/championship-2021-2022/results/",
+      "total_matches": 0,
+      "scraped_matches": 0,
+      "matches": []
+    },
+    {
+      "name": "Premiership 2021 2022",
+      "url": "https://www.flashscore.com/football/scotland/premiership-2021-2022/results/",
+      "total_matches": 0,
+      "scraped_matches": 0,
+      "matches": []
+    },
+    {
+      "name": "League One 2021 2022",
+      "url": "https://www.flashscore.com/football/scotland/league-one-2021-2022/results/",
+      "total_matches": 0,
+      "scraped_matches": 0,
+      "matches": []
+    },
+    {
+      "name": "League Two 2021 2022",
+      "url": "https://www.flashscore.com/football/scotland/league-two-2021-2022/results/",
+      "total_matches": 0,
+      "scraped_matches": 0,
+      "matches": []
+    }
+  ]
+}

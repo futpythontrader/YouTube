@@ -1,0 +1,15 @@
+{
+  "country": "USA",
+  "season": "2026",
+  "scrape_date": "2026-01-26T09:59:18.727369",
+  "total_leagues": 1,
+  "leagues": [
+    {
+      "name": "Mls 2026",
+      "url": "https://www.flashscore.com/football/usa/mls-2026/results/",
+      "total_matches": 0,
+      "scraped_matches": 0,
+      "matches": []
+    }
+  ]
+}

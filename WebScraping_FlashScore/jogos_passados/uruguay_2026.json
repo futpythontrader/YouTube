@@ -1,0 +1,15 @@
+{
+  "country": "URUGUAY",
+  "season": "2026",
+  "scrape_date": "2026-01-26T09:59:09.014364",
+  "total_leagues": 1,
+  "leagues": [
+    {
+      "name": "Liga Auf Uruguaya 2026",
+      "url": "https://www.flashscore.com/football/uruguay/liga-auf-uruguaya-2026/results/",
+      "total_matches": 0,
+      "scraped_matches": 0,
+      "matches": []
+    }
+  ]
+}

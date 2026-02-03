@@ -1,7 +1,25 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Gerador de DataFrame para Jogos Passados (All Seasons)
+Converte JSON de jogos históricos em DataFrame tabular
+
+Baseado no gerador de jogos futuros, mas adiciona:
+- Placar final (Home_Score, Away_Score)
+- Minutos dos gols (Min_Goals_Home, Min_Goals_Away)
+- Estatísticas FT, HT e 2T
+
+Regras de Odds:
+- Bookie preferencial: Bet365 > Betfair > Primeiro disponível
+- Um jogo por linha
+- Odds: 1X2 HT/FT, O/U HT (0.5, 1.5, 2.5), O/U FT (0.5-4.5), BTTS, DC
+"""
+
 import json
 import os
 import pandas as pd
 from pathlib import Path
+from league_mapping import standardize_league_name
 
 
 def find_best_bookmaker(odds_list, prefer=['bet365', 'betfair']):
@@ -56,6 +74,88 @@ def extract_ou_line(ou_data, line, prefer=['bet365', 'betfair']):
     return None, None, None
 
 
+def extract_correct_score(cs_data, score, prefer=['bet365', 'betfair']):
+    """
+    Extrai odd de um placar específico (ex: "1-0", "2-1")
+    Retorna (bookmaker, odd)
+    """
+    if not cs_data or not isinstance(cs_data, dict):
+        return None, None
+    
+    if score not in cs_data:
+        return None, None
+    
+    odds_list = cs_data[score]
+    if not odds_list or not isinstance(odds_list, list):
+        return None, None
+    
+    best_odd = find_best_bookmaker(odds_list, prefer)
+    
+    if best_odd:
+        return best_odd.get('Bookmaker'), best_odd.get('Odd')
+    
+    return None, None
+
+
+def extract_asian_handicap_line(ah_data, line, prefer=['bet365', 'betfair']):
+    """
+    Extrai odds Asian Handicap de uma linha específica (ex: -1.5, 0.0, +1.5)
+    Retorna (bookmaker, home, away)
+    """
+    if not ah_data or not isinstance(ah_data, dict):
+        return None, None, None
+    
+    # O JSON salva com prefixo "AH_"
+    key = f"AH_{line}"
+    if key not in ah_data:
+        return None, None, None
+    
+    odds_list = ah_data[key]
+    if not odds_list or not isinstance(odds_list, list):
+        return None, None, None
+    
+    best_odd = find_best_bookmaker(odds_list, prefer)
+    
+    if best_odd:
+        return (
+            best_odd.get('Bookmaker'),
+            best_odd.get('Home'),
+            best_odd.get('Away')
+        )
+    
+    return None, None, None
+
+
+def extract_european_handicap_line(eh_data, line, prefer=['bet365', 'betfair']):
+    """
+    Extrai odds European Handicap de uma linha específica (ex: -2, 0, +2)
+    Retorna (bookmaker, home, draw, away)
+    """
+    if not eh_data or not isinstance(eh_data, dict):
+        return None, None, None, None
+    
+    # O JSON salva com prefixo "EH_"
+    key = f"EH_{line}"
+    if key not in eh_data:
+        return None, None, None, None
+    
+    odds_list = eh_data[key]
+    if not odds_list or not isinstance(odds_list, list):
+        return None, None, None, None
+    
+    best_odd = find_best_bookmaker(odds_list, prefer)
+    
+    if best_odd:
+        return (
+            best_odd.get('Bookmaker'),
+            best_odd.get('Home'),
+            best_odd.get('Draw'),
+            best_odd.get('Away')
+        )
+    
+    return None, None, None, None
+
+
 def process_match_to_row(match_data, league_name, country, season, prefer_bookmakers=['bet365', 'betfair']):
     """
     Converte dados de um jogo em uma linha de DataFrame
@@ -66,18 +166,24 @@ def process_match_to_row(match_data, league_name, country, season, prefer_bookma
     row['Match_ID'] = match_data.get('Match_ID', match_data.get('Id'))
     row['Country'] = country
     row['Season'] = season
-    row['League'] = league_name
+    
+    # Div = nome original da liga (ex: "Torneo Betano 2024")
+    row['Div'] = league_name
+    
+    # League = nome padronizado (ex: "ARGENTINA 1")
+    row['League'] = standardize_league_name(country=country, league=league_name)
+    
     row['Date'] = match_data.get('Date')
     row['Time'] = match_data.get('Time')
     row['Round'] = match_data.get('Round')
     row['Home'] = match_data.get('Home')
     row['Away'] = match_data.get('Away')
     
-    # === PLACAR FINAL ===
+    # === PLACAR FINAL (NOVO!) ===
     row['Home_Score'] = match_data.get('Home_Score')
     row['Away_Score'] = match_data.get('Away_Score')
     
-    # === MINUTOS DOS GOLS  ===
+    # === MINUTOS DOS GOLS (NOVO!) ===
     min_goals_home = match_data.get('Min_Goals_Home', [])
     min_goals_away = match_data.get('Min_Goals_Away', [])
     
@@ -163,81 +269,174 @@ def process_match_to_row(match_data, league_name, country, season, prefer_bookma
         row['DC_12'] = 0
         row['DC_X2'] = 0
     
-    # === ESTATÍSTICAS FULL TIME  ===
+    # === CORRECT SCORE (Placares mais comuns) ===
+    cs_ft = match_data.get('Odds_CS_FT', {})
+    
+    # Placares mais populares para apostas (formato do JSON usa ':' não '-')
+    common_scores = ['0:0', '1:0', '0:1', '1:1', '2:0', '0:2', '2:1', '1:2', 
+                     '2:2', '3:0', '0:3', '3:1', '1:3', '3:2', '2:3']
+    
+    for score in common_scores:
+        bookie, odd = extract_correct_score(cs_ft, score, prefer_bookmakers)
+        score_key = score.replace(':', '_')  # Muda de : para _
+        row[f'Bookie_CS_{score_key}'] = bookie
+        row[f'CS_{score_key}'] = odd if odd is not None else 0
+    
+    # === ASIAN HANDICAP (Linhas mais comuns) ===
+    ah_ft = match_data.get('Odds_AH_FT', {})
+    
+    # Linhas mais populares de AH (JSON salva no formato -1.5, +0.5, etc)
+    # Nota: AH_0 não existe no JSON (só AH_0,-0.5 e AH_0,+0.5)
+    # Handicaps inteiros no JSON não têm .0 (ex: AH_-2, não AH_-2.0)
+    ah_lines = ['-2.5', '-2', '-1.5', '-1', '-0.5', '+0.5', '+1', '+1.5', '+2', '+2.5']
+    
+    for line in ah_lines:
+        bookie, home, away = extract_asian_handicap_line(ah_ft, line, prefer_bookmakers)
+        # Normaliza chave para formato do CSV
+        line_key = line.replace('-', 'neg_').replace('+', 'pos_').replace('.', '_')
+        row[f'Bookie_AH_{line_key}'] = bookie
+        row[f'AH_Home_{line_key}'] = home if home is not None else 0
+        row[f'AH_Away_{line_key}'] = away if away is not None else 0
+    
+    # === EUROPEAN HANDICAP (Linhas mais comuns) ===
+    eh_ft = match_data.get('Odds_EH_FT', {})
+    
+    # Linhas mais populares de EH (JSON salva no formato -2, 1, etc)
+    # Nota: EH_0 não existe no JSON (não há European Handicap 0)
+    # Handicaps positivos não têm sinal + no JSON (ex: EH_1, não EH_+1)
+    eh_lines = ['-3', '-2', '-1', '1', '2', '3']
+    
+    for line in eh_lines:
+        bookie, home, draw, away = extract_european_handicap_line(eh_ft, line, prefer_bookmakers)
+        line_key = line.replace('-', 'neg_').replace('+', 'pos_')
+        row[f'Bookie_EH_{line_key}'] = bookie
+        row[f'EH_Home_{line_key}'] = home if home is not None else 0
+        row[f'EH_Draw_{line_key}'] = draw if draw is not None else 0
+        row[f'EH_Away_{line_key}'] = away if away is not None else 0
+    
+    # === ESTATÍSTICAS FULL TIME (34 campos!) ===
     stats_ft = match_data.get('Statistics_FT', {})
     
+    # Função auxiliar para extrair estatística (evita repetição)
+    def extract_stat(stat_dict, key):
+        data = stat_dict.get(key, {})
+        if isinstance(data, dict):
+            return data.get('Home'), data.get('Away')
+        return None, None
+    
     if stats_ft:
-        # Expected Goals
-        xg = stats_ft.get('Expected Goals (xG)', {})
-        row['xG_Home_FT'] = xg.get('Home') if xg else None
-        row['xG_Away_FT'] = xg.get('Away') if xg else None
+        # xG e métricas avançadas
+        row['xG_Home_FT'], row['xG_Away_FT'] = extract_stat(stats_ft, 'Expected goals (xG)')
+        row['xGOT_Home_FT'], row['xGOT_Away_FT'] = extract_stat(stats_ft, 'xG on target (xGOT)')
+        row['xA_Home_FT'], row['xA_Away_FT'] = extract_stat(stats_ft, 'Expected assists (xA)')
+        row['xGOT_Faced_Home_FT'], row['xGOT_Faced_Away_FT'] = extract_stat(stats_ft, 'xGOT faced')
+        row['Goals_Prevented_Home_FT'], row['Goals_Prevented_Away_FT'] = extract_stat(stats_ft, 'Goals prevented')
         
-        # Posse de bola
-        possession = stats_ft.get('Ball Possession', {})
-        row['Possession_Home_FT'] = possession.get('Home') if possession else None
-        row['Possession_Away_FT'] = possession.get('Away') if possession else None
+        # Posse e passes
+        row['Possession_Home_FT'], row['Possession_Away_FT'] = extract_stat(stats_ft, 'Ball possession')
+        row['Passes_Pct_Home_FT'], row['Passes_Pct_Away_FT'] = extract_stat(stats_ft, 'Passes')
+        row['Long_Passes_Pct_Home_FT'], row['Long_Passes_Pct_Away_FT'] = extract_stat(stats_ft, 'Long passes')
+        row['Passes_Final_Third_Pct_Home_FT'], row['Passes_Final_Third_Pct_Away_FT'] = extract_stat(stats_ft, 'Passes in final third')
+        row['Through_Passes_Home_FT'], row['Through_Passes_Away_FT'] = extract_stat(stats_ft, 'Accurate through passes')
+        row['Crosses_Pct_Home_FT'], row['Crosses_Pct_Away_FT'] = extract_stat(stats_ft, 'Crosses')
         
         # Chutes
-        row['Total_Shots_Home_FT'] = stats_ft.get('Total shots', {}).get('Home')
-        row['Total_Shots_Away_FT'] = stats_ft.get('Total shots', {}).get('Away')
-        row['Shots_On_Target_Home_FT'] = stats_ft.get('Shots on target', {}).get('Home')
-        row['Shots_On_Target_Away_FT'] = stats_ft.get('Shots on target', {}).get('Away')
+        row['Total_Shots_Home_FT'], row['Total_Shots_Away_FT'] = extract_stat(stats_ft, 'Total shots')
+        row['Shots_On_Target_Home_FT'], row['Shots_On_Target_Away_FT'] = extract_stat(stats_ft, 'Shots on target')
+        row['Shots_Off_Target_Home_FT'], row['Shots_Off_Target_Away_FT'] = extract_stat(stats_ft, 'Shots off target')
+        row['Blocked_Shots_Home_FT'], row['Blocked_Shots_Away_FT'] = extract_stat(stats_ft, 'Blocked shots')
+        row['Shots_Inside_Box_Home_FT'], row['Shots_Inside_Box_Away_FT'] = extract_stat(stats_ft, 'Shots inside the box')
+        row['Shots_Outside_Box_Home_FT'], row['Shots_Outside_Box_Away_FT'] = extract_stat(stats_ft, 'Shots outside the box')
+        row['Big_Chances_Home_FT'], row['Big_Chances_Away_FT'] = extract_stat(stats_ft, 'Big chances')
+        row['Hit_Woodwork_Home_FT'], row['Hit_Woodwork_Away_FT'] = extract_stat(stats_ft, 'Hit the woodwork')
         
-        # Escanteios
-        row['Corners_Home_FT'] = stats_ft.get('Corner Kicks', {}).get('Home')
-        row['Corners_Away_FT'] = stats_ft.get('Corner Kicks', {}).get('Away')
+        # Área e toques
+        row['Touches_Box_Home_FT'], row['Touches_Box_Away_FT'] = extract_stat(stats_ft, 'Touches in opposition box')
         
-        # Faltas e Cartões
-        row['Fouls_Home_FT'] = stats_ft.get('Fouls', {}).get('Home')
-        row['Fouls_Away_FT'] = stats_ft.get('Fouls', {}).get('Away')
-        row['Yellow_Cards_Home_FT'] = stats_ft.get('Yellow Cards', {}).get('Home')
-        row['Yellow_Cards_Away_FT'] = stats_ft.get('Yellow Cards', {}).get('Away')
+        # Escanteios e bolas paradas
+        row['Corners_Home_FT'], row['Corners_Away_FT'] = extract_stat(stats_ft, 'Corner kicks')
+        row['Free_Kicks_Home_FT'], row['Free_Kicks_Away_FT'] = extract_stat(stats_ft, 'Free kicks')
+        row['Throw_Ins_Home_FT'], row['Throw_Ins_Away_FT'] = extract_stat(stats_ft, 'Throw ins')
+        
+        # Disciplina
+        row['Fouls_Home_FT'], row['Fouls_Away_FT'] = extract_stat(stats_ft, 'Fouls')
+        row['Yellow_Cards_Home_FT'], row['Yellow_Cards_Away_FT'] = extract_stat(stats_ft, 'Yellow cards')
+        row['Red_Cards_Home_FT'], row['Red_Cards_Away_FT'] = extract_stat(stats_ft, 'Red cards')
         
         # Impedimentos
-        row['Offsides_Home_FT'] = stats_ft.get('Offsides', {}).get('Home')
-        row['Offsides_Away_FT'] = stats_ft.get('Offsides', {}).get('Away')
+        row['Offsides_Home_FT'], row['Offsides_Away_FT'] = extract_stat(stats_ft, 'Offsides')
         
-        # Defesas do goleiro
-        row['Goalkeeper_Saves_Home_FT'] = stats_ft.get('Goalkeeper Saves', {}).get('Home')
-        row['Goalkeeper_Saves_Away_FT'] = stats_ft.get('Goalkeeper Saves', {}).get('Away')
+        # Defesa
+        row['Goalkeeper_Saves_Home_FT'], row['Goalkeeper_Saves_Away_FT'] = extract_stat(stats_ft, 'Goalkeeper saves')
+        row['Tackles_Pct_Home_FT'], row['Tackles_Pct_Away_FT'] = extract_stat(stats_ft, 'Tackles')
+        row['Duels_Won_Home_FT'], row['Duels_Won_Away_FT'] = extract_stat(stats_ft, 'Duels won')
+        row['Clearances_Home_FT'], row['Clearances_Away_FT'] = extract_stat(stats_ft, 'Clearances')
+        row['Interceptions_Home_FT'], row['Interceptions_Away_FT'] = extract_stat(stats_ft, 'Interceptions')
+        
+        # Erros
+        row['Errors_Shot_Home_FT'], row['Errors_Shot_Away_FT'] = extract_stat(stats_ft, 'Errors leading to shot')
+        row['Errors_Goal_Home_FT'], row['Errors_Goal_Away_FT'] = extract_stat(stats_ft, 'Errors leading to goal')
     else:
-        # Preenche com None se não houver estatísticas
-        for stat in ['xG', 'Possession', 'Total_Shots', 'Shots_On_Target', 'Corners', 
-                     'Fouls', 'Yellow_Cards', 'Offsides', 'Goalkeeper_Saves']:
+        # Preenche com None se não houver estatísticas (34 campos × 2 times = 68 colunas)
+        stat_fields = ['xG', 'xGOT', 'xA', 'xGOT_Faced', 'Goals_Prevented',
+                      'Possession', 'Passes_Pct', 'Long_Passes_Pct', 'Passes_Final_Third_Pct', 
+                      'Through_Passes', 'Crosses_Pct',
+                      'Total_Shots', 'Shots_On_Target', 'Shots_Off_Target', 'Blocked_Shots',
+                      'Shots_Inside_Box', 'Shots_Outside_Box', 'Big_Chances', 'Hit_Woodwork',
+                      'Touches_Box', 'Corners', 'Free_Kicks', 'Throw_Ins',
+                      'Fouls', 'Yellow_Cards', 'Red_Cards', 'Offsides',
+                      'Goalkeeper_Saves', 'Tackles_Pct', 'Duels_Won', 'Clearances', 'Interceptions',
+                      'Errors_Shot', 'Errors_Goal']
+        for stat in stat_fields:
             row[f'{stat}_Home_FT'] = None
             row[f'{stat}_Away_FT'] = None
     
-    # === ESTATÍSTICAS HALF TIME  ===
+    # === ESTATÍSTICAS HALF TIME (principais campos) ===
     stats_ht = match_data.get('Statistics_HT', {})
     
     if stats_ht:
-        row['Possession_Home_HT'] = stats_ht.get('Ball Possession', {}).get('Home')
-        row['Possession_Away_HT'] = stats_ht.get('Ball Possession', {}).get('Away')
-        row['Total_Shots_Home_HT'] = stats_ht.get('Total shots', {}).get('Home')
-        row['Total_Shots_Away_HT'] = stats_ht.get('Total shots', {}).get('Away')
-        row['Shots_On_Target_Home_HT'] = stats_ht.get('Shots on target', {}).get('Home')
-        row['Shots_On_Target_Away_HT'] = stats_ht.get('Shots on target', {}).get('Away')
-        row['Corners_Home_HT'] = stats_ht.get('Corner Kicks', {}).get('Home')
-        row['Corners_Away_HT'] = stats_ht.get('Corner Kicks', {}).get('Away')
+        row['xG_Home_HT'], row['xG_Away_HT'] = extract_stat(stats_ht, 'Expected goals (xG)')
+        row['xGOT_Home_HT'], row['xGOT_Away_HT'] = extract_stat(stats_ht, 'xG on target (xGOT)')
+        row['xA_Home_HT'], row['xA_Away_HT'] = extract_stat(stats_ht, 'Expected assists (xA)')
+        row['Possession_Home_HT'], row['Possession_Away_HT'] = extract_stat(stats_ht, 'Ball possession')
+        row['Total_Shots_Home_HT'], row['Total_Shots_Away_HT'] = extract_stat(stats_ht, 'Total shots')
+        row['Shots_On_Target_Home_HT'], row['Shots_On_Target_Away_HT'] = extract_stat(stats_ht, 'Shots on target')
+        row['Shots_Off_Target_Home_HT'], row['Shots_Off_Target_Away_HT'] = extract_stat(stats_ht, 'Shots off target')
+        row['Big_Chances_Home_HT'], row['Big_Chances_Away_HT'] = extract_stat(stats_ht, 'Big chances')
+        row['Corners_Home_HT'], row['Corners_Away_HT'] = extract_stat(stats_ht, 'Corner kicks')
+        row['Yellow_Cards_Home_HT'], row['Yellow_Cards_Away_HT'] = extract_stat(stats_ht, 'Yellow cards')
+        row['Fouls_Home_HT'], row['Fouls_Away_HT'] = extract_stat(stats_ht, 'Fouls')
+        row['Offsides_Home_HT'], row['Offsides_Away_HT'] = extract_stat(stats_ht, 'Offsides')
+        row['Goalkeeper_Saves_Home_HT'], row['Goalkeeper_Saves_Away_HT'] = extract_stat(stats_ht, 'Goalkeeper saves')
     else:
-        for stat in ['Possession', 'Total_Shots', 'Shots_On_Target', 'Corners']:
+        for stat in ['xG', 'xGOT', 'xA', 'Possession', 'Total_Shots', 'Shots_On_Target', 
+                     'Shots_Off_Target', 'Big_Chances', 'Corners', 'Yellow_Cards', 
+                     'Fouls', 'Offsides', 'Goalkeeper_Saves']:
             row[f'{stat}_Home_HT'] = None
             row[f'{stat}_Away_HT'] = None
     
-    # === ESTATÍSTICAS 2º TEMPO  ===
+    # === ESTATÍSTICAS 2º TEMPO (principais campos) ===
     stats_2t = match_data.get('Statistics_2T', {})
     
     if stats_2t:
-        row['Possession_Home_2T'] = stats_2t.get('Ball Possession', {}).get('Home')
-        row['Possession_Away_2T'] = stats_2t.get('Ball Possession', {}).get('Away')
-        row['Total_Shots_Home_2T'] = stats_2t.get('Total shots', {}).get('Home')
-        row['Total_Shots_Away_2T'] = stats_2t.get('Total shots', {}).get('Away')
-        row['Shots_On_Target_Home_2T'] = stats_2t.get('Shots on target', {}).get('Home')
-        row['Shots_On_Target_Away_2T'] = stats_2t.get('Shots on target', {}).get('Away')
-        row['Corners_Home_2T'] = stats_2t.get('Corner Kicks', {}).get('Home')
-        row['Corners_Away_2T'] = stats_2t.get('Corner Kicks', {}).get('Away')
+        row['xG_Home_2T'], row['xG_Away_2T'] = extract_stat(stats_2t, 'Expected goals (xG)')
+        row['xGOT_Home_2T'], row['xGOT_Away_2T'] = extract_stat(stats_2t, 'xG on target (xGOT)')
+        row['xA_Home_2T'], row['xA_Away_2T'] = extract_stat(stats_2t, 'Expected assists (xA)')
+        row['Possession_Home_2T'], row['Possession_Away_2T'] = extract_stat(stats_2t, 'Ball possession')
+        row['Total_Shots_Home_2T'], row['Total_Shots_Away_2T'] = extract_stat(stats_2t, 'Total shots')
+        row['Shots_On_Target_Home_2T'], row['Shots_On_Target_Away_2T'] = extract_stat(stats_2t, 'Shots on target')
+        row['Shots_Off_Target_Home_2T'], row['Shots_Off_Target_Away_2T'] = extract_stat(stats_2t, 'Shots off target')
+        row['Big_Chances_Home_2T'], row['Big_Chances_Away_2T'] = extract_stat(stats_2t, 'Big chances')
+        row['Corners_Home_2T'], row['Corners_Away_2T'] = extract_stat(stats_2t, 'Corner kicks')
+        row['Yellow_Cards_Home_2T'], row['Yellow_Cards_Away_2T'] = extract_stat(stats_2t, 'Yellow cards')
+        row['Red_Cards_Home_2T'], row['Red_Cards_Away_2T'] = extract_stat(stats_2t, 'Red cards')
+        row['Fouls_Home_2T'], row['Fouls_Away_2T'] = extract_stat(stats_2t, 'Fouls')
+        row['Offsides_Home_2T'], row['Offsides_Away_2T'] = extract_stat(stats_2t, 'Offsides')
+        row['Goalkeeper_Saves_Home_2T'], row['Goalkeeper_Saves_Away_2T'] = extract_stat(stats_2t, 'Goalkeeper saves')
     else:
-        for stat in ['Possession', 'Total_Shots', 'Shots_On_Target', 'Corners']:
+        for stat in ['xG', 'xGOT', 'xA', 'Possession', 'Total_Shots', 'Shots_On_Target',
+                     'Shots_Off_Target', 'Big_Chances', 'Corners', 'Yellow_Cards', 'Red_Cards',
+                     'Fouls', 'Offsides', 'Goalkeeper_Saves']:
             row[f'{stat}_Home_2T'] = None
             row[f'{stat}_Away_2T'] = None
     

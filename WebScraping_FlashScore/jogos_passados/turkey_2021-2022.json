@@ -1,0 +1,15 @@
+{
+  "country": "TURKEY",
+  "season": "2021-2022",
+  "scrape_date": "2026-01-18T12:49:47.281681",
+  "total_leagues": 1,
+  "leagues": [
+    {
+      "name": "Super Lig 2021 2022",
+      "url": "https://www.flashscore.com/football/turkey/super-lig-2021-2022/results/",
+      "total_matches": 0,
+      "scraped_matches": 0,
+      "matches": []
+    }
+  ]
+}

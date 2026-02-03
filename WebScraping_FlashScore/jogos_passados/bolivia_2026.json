@@ -1,0 +1,15 @@
+{
+  "country": "BOLIVIA",
+  "season": "2026",
+  "scrape_date": "2026-01-26T09:42:39.813350",
+  "total_leagues": 1,
+  "leagues": [
+    {
+      "name": "Division Profesional 2026",
+      "url": "https://www.flashscore.com/football/bolivia/division-profesional-2026/results/",
+      "total_matches": 0,
+      "scraped_matches": 0,
+      "matches": []
+    }
+  ]
+}

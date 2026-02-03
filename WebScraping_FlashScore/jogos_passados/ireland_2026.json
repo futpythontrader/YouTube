@@ -1,0 +1,15 @@
+{
+  "country": "IRELAND",
+  "season": "2026",
+  "scrape_date": "2026-01-26T09:54:26.898961",
+  "total_leagues": 1,
+  "leagues": [
+    {
+      "name": "Premier Division 2026",
+      "url": "https://www.flashscore.com/football/ireland/premier-division-2026/results/",
+      "total_matches": 0,
+      "scraped_matches": 0,
+      "matches": []
+    }
+  ]
+}

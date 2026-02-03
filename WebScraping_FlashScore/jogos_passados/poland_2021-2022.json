@@ -1,0 +1,15 @@
+{
+  "country": "POLAND",
+  "season": "2021-2022",
+  "scrape_date": "2026-01-18T12:47:29.831481",
+  "total_leagues": 1,
+  "leagues": [
+    {
+      "name": "Ekstraklasa 2021 2022",
+      "url": "https://www.flashscore.com/football/poland/ekstraklasa-2021-2022/results/",
+      "total_matches": 0,
+      "scraped_matches": 0,
+      "matches": []
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "country": "SOUTH-AMERICA",
+  "season": "2026",
+  "scrape_date": "2026-01-26T09:58:30.393528",
+  "total_leagues": 2,
+  "leagues": [
+    {
+      "name": "Copa Libertadores 2026",
+      "url": "https://www.flashscore.com/football/south-america/copa-libertadores-2026/results/",
+      "total_matches": 0,
+      "scraped_matches": 0,
+      "matches": []
+    },
+    {
+      "name": "Copa Sudamericana 2026",
+      "url": "https://www.flashscore.com/football/south-america/copa-sudamericana-2026/results/",
+      "total_matches": 0,
+      "scraped_matches": 0,
+      "matches": []
+    }
+  ]
+}

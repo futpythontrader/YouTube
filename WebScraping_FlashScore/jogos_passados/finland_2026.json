@@ -1,0 +1,15 @@
+{
+  "country": "FINLAND",
+  "season": "2026",
+  "scrape_date": "2026-01-26T09:54:06.599572",
+  "total_leagues": 1,
+  "leagues": [
+    {
+      "name": "Veikkausliiga 2026",
+      "url": "https://www.flashscore.com/football/finland/veikkausliiga-2026/results/",
+      "total_matches": 0,
+      "scraped_matches": 0,
+      "matches": []
+    }
+  ]
+}

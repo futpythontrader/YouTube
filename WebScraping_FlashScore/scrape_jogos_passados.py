@@ -1,3 +1,11 @@
+#!/usr/bin/env python3
+"""
+Script COMPLETO para scraping de TODAS as ligas do FlashScore
+Temporadas: 2021, 2021-2022, 2022, 2022-2023, 2023, 2023-2024, 2024, 2024-2025, 2025, 2025-2026, 2026
+Total: ~780 ligas (10 temporadas × 78 ligas)
+Duração estimada: Várias semanas
+"""
+
 import json
 import os
 import time
@@ -380,6 +388,32 @@ LINKS_2025 = [
 'https://www.flashscore.com/football/venezuela/liga-futve-2025/results/',
 ]
 
+LINKS_2026 = [
+'https://www.flashscore.com/football/argentina/torneo-betano-2026/results/',
+'https://www.flashscore.com/football/bolivia/division-profesional-2026/results/',
+'https://www.flashscore.com/football/brazil/serie-a-betano-2026/results/',
+'https://www.flashscore.com/football/brazil/serie-b-2026/results/',
+'https://www.flashscore.com/football/brazil/copa-betano-do-brasil-2026/results/',
+'https://www.flashscore.com/football/chile/liga-de-primera-2026/results/',
+'https://www.flashscore.com/football/china/super-league-2026/results/',
+'https://www.flashscore.com/football/colombia/primera-a-2026/results/',
+'https://www.flashscore.com/football/ecuador/liga-pro-2026/results/',
+'https://www.flashscore.com/football/estonia/meistriliiga-2026/results/',
+'https://www.flashscore.com/football/finland/veikkausliiga-2026/results/',
+'https://www.flashscore.com/football/iceland/besta-deild-karla-2026/results/',
+'https://www.flashscore.com/football/ireland/premier-division-2026/results/',
+'https://www.flashscore.com/football/japan/j1-league-2026/results/',
+'https://www.flashscore.com/football/norway/eliteserien-2026/results/',
+'https://www.flashscore.com/football/paraguay/copa-de-primera-2026/results/',
+'https://www.flashscore.com/football/peru/liga-1-2026/results/',
+'https://www.flashscore.com/football/south-america/copa-libertadores-2026/results/',
+'https://www.flashscore.com/football/south-america/copa-sudamericana-2026/results/',
+'https://www.flashscore.com/football/south-korea/k-league-1-2026/results/',
+'https://www.flashscore.com/football/sweden/allsvenskan-2026/results/',
+'https://www.flashscore.com/football/uruguay/liga-auf-uruguaya-2026/results/',
+'https://www.flashscore.com/football/usa/mls-2026/results/',
+'https://www.flashscore.com/football/venezuela/liga-futve-2026/results/',
+]
 # ==================== LIGAS 2025-2026 (54 ligas) ====================
 LINKS_2025_2026 = [
 'https://www.flashscore.com/football/australia/a-league-2025-2026/results/',
@@ -438,6 +472,36 @@ LINKS_2025_2026 = [
 'https://www.flashscore.com/football/ukraine/premier-league-2025-2026/results/',
 'https://www.flashscore.com/football/wales/cymru-premier-2025-2026/results/'
 ]
+
+def git_commit(message, file_path=None):
+    """
+    Faz commit automático no git e push para o GitHub
+    Args:
+        message: Mensagem do commit
+        file_path: Arquivo específico para adicionar (opcional, se None adiciona tudo)
+    """
+    try:
+        if file_path:
+            subprocess.run(['git', 'add', file_path], check=True, capture_output=True)
+        else:
+            subprocess.run(['git', 'add', '.'], check=True, capture_output=True)
+        
+        result = subprocess.run(['git', 'commit', '-m', message], 
+                              check=True, capture_output=True, text=True)
+        print(f"  ✓ Git commit: {message}")
+        
+        # Push automático para o GitHub
+        push_result = subprocess.run(['git', 'push'], 
+                                    check=True, capture_output=True, text=True)
+        print(f"  ✓ Git push: Enviado para GitHub")
+        return True
+    except subprocess.CalledProcessError:
+        # Ignora erro (pode ser que não tenha mudanças para commitar)
+        return False
+    except Exception as e:
+        print(f"  ⚠️ Erro no git commit/push: {e}")
+        return False
+
 
 def extract_country_from_url(url):
     """Extrai o país da URL"""
@@ -761,7 +825,9 @@ def process_season(scraper, league_urls, season_name, output_dir):
             total_scraped = len(existing_league['matches'])
             print(f"  ✅ {total_scraped}/{len(match_ids)} jogos extraídos nesta liga")
             
-            
+            # Commit automático após cada liga
+            # git_commit(f"Scraping: {league_name} ({country.upper()}, {season_name}) - {total_scraped} jogos", filename)
+        
         # Salva final do país
         save_country_data(filename, country_data)
         
@@ -786,7 +852,8 @@ def scrape_complete_all_seasons():
     print(f"  • Temporada 2024-2025: {len(LINKS_2024_2025)} ligas")
     print(f"  • Temporada 2025: {len(LINKS_2025)} ligas")
     print(f"  • Temporada 2025-2026: {len(LINKS_2025_2026)} ligas")
-    total = len(LINKS_2021) + len(LINKS_2021_2022) + len(LINKS_2022) + len(LINKS_2022_2023) + len(LINKS_2023) + len(LINKS_2023_2024) + len(LINKS_2024) + len(LINKS_2024_2025) + len(LINKS_2025) + len(LINKS_2025_2026)
+    print(f"  • Temporada 2026: {len(LINKS_2026)} ligas")
+    total = len(LINKS_2021) + len(LINKS_2021_2022) + len(LINKS_2022) + len(LINKS_2022_2023) + len(LINKS_2023) + len(LINKS_2023_2024) + len(LINKS_2024) + len(LINKS_2024_2025) + len(LINKS_2025) + len(LINKS_2025_2026) + len(LINKS_2026) 
     print(f"  • TOTAL: {total} ligas")
     print(f"\n⏱️  DURAÇÃO ESTIMADA: Vários dias")
     print(f"⚠️  O progresso será salvo continuamente (por país)")
@@ -811,63 +878,69 @@ def scrape_complete_all_seasons():
         # Comente (#) as linhas das temporadas que NÃO quer processar
         # Ordem: 2025 → 2025-2026 → 2024 → 2024-2025 → 2023 → 2023-2024 → 2022 → 2022-2023 → 2021 → 2021-2022
         
-        # FASE 1: Temporada 2025 (24 ligas - Sul América, Ásia, etc)
+        # FASE 1: Temporada 2026 (24 ligas - Sul América, Ásia, etc)
         print("\n\n" + "🟡" * 50)
-        print("FASE 1 de 10: TEMPORADA 2025")
+        print("FASE 1 de 11: TEMPORADA 2026")
+        print("🟡" * 50)
+        process_season(scraper, LINKS_2026, "2026", output_dir)
+
+        # FASE 2: Temporada 2025 (24 ligas - Sul América, Ásia, etc)
+        print("\n\n" + "🟡" * 50)
+        print("FASE 2 de 11: TEMPORADA 2025")
         print("🟡" * 50)
         process_season(scraper, LINKS_2025, "2025", output_dir)
         
-        # FASE 2: Temporada 2025-2026 (54 ligas - Europa, etc)
+        # FASE 3: Temporada 2025-2026 (54 ligas - Europa, etc)
         print("\n\n" + "🟠" * 50)
-        print("FASE 2 de 10: TEMPORADA 2025-2026")
+        print("FASE 3 de 11: TEMPORADA 2025-2026")
         print("🟠" * 50)
         process_season(scraper, LINKS_2025_2026, "2025-2026", output_dir)
         
-        # FASE 3: Temporada 2024 (24 ligas - Sul América, Ásia, etc)
+        # FASE 4: Temporada 2024 (24 ligas - Sul América, Ásia, etc)
         print("\n\n" + "🔵" * 50)
-        print("FASE 3 de 10: TEMPORADA 2024")
+        print("FASE 4 de 11: TEMPORADA 2024")
         print("🔵" * 50)
         process_season(scraper, LINKS_2024, "2024", output_dir)
         
-        # FASE 4: Temporada 2024-2025 (54 ligas - Europa, etc)
+        # FASE 5: Temporada 2024-2025 (54 ligas - Europa, etc)
         print("\n\n" + "🟢" * 50)
-        print("FASE 4 de 10: TEMPORADA 2024-2025")
+        print("FASE 5 de 11: TEMPORADA 2024-2025")
         print("🟢" * 50)
         process_season(scraper, LINKS_2024_2025, "2024-2025", output_dir)
         
-        # FASE 5: Temporada 2023 (24 ligas - Sul América, Ásia, etc)
+        # FASE 6: Temporada 2023 (24 ligas - Sul América, Ásia, etc)
         print("\n\n" + "🟣" * 50)
-        print("FASE 5 de 10: TEMPORADA 2023")
+        print("FASE 6 de 11: TEMPORADA 2023")
         print("🟣" * 50)
         process_season(scraper, LINKS_2023, "2023", output_dir)
         
-        # FASE 6: Temporada 2023-2024 (54 ligas - Europa, etc)
+        # FASE 7: Temporada 2023-2024 (54 ligas - Europa, etc)
         print("\n\n" + "🔴" * 50)
-        print("FASE 6 de 10: TEMPORADA 2023-2024")
+        print("FASE 7 de 11: TEMPORADA 2023-2024")
         print("🔴" * 50)
         process_season(scraper, LINKS_2023_2024, "2023-2024", output_dir)
         
-        # FASE 7: Temporada 2022 (24 ligas - Sul América, Ásia, etc)
+        # FASE 8: Temporada 2022 (24 ligas - Sul América, Ásia, etc)
         print("\n\n" + "⚪" * 50)
-        print("FASE 7 de 10: TEMPORADA 2022")
+        print("FASE 8 de 11: TEMPORADA 2022")
         print("⚪" * 50)
         process_season(scraper, LINKS_2022, "2022", output_dir)
         
-        # FASE 8: Temporada 2022-2023 (54 ligas - Europa, etc)
+        # FASE 9: Temporada 2022-2023 (54 ligas - Europa, etc)
         print("\n\n" + "⚫" * 50)
-        print("FASE 8 de 10: TEMPORADA 2022-2023")
+        print("FASE 9 de 11: TEMPORADA 2022-2023")
         print("⚫" * 50)
         process_season(scraper, LINKS_2022_2023, "2022-2023", output_dir)
         
-        # FASE 9: Temporada 2021 (24 ligas - Sul América, Ásia, etc)
+        # FASE 10: Temporada 2021 (24 ligas - Sul América, Ásia, etc)
         print("\n\n" + "🟤" * 50)
-        print("FASE 9 de 10: TEMPORADA 2021")
+        print("FASE 10 de 11: TEMPORADA 2021")
         print("🟤" * 50)
         process_season(scraper, LINKS_2021, "2021", output_dir)
         
-        # FASE 10: Temporada 2021-2022 (54 ligas - Europa, etc)
+        # FASE 11: Temporada 2021-2022 (54 ligas - Europa, etc)
         print("\n\n" + "🟥" * 50)
-        print("FASE 10 de 10: TEMPORADA 2021-2022")
+        print("FASE 11 de 11: TEMPORADA 2021-2022")
         print("🟥" * 50)
         process_season(scraper, LINKS_2021_2022, "2021-2022", output_dir)
         

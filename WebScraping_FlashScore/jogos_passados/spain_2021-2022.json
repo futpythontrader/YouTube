@@ -1,0 +1,36 @@
+{
+  "country": "SPAIN",
+  "season": "2021-2022",
+  "scrape_date": "2026-01-18T12:49:09.088594",
+  "total_leagues": 4,
+  "leagues": [
+    {
+      "name": "Laliga 2021 2022",
+      "url": "https://www.flashscore.com/football/spain/laliga-2021-2022/results/",
+      "total_matches": 0,
+      "scraped_matches": 0,
+      "matches": []
+    },
+    {
+      "name": "Laliga2 2021 2022",
+      "url": "https://www.flashscore.com/football/spain/laliga2-2021-2022/results/",
+      "total_matches": 0,
+      "scraped_matches": 0,
+      "matches": []
+    },
+    {
+      "name": "Primera Rfef Group 1 2021 2022",
+      "url": "https://www.flashscore.com/football/spain/primera-rfef-group-1-2021-2022/results/",
+      "total_matches": 0,
+      "scraped_matches": 0,
+      "matches": []
+    },
+    {
+      "name": "Primera Rfef Group 2 2021 2022",
+      "url": "https://www.flashscore.com/football/spain/primera-rfef-group-2-2021-2022/results/",
+      "total_matches": 0,
+      "scraped_matches": 0,
+      "matches": []
+    }
+  ]
+}

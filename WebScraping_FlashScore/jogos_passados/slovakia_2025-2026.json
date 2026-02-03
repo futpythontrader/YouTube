@@ -7,8 +7,8 @@
     {
       "name": "Nike Liga 2025 2026",
       "url": "https://www.flashscore.com/football/slovakia/nike-liga-2025-2026/results/",
-      "total_matches": 106,
-      "scraped_matches": 106,
+      "total_matches": 108,
+      "scraped_matches": 108,
       "matches": [
         {
           "Id": "lt9R9RG7",
@@ -154813,6 +154813,2437 @@
             74
           ],
           "Match_ID": "dSmFfkCd"
+        },
+        {
+          "Id": "tG5JBmne",
+          "League": "Slovakia - Nike liga",
+          "Round": "Round 18",
+          "Date": "14/12/2025",
+          "Time": "14:00",
+          "Home": "Slovan Bratislava",
+          "Away": "Zilina",
+          "Home_Slug": "slovan-bratislava-QRaWdwQf",
+          "Away_Slug": "zilina-8tSMqaer",
+          "Home_Score": 3,
+          "Away_Score": 2,
+          "Odds_1X2_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1": 1.83,
+              "Odd_X": 3.9,
+              "Odd_2": 3.7
+            },
+            {
+              "Bookmaker": "Estrelabet",
+              "Odd_1": 1.78,
+              "Odd_X": 3.8,
+              "Odd_2": 3.6
+            },
+            {
+              "Bookmaker": "BetEsporte",
+              "Odd_1": 1.89,
+              "Odd_X": 3.7,
+              "Odd_2": 3.25
+            },
+            {
+              "Bookmaker": "Superbet.br",
+              "Odd_1": 1.83,
+              "Odd_X": 3.8,
+              "Odd_2": 3.65
+            },
+            {
+              "Bookmaker": "Esportivabet",
+              "Odd_1": 1.78,
+              "Odd_X": 3.8,
+              "Odd_2": 3.6
+            },
+            {
+              "Bookmaker": "Betnacional",
+              "Odd_1": 1.8,
+              "Odd_X": 3.55,
+              "Odd_2": 3.7
+            },
+            {
+              "Bookmaker": "BR4Bet",
+              "Odd_1": 1.78,
+              "Odd_X": 3.8,
+              "Odd_2": 3.6
+            },
+            {
+              "Bookmaker": "Betboom.br",
+              "Odd_1": 1.85,
+              "Odd_X": 3.75,
+              "Odd_2": 3.55
+            },
+            {
+              "Bookmaker": "Multibet.br",
+              "Odd_1": 1.78,
+              "Odd_X": 3.8,
+              "Odd_2": 3.6
+            },
+            {
+              "Bookmaker": "Bet7k",
+              "Odd_1": 1.81,
+              "Odd_X": 3.74,
+              "Odd_2": 3.45
+            },
+            {
+              "Bookmaker": "LuvaBet",
+              "Odd_1": 1.8,
+              "Odd_X": 3.88,
+              "Odd_2": 3.5
+            },
+            {
+              "Bookmaker": "Alfabet",
+              "Odd_1": 1.85,
+              "Odd_X": 3.8,
+              "Odd_2": 3.75
+            },
+            {
+              "Bookmaker": "Aposta Ganha",
+              "Odd_1": 1.94,
+              "Odd_X": 3.86,
+              "Odd_2": 3.39
+            },
+            {
+              "Bookmaker": "Betfair",
+              "Odd_1": 1.75,
+              "Odd_X": 3.7,
+              "Odd_2": 3.5
+            },
+            {
+              "Bookmaker": "Casadeapostas",
+              "Odd_1": 1.93,
+              "Odd_X": 3.8,
+              "Odd_2": 3.35
+            },
+            {
+              "Bookmaker": "Esportes da Sorte",
+              "Odd_1": 1.91,
+              "Odd_X": 3.77,
+              "Odd_2": 3.31
+            },
+            {
+              "Bookmaker": "F12",
+              "Odd_1": 1.9,
+              "Odd_X": 3.75,
+              "Odd_2": 3.25
+            },
+            {
+              "Bookmaker": "Goldebet",
+              "Odd_1": 1.78,
+              "Odd_X": 3.8,
+              "Odd_2": 3.6
+            },
+            {
+              "Bookmaker": "Jogo de Ouro",
+              "Odd_1": 1.78,
+              "Odd_X": 3.8,
+              "Odd_2": 3.6
+            },
+            {
+              "Bookmaker": "KTO.br",
+              "Odd_1": 1.94,
+              "Odd_X": 3.5,
+              "Odd_2": 3.1
+            },
+            {
+              "Bookmaker": "Lotogreen",
+              "Odd_1": 1.78,
+              "Odd_X": 3.8,
+              "Odd_2": 3.6
+            }
+          ],
+          "Best_Odd_X_FT": 3.9,
+          "Best_Odd_2_FT": 3.75,
+          "Best_Odd_1_FT": 1.94,
+          "Odds_1X2_HT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1": 2.32,
+              "Odd_X": 2.4,
+              "Odd_2": 3.8
+            },
+            {
+              "Bookmaker": "Estrelabet",
+              "Odd_1": 2.22,
+              "Odd_X": 2.45,
+              "Odd_2": 3.66
+            },
+            {
+              "Bookmaker": "BetEsporte",
+              "Odd_1": 2.23,
+              "Odd_X": 2.3,
+              "Odd_2": 3.4
+            },
+            {
+              "Bookmaker": "Superbet.br",
+              "Odd_1": 2.37,
+              "Odd_X": 2.5,
+              "Odd_2": 3.75
+            },
+            {
+              "Bookmaker": "Esportivabet",
+              "Odd_1": 2.22,
+              "Odd_X": 2.45,
+              "Odd_2": 3.66
+            },
+            {
+              "Bookmaker": "Betnacional",
+              "Odd_1": 2.35,
+              "Odd_X": 2.5,
+              "Odd_2": 3.7
+            },
+            {
+              "Bookmaker": "BR4Bet",
+              "Odd_1": 2.22,
+              "Odd_X": 2.45,
+              "Odd_2": 3.66
+            },
+            {
+              "Bookmaker": "Multibet.br",
+              "Odd_1": 2.22,
+              "Odd_X": 2.45,
+              "Odd_2": 3.66
+            },
+            {
+              "Bookmaker": "Bet7k",
+              "Odd_1": 2.34,
+              "Odd_X": 2.47,
+              "Odd_2": 3.76
+            },
+            {
+              "Bookmaker": "LuvaBet",
+              "Odd_1": 2.24,
+              "Odd_X": 2.54,
+              "Odd_2": 3.71
+            },
+            {
+              "Bookmaker": "Alfabet",
+              "Odd_1": 2.4,
+              "Odd_X": 2.6,
+              "Odd_2": 3.9
+            },
+            {
+              "Bookmaker": "Betfair",
+              "Odd_1": 2.3,
+              "Odd_X": 2.5,
+              "Odd_2": 3.75
+            },
+            {
+              "Bookmaker": "Casadeapostas",
+              "Odd_1": 2.34,
+              "Odd_X": 2.42,
+              "Odd_2": 3.6
+            },
+            {
+              "Bookmaker": "Esportes da Sorte",
+              "Odd_1": 2.38,
+              "Odd_X": 2.46,
+              "Odd_2": 3.67
+            },
+            {
+              "Bookmaker": "Goldebet",
+              "Odd_1": 2.22,
+              "Odd_X": 2.45,
+              "Odd_2": 3.66
+            },
+            {
+              "Bookmaker": "Jogo de Ouro",
+              "Odd_1": 2.22,
+              "Odd_X": 2.45,
+              "Odd_2": 3.66
+            },
+            {
+              "Bookmaker": "KTO.br",
+              "Odd_1": 2.4,
+              "Odd_X": 2.55,
+              "Odd_2": 3.3
+            },
+            {
+              "Bookmaker": "Lotogreen",
+              "Odd_1": 2.22,
+              "Odd_X": 2.45,
+              "Odd_2": 3.66
+            }
+          ],
+          "Odds_OU_FT": {
+            "OU_0.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.03,
+                "Under": 10.5
+              },
+              {
+                "Bookmaker": "BetEsporte",
+                "Over": 1.01,
+                "Under": 16.0
+              },
+              {
+                "Bookmaker": "Alfabet",
+                "Over": 1.02,
+                "Under": 12.0
+              }
+            ],
+            "OU_1.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.14,
+                "Under": 5.1
+              },
+              {
+                "Bookmaker": "BetEsporte",
+                "Over": 1.12,
+                "Under": 4.4
+              },
+              {
+                "Bookmaker": "Superbet.br",
+                "Over": 1.13,
+                "Under": 5.0
+              },
+              {
+                "Bookmaker": "Betnacional",
+                "Over": 1.12,
+                "Under": 4.7
+              },
+              {
+                "Bookmaker": "LuvaBet",
+                "Over": 1.09,
+                "Under": 5.31
+              },
+              {
+                "Bookmaker": "Alfabet",
+                "Over": 1.14,
+                "Under": 5.25
+              },
+              {
+                "Bookmaker": "Betfair",
+                "Over": 1.11,
+                "Under": 6.5
+              },
+              {
+                "Bookmaker": "Casadeapostas",
+                "Over": 1.14,
+                "Under": 5.0
+              },
+              {
+                "Bookmaker": "Esportes da Sorte",
+                "Over": 1.13,
+                "Under": 4.84
+              },
+              {
+                "Bookmaker": "KTO.br",
+                "Over": 1.09,
+                "Under": 5.3
+              }
+            ],
+            "OU_2.0": [
+              {
+                "Bookmaker": "Betnacional",
+                "Over": 1.17,
+                "Under": 4.37
+              },
+              {
+                "Bookmaker": "Alfabet",
+                "Over": 1.18,
+                "Under": 4.4
+              }
+            ],
+            "OU_2.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.45,
+                "Under": 2.65
+              },
+              {
+                "Bookmaker": "BetEsporte",
+                "Over": 1.43,
+                "Under": 2.38
+              },
+              {
+                "Bookmaker": "Superbet.br",
+                "Over": 1.48,
+                "Under": 2.47
+              },
+              {
+                "Bookmaker": "Betnacional",
+                "Over": 1.45,
+                "Under": 2.4
+              },
+              {
+                "Bookmaker": "LuvaBet",
+                "Over": 1.4,
+                "Under": 2.52
+              },
+              {
+                "Bookmaker": "Alfabet",
+                "Over": 1.45,
+                "Under": 2.55
+              },
+              {
+                "Bookmaker": "Betfair",
+                "Over": 1.4,
+                "Under": 2.75
+              },
+              {
+                "Bookmaker": "Casadeapostas",
+                "Over": 1.47,
+                "Under": 2.5
+              },
+              {
+                "Bookmaker": "Esportes da Sorte",
+                "Over": 1.46,
+                "Under": 2.47
+              },
+              {
+                "Bookmaker": "F12",
+                "Over": 1.46,
+                "Under": 2.47
+              },
+              {
+                "Bookmaker": "KTO.br",
+                "Over": 1.41,
+                "Under": 2.55
+              }
+            ],
+            "OU_3.0": [
+              {
+                "Bookmaker": "Estrelabet",
+                "Over": 1.66,
+                "Under": 2.1
+              },
+              {
+                "Bookmaker": "Esportivabet",
+                "Over": 1.66,
+                "Under": 2.1
+              },
+              {
+                "Bookmaker": "Betnacional",
+                "Over": 1.67,
+                "Under": 2.08
+              },
+              {
+                "Bookmaker": "BR4Bet",
+                "Over": 1.66,
+                "Under": 2.1
+              },
+              {
+                "Bookmaker": "Multibet.br",
+                "Over": 1.66,
+                "Under": 2.1
+              },
+              {
+                "Bookmaker": "Bet7k",
+                "Over": 1.64,
+                "Under": 2.03
+              },
+              {
+                "Bookmaker": "Alfabet",
+                "Over": 1.7,
+                "Under": 2.05
+              },
+              {
+                "Bookmaker": "Goldebet",
+                "Over": 1.66,
+                "Under": 2.1
+              },
+              {
+                "Bookmaker": "Jogo de Ouro",
+                "Over": 1.66,
+                "Under": 2.1
+              },
+              {
+                "Bookmaker": "Lotogreen",
+                "Over": 1.66,
+                "Under": 2.1
+              }
+            ],
+            "OU_3.25": [
+              {
+                "Bookmaker": "Estrelabet",
+                "Over": 1.83,
+                "Under": 1.83
+              },
+              {
+                "Bookmaker": "Esportivabet",
+                "Over": 1.83,
+                "Under": 1.83
+              },
+              {
+                "Bookmaker": "BR4Bet",
+                "Over": 1.83,
+                "Under": 1.83
+              },
+              {
+                "Bookmaker": "Multibet.br",
+                "Over": 1.83,
+                "Under": 1.83
+              },
+              {
+                "Bookmaker": "Bet7k",
+                "Over": 1.84,
+                "Under": 1.8
+              },
+              {
+                "Bookmaker": "Goldebet",
+                "Over": 1.83,
+                "Under": 1.83
+              },
+              {
+                "Bookmaker": "Jogo de Ouro",
+                "Over": 1.83,
+                "Under": 1.83
+              },
+              {
+                "Bookmaker": "Lotogreen",
+                "Over": 1.83,
+                "Under": 1.83
+              }
+            ],
+            "OU_3.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 2.07,
+                "Under": 1.7
+              },
+              {
+                "Bookmaker": "Estrelabet",
+                "Over": 2.1,
+                "Under": 1.66
+              },
+              {
+                "Bookmaker": "BetEsporte",
+                "Over": 2.05,
+                "Under": 1.58
+              },
+              {
+                "Bookmaker": "Superbet.br",
+                "Over": 2.17,
+                "Under": 1.61
+              },
+              {
+                "Bookmaker": "Esportivabet",
+                "Over": 2.1,
+                "Under": 1.66
+              },
+              {
+                "Bookmaker": "Betnacional",
+                "Over": 2.1,
+                "Under": 1.6
+              },
+              {
+                "Bookmaker": "BR4Bet",
+                "Over": 2.1,
+                "Under": 1.66
+              },
+              {
+                "Bookmaker": "Multibet.br",
+                "Over": 2.1,
+                "Under": 1.66
+              },
+              {
+                "Bookmaker": "Bet7k",
+                "Over": 2.02,
+                "Under": 1.64
+              },
+              {
+                "Bookmaker": "LuvaBet",
+                "Over": 2.06,
+                "Under": 1.63
+              },
+              {
+                "Bookmaker": "Alfabet",
+                "Over": 2.1,
+                "Under": 1.65
+              },
+              {
+                "Bookmaker": "Betfair",
+                "Over": 2.1,
+                "Under": 1.65
+              },
+              {
+                "Bookmaker": "Casadeapostas",
+                "Over": 2.14,
+                "Under": 1.63
+              },
+              {
+                "Bookmaker": "Esportes da Sorte",
+                "Over": 2.12,
+                "Under": 1.62
+              },
+              {
+                "Bookmaker": "F12",
+                "Over": 2.12,
+                "Under": 1.62
+              },
+              {
+                "Bookmaker": "Goldebet",
+                "Over": 2.1,
+                "Under": 1.66
+              },
+              {
+                "Bookmaker": "Jogo de Ouro",
+                "Over": 2.1,
+                "Under": 1.66
+              },
+              {
+                "Bookmaker": "KTO.br",
+                "Over": 2.08,
+                "Under": 1.62
+              },
+              {
+                "Bookmaker": "Lotogreen",
+                "Over": 2.1,
+                "Under": 1.66
+              }
+            ],
+            "OU_3.75": [
+              {
+                "Bookmaker": "Estrelabet",
+                "Over": 2.4,
+                "Under": 1.5
+              },
+              {
+                "Bookmaker": "Esportivabet",
+                "Over": 2.4,
+                "Under": 1.5
+              },
+              {
+                "Bookmaker": "BR4Bet",
+                "Over": 2.4,
+                "Under": 1.5
+              },
+              {
+                "Bookmaker": "Multibet.br",
+                "Over": 2.4,
+                "Under": 1.5
+              },
+              {
+                "Bookmaker": "Goldebet",
+                "Over": 2.4,
+                "Under": 1.5
+              },
+              {
+                "Bookmaker": "Jogo de Ouro",
+                "Over": 2.4,
+                "Under": 1.5
+              },
+              {
+                "Bookmaker": "Lotogreen",
+                "Over": 2.4,
+                "Under": 1.5
+              }
+            ],
+            "OU_4.0": [
+              {
+                "Bookmaker": "Estrelabet",
+                "Over": 2.9,
+                "Under": 1.36
+              },
+              {
+                "Bookmaker": "Esportivabet",
+                "Over": 2.9,
+                "Under": 1.36
+              },
+              {
+                "Bookmaker": "Betnacional",
+                "Over": 2.83,
+                "Under": 1.38
+              },
+              {
+                "Bookmaker": "BR4Bet",
+                "Over": 2.9,
+                "Under": 1.36
+              },
+              {
+                "Bookmaker": "Multibet.br",
+                "Over": 2.9,
+                "Under": 1.36
+              },
+              {
+                "Bookmaker": "Alfabet",
+                "Over": 2.95,
+                "Under": 1.35
+              },
+              {
+                "Bookmaker": "Goldebet",
+                "Over": 2.9,
+                "Under": 1.36
+              },
+              {
+                "Bookmaker": "Jogo de Ouro",
+                "Over": 2.9,
+                "Under": 1.36
+              },
+              {
+                "Bookmaker": "Lotogreen",
+                "Over": 2.9,
+                "Under": 1.36
+              }
+            ],
+            "OU_4.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 3.3,
+                "Under": 1.3
+              },
+              {
+                "Bookmaker": "BetEsporte",
+                "Over": 3.25,
+                "Under": 1.23
+              },
+              {
+                "Bookmaker": "Superbet.br",
+                "Over": 3.65,
+                "Under": 1.24
+              },
+              {
+                "Bookmaker": "Betnacional",
+                "Over": 3.4,
+                "Under": 1.25
+              },
+              {
+                "Bookmaker": "LuvaBet",
+                "Over": 3.35,
+                "Under": 1.23
+              },
+              {
+                "Bookmaker": "Alfabet",
+                "Over": 3.5,
+                "Under": 1.25
+              },
+              {
+                "Bookmaker": "Betfair",
+                "Over": 3.6,
+                "Under": 1.25
+              },
+              {
+                "Bookmaker": "Casadeapostas",
+                "Over": 3.55,
+                "Under": 1.26
+              },
+              {
+                "Bookmaker": "Esportes da Sorte",
+                "Over": 3.46,
+                "Under": 1.25
+              },
+              {
+                "Bookmaker": "KTO.br",
+                "Over": 3.55,
+                "Under": 1.22
+              }
+            ],
+            "OU_5.0": [
+              {
+                "Bookmaker": "Betnacional",
+                "Over": 5.21,
+                "Under": 1.13
+              },
+              {
+                "Bookmaker": "Alfabet",
+                "Over": 5.5,
+                "Under": 1.12
+              }
+            ],
+            "OU_5.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 5.5,
+                "Under": 1.13
+              },
+              {
+                "Bookmaker": "BetEsporte",
+                "Over": 6.0,
+                "Under": 1.08
+              },
+              {
+                "Bookmaker": "Superbet.br",
+                "Over": 6.4,
+                "Under": 1.08
+              },
+              {
+                "Bookmaker": "Betnacional",
+                "Over": 5.6,
+                "Under": 1.09
+              },
+              {
+                "Bookmaker": "LuvaBet",
+                "Over": 5.77,
+                "Under": 1.07
+              },
+              {
+                "Bookmaker": "Alfabet",
+                "Over": 6.0,
+                "Under": 1.1
+              },
+              {
+                "Bookmaker": "Betfair",
+                "Over": 7.0,
+                "Under": 1.07
+              },
+              {
+                "Bookmaker": "Casadeapostas",
+                "Over": 6.0,
+                "Under": 1.1
+              },
+              {
+                "Bookmaker": "Esportes da Sorte",
+                "Over": 5.77,
+                "Under": 1.09
+              },
+              {
+                "Bookmaker": "KTO.br",
+                "Over": 6.1,
+                "Under": 1.06
+              }
+            ],
+            "OU_6.0": [
+              {
+                "Bookmaker": "Alfabet",
+                "Over": 9.75,
+                "Under": 1.03
+              }
+            ],
+            "OU_6.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 8.75,
+                "Under": 1.05
+              },
+              {
+                "Bookmaker": "LuvaBet",
+                "Over": 8.69,
+                "Under": 1.01
+              },
+              {
+                "Bookmaker": "Betfair",
+                "Over": 11.0,
+                "Under": 1.01
+              }
+            ],
+            "OU_7.5": [],
+            "OU_8.5": []
+          },
+          "Odds_OU_HT": {
+            "OU_0.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.26,
+                "Under": 3.6
+              },
+              {
+                "Bookmaker": "BetEsporte",
+                "Over": 1.21,
+                "Under": 3.45
+              },
+              {
+                "Bookmaker": "Superbet.br",
+                "Over": 1.24,
+                "Under": 3.65
+              },
+              {
+                "Bookmaker": "Betnacional",
+                "Over": 1.22,
+                "Under": 3.5
+              },
+              {
+                "Bookmaker": "LuvaBet",
+                "Over": 1.21,
+                "Under": 3.96
+              },
+              {
+                "Bookmaker": "Alfabet",
+                "Over": 1.25,
+                "Under": 3.8
+              },
+              {
+                "Bookmaker": "Betfair",
+                "Over": 1.2,
+                "Under": 4.0
+              },
+              {
+                "Bookmaker": "Casadeapostas",
+                "Over": 1.23,
+                "Under": 3.5
+              }
+            ],
+            "OU_1.0": [
+              {
+                "Bookmaker": "Betnacional",
+                "Over": 1.44,
+                "Under": 2.68
+              }
+            ],
+            "OU_1.25": [
+              {
+                "Bookmaker": "Bet7k",
+                "Over": 1.67,
+                "Under": 1.82
+              },
+              {
+                "Bookmaker": "Esportes da Sorte",
+                "Over": 1.75,
+                "Under": 1.89
+              }
+            ],
+            "OU_1.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 2.12,
+                "Under": 1.67
+              },
+              {
+                "Bookmaker": "Estrelabet",
+                "Over": 2.05,
+                "Under": 1.7
+              },
+              {
+                "Bookmaker": "BetEsporte",
+                "Over": 1.98,
+                "Under": 1.58
+              },
+              {
+                "Bookmaker": "Superbet.br",
+                "Over": 2.17,
+                "Under": 1.62
+              },
+              {
+                "Bookmaker": "Esportivabet",
+                "Over": 2.05,
+                "Under": 1.7
+              },
+              {
+                "Bookmaker": "Betnacional",
+                "Over": 2.05,
+                "Under": 1.65
+              },
+              {
+                "Bookmaker": "BR4Bet",
+                "Over": 2.05,
+                "Under": 1.7
+              },
+              {
+                "Bookmaker": "Multibet.br",
+                "Over": 2.05,
+                "Under": 1.7
+              },
+              {
+                "Bookmaker": "LuvaBet",
+                "Over": 2.08,
+                "Under": 1.66
+              },
+              {
+                "Bookmaker": "Alfabet",
+                "Over": 2.1,
+                "Under": 1.7
+              },
+              {
+                "Bookmaker": "Betfair",
+                "Over": 2.1,
+                "Under": 1.67
+              },
+              {
+                "Bookmaker": "Casadeapostas",
+                "Over": 2.06,
+                "Under": 1.63
+              },
+              {
+                "Bookmaker": "Esportes da Sorte",
+                "Over": 2.06,
+                "Under": 1.63
+              },
+              {
+                "Bookmaker": "Goldebet",
+                "Over": 2.05,
+                "Under": 1.7
+              },
+              {
+                "Bookmaker": "Jogo de Ouro",
+                "Over": 2.05,
+                "Under": 1.7
+              },
+              {
+                "Bookmaker": "KTO.br",
+                "Over": 1.97,
+                "Under": 1.66
+              },
+              {
+                "Bookmaker": "Lotogreen",
+                "Over": 2.05,
+                "Under": 1.7
+              }
+            ],
+            "OU_2.0": [
+              {
+                "Bookmaker": "Betnacional",
+                "Over": 3.39,
+                "Under": 1.29
+              }
+            ],
+            "OU_2.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 4.3,
+                "Under": 1.19
+              },
+              {
+                "Bookmaker": "BetEsporte",
+                "Over": 3.95,
+                "Under": 1.15
+              },
+              {
+                "Bookmaker": "Superbet.br",
+                "Over": 4.6,
+                "Under": 1.16
+              },
+              {
+                "Bookmaker": "Betnacional",
+                "Over": 4.1,
+                "Under": 1.16
+              },
+              {
+                "Bookmaker": "LuvaBet",
+                "Over": 4.45,
+                "Under": 1.17
+              },
+              {
+                "Bookmaker": "Alfabet",
+                "Over": 4.35,
+                "Under": 1.2
+              },
+              {
+                "Bookmaker": "Betfair",
+                "Over": 4.5,
+                "Under": 1.17
+              },
+              {
+                "Bookmaker": "Casadeapostas",
+                "Over": 4.1,
+                "Under": 1.17
+              }
+            ],
+            "OU_3.0": [
+              {
+                "Bookmaker": "Betnacional",
+                "Over": 8.39,
+                "Under": 1.05
+              }
+            ],
+            "OU_3.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 8.5,
+                "Under": 1.05
+              },
+              {
+                "Bookmaker": "LuvaBet",
+                "Over": 11.0,
+                "Under": 1.01
+              },
+              {
+                "Bookmaker": "Betfair",
+                "Over": 9.5,
+                "Under": 1.04
+              }
+            ],
+            "OU_4.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 12.5,
+                "Under": 1.01
+              }
+            ],
+            "OU_5.5": []
+          },
+          "Odds_BTTS_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Yes": 1.44,
+              "No": 2.62
+            },
+            {
+              "Bookmaker": "Estrelabet",
+              "Yes": 1.44,
+              "No": 2.5
+            },
+            {
+              "Bookmaker": "Superbet.br",
+              "Yes": 1.48,
+              "No": 2.5
+            },
+            {
+              "Bookmaker": "Esportivabet",
+              "Yes": 1.44,
+              "No": 2.5
+            },
+            {
+              "Bookmaker": "Betnacional",
+              "Yes": 1.45,
+              "No": 2.5
+            },
+            {
+              "Bookmaker": "BR4Bet",
+              "Yes": 1.44,
+              "No": 2.5
+            },
+            {
+              "Bookmaker": "Betboom.br",
+              "Yes": 1.45,
+              "No": 2.5
+            },
+            {
+              "Bookmaker": "Multibet.br",
+              "Yes": 1.44,
+              "No": 2.5
+            },
+            {
+              "Bookmaker": "LuvaBet",
+              "Yes": 1.44,
+              "No": 2.57
+            },
+            {
+              "Bookmaker": "Alfabet",
+              "Yes": 1.45,
+              "No": 2.6
+            },
+            {
+              "Bookmaker": "Betfair",
+              "Yes": 1.4,
+              "No": 2.7
+            },
+            {
+              "Bookmaker": "Casadeapostas",
+              "Yes": 1.44,
+              "No": 2.48
+            },
+            {
+              "Bookmaker": "F12",
+              "Yes": 1.44,
+              "No": 2.48
+            },
+            {
+              "Bookmaker": "Goldebet",
+              "Yes": 1.44,
+              "No": 2.5
+            },
+            {
+              "Bookmaker": "Jogo de Ouro",
+              "Yes": 1.44,
+              "No": 2.5
+            },
+            {
+              "Bookmaker": "KTO.br",
+              "Yes": 1.38,
+              "No": 2.6
+            },
+            {
+              "Bookmaker": "Lotogreen",
+              "Yes": 1.44,
+              "No": 2.5
+            }
+          ],
+          "Odds_DC_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1X": 1.29,
+              "Odd_12": 1.24,
+              "Odd_X2": 2.0
+            },
+            {
+              "Bookmaker": "Estrelabet",
+              "Odd_1X": 1.23,
+              "Odd_12": 1.22,
+              "Odd_X2": 1.76
+            },
+            {
+              "Bookmaker": "BetEsporte",
+              "Odd_1X": 1.26,
+              "Odd_12": 1.21,
+              "Odd_X2": 1.68
+            },
+            {
+              "Bookmaker": "Superbet.br",
+              "Odd_1X": 1.24,
+              "Odd_12": 1.22,
+              "Odd_X2": 1.87
+            },
+            {
+              "Bookmaker": "Esportivabet",
+              "Odd_1X": 1.23,
+              "Odd_12": 1.22,
+              "Odd_X2": 1.76
+            },
+            {
+              "Bookmaker": "Betnacional",
+              "Odd_1X": 1.2,
+              "Odd_12": 1.22,
+              "Odd_X2": 1.8
+            },
+            {
+              "Bookmaker": "BR4Bet",
+              "Odd_1X": 1.23,
+              "Odd_12": 1.22,
+              "Odd_X2": 1.76
+            },
+            {
+              "Bookmaker": "Betboom.br",
+              "Odd_1X": 1.25,
+              "Odd_12": 1.22,
+              "Odd_X2": 1.85
+            },
+            {
+              "Bookmaker": "Multibet.br",
+              "Odd_1X": 1.23,
+              "Odd_12": 1.22,
+              "Odd_X2": 1.76
+            },
+            {
+              "Bookmaker": "LuvaBet",
+              "Odd_1X": 1.22,
+              "Odd_12": 1.2,
+              "Odd_X2": 1.76
+            },
+            {
+              "Bookmaker": "Alfabet",
+              "Odd_1X": 1.25,
+              "Odd_12": 1.25,
+              "Odd_X2": 1.9
+            },
+            {
+              "Bookmaker": "Betfair",
+              "Odd_1X": 1.22,
+              "Odd_12": 1.2,
+              "Odd_X2": 1.83
+            },
+            {
+              "Bookmaker": "Casadeapostas",
+              "Odd_1X": 1.29,
+              "Odd_12": 1.24,
+              "Odd_X2": 1.73
+            },
+            {
+              "Bookmaker": "Esportes da Sorte",
+              "Odd_1X": 1.32,
+              "Odd_12": 1.27,
+              "Odd_X2": 1.8
+            },
+            {
+              "Bookmaker": "Goldebet",
+              "Odd_1X": 1.23,
+              "Odd_12": 1.22,
+              "Odd_X2": 1.76
+            },
+            {
+              "Bookmaker": "Jogo de Ouro",
+              "Odd_1X": 1.23,
+              "Odd_12": 1.22,
+              "Odd_X2": 1.76
+            },
+            {
+              "Bookmaker": "KTO.br",
+              "Odd_1X": 1.25,
+              "Odd_12": 1.2,
+              "Odd_X2": 1.65
+            },
+            {
+              "Bookmaker": "Lotogreen",
+              "Odd_1X": 1.23,
+              "Odd_12": 1.22,
+              "Odd_X2": 1.76
+            }
+          ],
+          "Statistics_FT": {},
+          "Statistics_HT": {},
+          "Statistics_2T": {},
+          "Min_Goals_Home": [
+            5,
+            46,
+            53
+          ],
+          "Min_Goals_Away": [
+            58,
+            89
+          ],
+          "Match_ID": "tG5JBmne"
+        },
+        {
+          "Id": "t2QpclX1",
+          "League": "Slovakia - Nike liga",
+          "Round": "Round 18",
+          "Date": "14/12/2025",
+          "Time": "11:30",
+          "Home": "Komarno",
+          "Away": "Kosice",
+          "Home_Slug": "komarno-Uu7c0kf9",
+          "Away_Slug": "fc-kosice-EDvhALMK",
+          "Home_Score": 1,
+          "Away_Score": 2,
+          "Odds_1X2_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1": 2.3,
+              "Odd_X": 3.4,
+              "Odd_2": 2.95
+            },
+            {
+              "Bookmaker": "Estrelabet",
+              "Odd_1": 2.22,
+              "Odd_X": 3.4,
+              "Odd_2": 2.8
+            },
+            {
+              "Bookmaker": "BetEsporte",
+              "Odd_1": 2.27,
+              "Odd_X": 3.35,
+              "Odd_2": 2.7
+            },
+            {
+              "Bookmaker": "Superbet.br",
+              "Odd_1": 2.3,
+              "Odd_X": 3.3,
+              "Odd_2": 2.92
+            },
+            {
+              "Bookmaker": "Esportivabet",
+              "Odd_1": 2.22,
+              "Odd_X": 3.4,
+              "Odd_2": 2.8
+            },
+            {
+              "Bookmaker": "Betnacional",
+              "Odd_1": 2.35,
+              "Odd_X": 3.3,
+              "Odd_2": 2.7
+            },
+            {
+              "Bookmaker": "BR4Bet",
+              "Odd_1": 2.22,
+              "Odd_X": 3.4,
+              "Odd_2": 2.8
+            },
+            {
+              "Bookmaker": "Betboom.br",
+              "Odd_1": 2.3,
+              "Odd_X": 3.3,
+              "Odd_2": 2.75
+            },
+            {
+              "Bookmaker": "Multibet.br",
+              "Odd_1": 2.22,
+              "Odd_X": 3.4,
+              "Odd_2": 2.8
+            },
+            {
+              "Bookmaker": "Bet7k",
+              "Odd_1": 2.25,
+              "Odd_X": 3.25,
+              "Odd_2": 2.8
+            },
+            {
+              "Bookmaker": "LuvaBet",
+              "Odd_1": 2.32,
+              "Odd_X": 3.33,
+              "Odd_2": 2.78
+            },
+            {
+              "Bookmaker": "Alfabet",
+              "Odd_1": 2.35,
+              "Odd_X": 3.35,
+              "Odd_2": 2.85
+            },
+            {
+              "Bookmaker": "Aposta Ganha",
+              "Odd_1": 2.36,
+              "Odd_X": 3.46,
+              "Odd_2": 2.8
+            },
+            {
+              "Bookmaker": "Betfair",
+              "Odd_1": 2.2,
+              "Odd_X": 3.25,
+              "Odd_2": 2.75
+            },
+            {
+              "Bookmaker": "Casadeapostas",
+              "Odd_1": 2.38,
+              "Odd_X": 3.45,
+              "Odd_2": 2.7
+            },
+            {
+              "Bookmaker": "Esportes da Sorte",
+              "Odd_1": 2.31,
+              "Odd_X": 3.41,
+              "Odd_2": 2.74
+            },
+            {
+              "Bookmaker": "F12",
+              "Odd_1": 2.29,
+              "Odd_X": 3.4,
+              "Odd_2": 2.7
+            },
+            {
+              "Bookmaker": "Goldebet",
+              "Odd_1": 2.22,
+              "Odd_X": 3.4,
+              "Odd_2": 2.8
+            },
+            {
+              "Bookmaker": "Jogo de Ouro",
+              "Odd_1": 2.22,
+              "Odd_X": 3.4,
+              "Odd_2": 2.8
+            },
+            {
+              "Bookmaker": "KTO.br",
+              "Odd_1": 2.1,
+              "Odd_X": 3.2,
+              "Odd_2": 2.95
+            },
+            {
+              "Bookmaker": "Lotogreen",
+              "Odd_1": 2.22,
+              "Odd_X": 3.4,
+              "Odd_2": 2.8
+            }
+          ],
+          "Best_Odd_2_FT": 2.95,
+          "Best_Odd_X_FT": 3.46,
+          "Best_Odd_1_FT": 2.38,
+          "Odds_1X2_HT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1": 2.82,
+              "Odd_X": 2.18,
+              "Odd_2": 3.35
+            },
+            {
+              "Bookmaker": "Estrelabet",
+              "Odd_1": 2.71,
+              "Odd_X": 2.22,
+              "Odd_2": 3.2
+            },
+            {
+              "Bookmaker": "BetEsporte",
+              "Odd_1": 2.65,
+              "Odd_X": 2.11,
+              "Odd_2": 3.05
+            },
+            {
+              "Bookmaker": "Superbet.br",
+              "Odd_1": 2.77,
+              "Odd_X": 2.3,
+              "Odd_2": 3.4
+            },
+            {
+              "Bookmaker": "Esportivabet",
+              "Odd_1": 2.71,
+              "Odd_X": 2.22,
+              "Odd_2": 3.2
+            },
+            {
+              "Bookmaker": "Betnacional",
+              "Odd_1": 2.85,
+              "Odd_X": 2.25,
+              "Odd_2": 3.3
+            },
+            {
+              "Bookmaker": "BR4Bet",
+              "Odd_1": 2.71,
+              "Odd_X": 2.22,
+              "Odd_2": 3.2
+            },
+            {
+              "Bookmaker": "Multibet.br",
+              "Odd_1": 2.71,
+              "Odd_X": 2.22,
+              "Odd_2": 3.2
+            },
+            {
+              "Bookmaker": "Bet7k",
+              "Odd_1": 2.83,
+              "Odd_X": 2.24,
+              "Odd_2": 3.35
+            },
+            {
+              "Bookmaker": "LuvaBet",
+              "Odd_1": 2.82,
+              "Odd_X": 2.15,
+              "Odd_2": 3.12
+            },
+            {
+              "Bookmaker": "Alfabet",
+              "Odd_1": 2.95,
+              "Odd_X": 2.3,
+              "Odd_2": 3.45
+            },
+            {
+              "Bookmaker": "Betfair",
+              "Odd_1": 2.8,
+              "Odd_X": 2.25,
+              "Odd_2": 3.3
+            },
+            {
+              "Bookmaker": "Casadeapostas",
+              "Odd_1": 2.85,
+              "Odd_X": 2.21,
+              "Odd_2": 3.15
+            },
+            {
+              "Bookmaker": "Esportes da Sorte",
+              "Odd_1": 2.86,
+              "Odd_X": 2.24,
+              "Odd_2": 3.28
+            },
+            {
+              "Bookmaker": "Goldebet",
+              "Odd_1": 2.71,
+              "Odd_X": 2.22,
+              "Odd_2": 3.2
+            },
+            {
+              "Bookmaker": "Jogo de Ouro",
+              "Odd_1": 2.71,
+              "Odd_X": 2.22,
+              "Odd_2": 3.2
+            },
+            {
+              "Bookmaker": "KTO.br",
+              "Odd_1": 2.65,
+              "Odd_X": 2.25,
+              "Odd_2": 3.45
+            },
+            {
+              "Bookmaker": "Lotogreen",
+              "Odd_1": 2.71,
+              "Odd_X": 2.22,
+              "Odd_2": 3.2
+            }
+          ],
+          "Odds_OU_FT": {
+            "OU_0.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.05,
+                "Under": 8.75
+              },
+              {
+                "Bookmaker": "BetEsporte",
+                "Over": 1.03,
+                "Under": 11.0
+              },
+              {
+                "Bookmaker": "Superbet.br",
+                "Over": 1.03,
+                "Under": 10.0
+              },
+              {
+                "Bookmaker": "Alfabet",
+                "Over": 1.03,
+                "Under": 10.0
+              },
+              {
+                "Bookmaker": "Betfair",
+                "Over": 1.01,
+                "Under": 11.0
+              },
+              {
+                "Bookmaker": "Esportes da Sorte",
+                "Over": 1.03,
+                "Under": 8.3
+              }
+            ],
+            "OU_1.0": [
+              {
+                "Bookmaker": "Betnacional",
+                "Over": 1.04,
+                "Under": 8.34
+              },
+              {
+                "Bookmaker": "Alfabet",
+                "Over": 1.05,
+                "Under": 8.5
+              }
+            ],
+            "OU_1.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.23,
+                "Under": 3.95
+              },
+              {
+                "Bookmaker": "BetEsporte",
+                "Over": 1.19,
+                "Under": 3.55
+              },
+              {
+                "Bookmaker": "Superbet.br",
+                "Over": 1.21,
+                "Under": 3.9
+              },
+              {
+                "Bookmaker": "Betnacional",
+                "Over": 1.2,
+                "Under": 3.7
+              },
+              {
+                "Bookmaker": "Alfabet",
+                "Over": 1.22,
+                "Under": 4.0
+              },
+              {
+                "Bookmaker": "Betfair",
+                "Over": 1.2,
+                "Under": 4.0
+              },
+              {
+                "Bookmaker": "Casadeapostas",
+                "Over": 1.22,
+                "Under": 3.9
+              },
+              {
+                "Bookmaker": "Esportes da Sorte",
+                "Over": 1.21,
+                "Under": 3.8
+              },
+              {
+                "Bookmaker": "KTO.br",
+                "Over": 1.21,
+                "Under": 3.7
+              }
+            ],
+            "OU_2.0": [
+              {
+                "Bookmaker": "Estrelabet",
+                "Over": 1.28,
+                "Under": 3.33
+              },
+              {
+                "Bookmaker": "Esportivabet",
+                "Over": 1.28,
+                "Under": 3.33
+              },
+              {
+                "Bookmaker": "Betnacional",
+                "Over": 1.31,
+                "Under": 3.17
+              },
+              {
+                "Bookmaker": "BR4Bet",
+                "Over": 1.28,
+                "Under": 3.33
+              },
+              {
+                "Bookmaker": "Multibet.br",
+                "Over": 1.28,
+                "Under": 3.33
+              },
+              {
+                "Bookmaker": "Alfabet",
+                "Over": 1.35,
+                "Under": 3.15
+              },
+              {
+                "Bookmaker": "Goldebet",
+                "Over": 1.28,
+                "Under": 3.33
+              },
+              {
+                "Bookmaker": "Jogo de Ouro",
+                "Over": 1.28,
+                "Under": 3.33
+              },
+              {
+                "Bookmaker": "Lotogreen",
+                "Over": 1.28,
+                "Under": 3.33
+              }
+            ],
+            "OU_2.25": [
+              {
+                "Bookmaker": "Estrelabet",
+                "Over": 1.45,
+                "Under": 2.54
+              },
+              {
+                "Bookmaker": "Esportivabet",
+                "Over": 1.45,
+                "Under": 2.54
+              },
+              {
+                "Bookmaker": "BR4Bet",
+                "Over": 1.45,
+                "Under": 2.54
+              },
+              {
+                "Bookmaker": "Multibet.br",
+                "Over": 1.45,
+                "Under": 2.54
+              },
+              {
+                "Bookmaker": "Goldebet",
+                "Over": 1.45,
+                "Under": 2.54
+              },
+              {
+                "Bookmaker": "Jogo de Ouro",
+                "Over": 1.45,
+                "Under": 2.54
+              },
+              {
+                "Bookmaker": "Lotogreen",
+                "Over": 1.45,
+                "Under": 2.54
+              }
+            ],
+            "OU_2.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.67,
+                "Under": 2.1
+              },
+              {
+                "Bookmaker": "Estrelabet",
+                "Over": 1.66,
+                "Under": 2.1
+              },
+              {
+                "Bookmaker": "BetEsporte",
+                "Over": 1.64,
+                "Under": 1.96
+              },
+              {
+                "Bookmaker": "Superbet.br",
+                "Over": 1.72,
+                "Under": 2.02
+              },
+              {
+                "Bookmaker": "Esportivabet",
+                "Over": 1.66,
+                "Under": 2.1
+              },
+              {
+                "Bookmaker": "Betnacional",
+                "Over": 1.7,
+                "Under": 2.0
+              },
+              {
+                "Bookmaker": "BR4Bet",
+                "Over": 1.66,
+                "Under": 2.1
+              },
+              {
+                "Bookmaker": "Multibet.br",
+                "Over": 1.66,
+                "Under": 2.1
+              },
+              {
+                "Bookmaker": "Bet7k",
+                "Over": 1.65,
+                "Under": 2.0
+              },
+              {
+                "Bookmaker": "LuvaBet",
+                "Over": 1.69,
+                "Under": 2.08
+              },
+              {
+                "Bookmaker": "Alfabet",
+                "Over": 1.7,
+                "Under": 2.05
+              },
+              {
+                "Bookmaker": "Betfair",
+                "Over": 1.65,
+                "Under": 2.1
+              },
+              {
+                "Bookmaker": "Casadeapostas",
+                "Over": 1.7,
+                "Under": 2.04
+              },
+              {
+                "Bookmaker": "Esportes da Sorte",
+                "Over": 1.68,
+                "Under": 2.02
+              },
+              {
+                "Bookmaker": "F12",
+                "Over": 1.68,
+                "Under": 2.02
+              },
+              {
+                "Bookmaker": "Goldebet",
+                "Over": 1.66,
+                "Under": 2.1
+              },
+              {
+                "Bookmaker": "Jogo de Ouro",
+                "Over": 1.66,
+                "Under": 2.1
+              },
+              {
+                "Bookmaker": "KTO.br",
+                "Over": 1.74,
+                "Under": 1.91
+              },
+              {
+                "Bookmaker": "Lotogreen",
+                "Over": 1.66,
+                "Under": 2.1
+              }
+            ],
+            "OU_2.75": [
+              {
+                "Bookmaker": "Estrelabet",
+                "Over": 1.8,
+                "Under": 1.9
+              },
+              {
+                "Bookmaker": "Esportivabet",
+                "Over": 1.8,
+                "Under": 1.9
+              },
+              {
+                "Bookmaker": "BR4Bet",
+                "Over": 1.8,
+                "Under": 1.9
+              },
+              {
+                "Bookmaker": "Multibet.br",
+                "Over": 1.8,
+                "Under": 1.9
+              },
+              {
+                "Bookmaker": "Bet7k",
+                "Over": 1.82,
+                "Under": 1.82
+              },
+              {
+                "Bookmaker": "Goldebet",
+                "Over": 1.8,
+                "Under": 1.9
+              },
+              {
+                "Bookmaker": "Jogo de Ouro",
+                "Over": 1.8,
+                "Under": 1.9
+              },
+              {
+                "Bookmaker": "Lotogreen",
+                "Over": 1.8,
+                "Under": 1.9
+              }
+            ],
+            "OU_3.0": [
+              {
+                "Bookmaker": "Estrelabet",
+                "Over": 2.1,
+                "Under": 1.66
+              },
+              {
+                "Bookmaker": "Esportivabet",
+                "Over": 2.1,
+                "Under": 1.66
+              },
+              {
+                "Bookmaker": "Betnacional",
+                "Over": 2.11,
+                "Under": 1.65
+              },
+              {
+                "Bookmaker": "BR4Bet",
+                "Over": 2.1,
+                "Under": 1.66
+              },
+              {
+                "Bookmaker": "Multibet.br",
+                "Over": 2.1,
+                "Under": 1.66
+              },
+              {
+                "Bookmaker": "Alfabet",
+                "Over": 2.15,
+                "Under": 1.65
+              },
+              {
+                "Bookmaker": "Goldebet",
+                "Over": 2.1,
+                "Under": 1.66
+              },
+              {
+                "Bookmaker": "Jogo de Ouro",
+                "Over": 2.1,
+                "Under": 1.66
+              },
+              {
+                "Bookmaker": "Lotogreen",
+                "Over": 2.1,
+                "Under": 1.66
+              }
+            ],
+            "OU_3.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 2.62,
+                "Under": 1.45
+              },
+              {
+                "Bookmaker": "BetEsporte",
+                "Over": 2.55,
+                "Under": 1.38
+              },
+              {
+                "Bookmaker": "Superbet.br",
+                "Over": 2.72,
+                "Under": 1.4
+              },
+              {
+                "Bookmaker": "Betnacional",
+                "Over": 2.65,
+                "Under": 1.4
+              },
+              {
+                "Bookmaker": "Alfabet",
+                "Over": 2.7,
+                "Under": 1.45
+              },
+              {
+                "Bookmaker": "Betfair",
+                "Over": 2.75,
+                "Under": 1.4
+              },
+              {
+                "Bookmaker": "Casadeapostas",
+                "Over": 2.7,
+                "Under": 1.42
+              },
+              {
+                "Bookmaker": "Esportes da Sorte",
+                "Over": 2.64,
+                "Under": 1.41
+              },
+              {
+                "Bookmaker": "KTO.br",
+                "Over": 2.88,
+                "Under": 1.33
+              }
+            ],
+            "OU_4.0": [
+              {
+                "Bookmaker": "Betnacional",
+                "Over": 4.0,
+                "Under": 1.2
+              },
+              {
+                "Bookmaker": "Alfabet",
+                "Over": 4.2,
+                "Under": 1.2
+              }
+            ],
+            "OU_4.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 4.45,
+                "Under": 1.18
+              },
+              {
+                "Bookmaker": "BetEsporte",
+                "Over": 4.2,
+                "Under": 1.13
+              },
+              {
+                "Bookmaker": "Superbet.br",
+                "Over": 4.9,
+                "Under": 1.14
+              },
+              {
+                "Bookmaker": "Betnacional",
+                "Over": 4.55,
+                "Under": 1.14
+              },
+              {
+                "Bookmaker": "Alfabet",
+                "Over": 4.85,
+                "Under": 1.16
+              },
+              {
+                "Bookmaker": "Betfair",
+                "Over": 5.2,
+                "Under": 1.13
+              },
+              {
+                "Bookmaker": "Esportes da Sorte",
+                "Over": 4.6,
+                "Under": 1.15
+              },
+              {
+                "Bookmaker": "KTO.br",
+                "Over": 5.4,
+                "Under": 1.09
+              }
+            ],
+            "OU_5.0": [
+              {
+                "Bookmaker": "Alfabet",
+                "Over": 8.0,
+                "Under": 1.06
+              }
+            ],
+            "OU_5.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 7.5,
+                "Under": 1.07
+              },
+              {
+                "Bookmaker": "BetEsporte",
+                "Over": 8.6,
+                "Under": 1.04
+              },
+              {
+                "Bookmaker": "Betnacional",
+                "Over": 7.25,
+                "Under": 1.04
+              },
+              {
+                "Bookmaker": "Alfabet",
+                "Over": 8.5,
+                "Under": 1.05
+              },
+              {
+                "Bookmaker": "Betfair",
+                "Over": 9.0,
+                "Under": 1.03
+              }
+            ],
+            "OU_6.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 11.0,
+                "Under": 1.02
+              }
+            ],
+            "OU_7.5": [],
+            "OU_8.5": []
+          },
+          "Odds_OU_HT": {
+            "OU_0.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.35,
+                "Under": 3.0
+              },
+              {
+                "Bookmaker": "BetEsporte",
+                "Over": 1.28,
+                "Under": 2.9
+              },
+              {
+                "Bookmaker": "Superbet.br",
+                "Over": 1.32,
+                "Under": 3.1
+              },
+              {
+                "Bookmaker": "Betnacional",
+                "Over": 1.32,
+                "Under": 2.95
+              },
+              {
+                "Bookmaker": "Alfabet",
+                "Over": 1.35,
+                "Under": 3.1
+              },
+              {
+                "Bookmaker": "Betfair",
+                "Over": 1.3,
+                "Under": 3.2
+              },
+              {
+                "Bookmaker": "Casadeapostas",
+                "Over": 1.31,
+                "Under": 2.95
+              }
+            ],
+            "OU_1.0": [
+              {
+                "Bookmaker": "Betnacional",
+                "Over": 1.65,
+                "Under": 2.15
+              }
+            ],
+            "OU_1.25": [
+              {
+                "Bookmaker": "Bet7k",
+                "Over": 1.94,
+                "Under": 1.58
+              },
+              {
+                "Bookmaker": "Esportes da Sorte",
+                "Over": 2.02,
+                "Under": 1.65
+              }
+            ],
+            "OU_1.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 2.47,
+                "Under": 1.5
+              },
+              {
+                "Bookmaker": "Estrelabet",
+                "Over": 2.4,
+                "Under": 1.5
+              },
+              {
+                "Bookmaker": "BetEsporte",
+                "Over": 2.27,
+                "Under": 1.43
+              },
+              {
+                "Bookmaker": "Superbet.br",
+                "Over": 2.5,
+                "Under": 1.47
+              },
+              {
+                "Bookmaker": "Esportivabet",
+                "Over": 2.4,
+                "Under": 1.5
+              },
+              {
+                "Bookmaker": "Betnacional",
+                "Over": 2.4,
+                "Under": 1.47
+              },
+              {
+                "Bookmaker": "BR4Bet",
+                "Over": 2.4,
+                "Under": 1.5
+              },
+              {
+                "Bookmaker": "Multibet.br",
+                "Over": 2.4,
+                "Under": 1.5
+              },
+              {
+                "Bookmaker": "LuvaBet",
+                "Over": 2.45,
+                "Under": 1.49
+              },
+              {
+                "Bookmaker": "Alfabet",
+                "Over": 2.5,
+                "Under": 1.5
+              },
+              {
+                "Bookmaker": "Betfair",
+                "Over": 2.5,
+                "Under": 1.5
+              },
+              {
+                "Bookmaker": "Casadeapostas",
+                "Over": 2.39,
+                "Under": 1.47
+              },
+              {
+                "Bookmaker": "Esportes da Sorte",
+                "Over": 2.39,
+                "Under": 1.47
+              },
+              {
+                "Bookmaker": "Goldebet",
+                "Over": 2.4,
+                "Under": 1.5
+              },
+              {
+                "Bookmaker": "Jogo de Ouro",
+                "Over": 2.4,
+                "Under": 1.5
+              },
+              {
+                "Bookmaker": "KTO.br",
+                "Over": 2.4,
+                "Under": 1.44
+              },
+              {
+                "Bookmaker": "Lotogreen",
+                "Over": 2.4,
+                "Under": 1.5
+              }
+            ],
+            "OU_2.0": [
+              {
+                "Bookmaker": "Betnacional",
+                "Over": 4.46,
+                "Under": 1.18
+              }
+            ],
+            "OU_2.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 5.4,
+                "Under": 1.13
+              },
+              {
+                "Bookmaker": "BetEsporte",
+                "Over": 4.9,
+                "Under": 1.09
+              },
+              {
+                "Bookmaker": "Superbet.br",
+                "Over": 5.75,
+                "Under": 1.1
+              },
+              {
+                "Bookmaker": "Betnacional",
+                "Over": 5.1,
+                "Under": 1.1
+              },
+              {
+                "Bookmaker": "Alfabet",
+                "Over": 5.75,
+                "Under": 1.12
+              },
+              {
+                "Bookmaker": "Betfair",
+                "Over": 6.0,
+                "Under": 1.11
+              },
+              {
+                "Bookmaker": "Casadeapostas",
+                "Over": 5.0,
+                "Under": 1.11
+              }
+            ],
+            "OU_3.0": [
+              {
+                "Bookmaker": "Betnacional",
+                "Over": 10.58,
+                "Under": 1.03
+              }
+            ],
+            "OU_3.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 10.0,
+                "Under": 1.03
+              },
+              {
+                "Bookmaker": "Betfair",
+                "Over": 12.0,
+                "Under": 1.02
+              }
+            ],
+            "OU_4.5": [],
+            "OU_5.5": []
+          },
+          "Odds_BTTS_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Yes": 1.55,
+              "No": 2.32
+            },
+            {
+              "Bookmaker": "Estrelabet",
+              "Yes": 1.54,
+              "No": 2.25
+            },
+            {
+              "Bookmaker": "Superbet.br",
+              "Yes": 1.59,
+              "No": 2.22
+            },
+            {
+              "Bookmaker": "Esportivabet",
+              "Yes": 1.54,
+              "No": 2.25
+            },
+            {
+              "Bookmaker": "Betnacional",
+              "Yes": 1.57,
+              "No": 2.2
+            },
+            {
+              "Bookmaker": "BR4Bet",
+              "Yes": 1.54,
+              "No": 2.25
+            },
+            {
+              "Bookmaker": "Betboom.br",
+              "Yes": 1.57,
+              "No": 2.2
+            },
+            {
+              "Bookmaker": "Multibet.br",
+              "Yes": 1.54,
+              "No": 2.25
+            },
+            {
+              "Bookmaker": "LuvaBet",
+              "Yes": 1.57,
+              "No": 2.25
+            },
+            {
+              "Bookmaker": "Alfabet",
+              "Yes": 1.6,
+              "No": 2.25
+            },
+            {
+              "Bookmaker": "Betfair",
+              "Yes": 1.57,
+              "No": 2.2
+            },
+            {
+              "Bookmaker": "Casadeapostas",
+              "Yes": 1.56,
+              "No": 2.17
+            },
+            {
+              "Bookmaker": "F12",
+              "Yes": 1.56,
+              "No": 2.17
+            },
+            {
+              "Bookmaker": "Goldebet",
+              "Yes": 1.54,
+              "No": 2.25
+            },
+            {
+              "Bookmaker": "Jogo de Ouro",
+              "Yes": 1.54,
+              "No": 2.25
+            },
+            {
+              "Bookmaker": "KTO.br",
+              "Yes": 1.58,
+              "No": 2.08
+            },
+            {
+              "Bookmaker": "Lotogreen",
+              "Yes": 1.54,
+              "No": 2.25
+            }
+          ],
+          "Odds_DC_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1X": 1.42,
+              "Odd_12": 1.3,
+              "Odd_X2": 1.65
+            },
+            {
+              "Bookmaker": "Estrelabet",
+              "Odd_1X": 1.35,
+              "Odd_12": 1.25,
+              "Odd_X2": 1.52
+            },
+            {
+              "Bookmaker": "BetEsporte",
+              "Odd_1X": 1.35,
+              "Odd_12": 1.24,
+              "Odd_X2": 1.48
+            },
+            {
+              "Bookmaker": "Superbet.br",
+              "Odd_1X": 1.36,
+              "Odd_12": 1.28,
+              "Odd_X2": 1.55
+            },
+            {
+              "Bookmaker": "Esportivabet",
+              "Odd_1X": 1.35,
+              "Odd_12": 1.25,
+              "Odd_X2": 1.52
+            },
+            {
+              "Bookmaker": "Betnacional",
+              "Odd_1X": 1.37,
+              "Odd_12": 1.25,
+              "Odd_X2": 1.47
+            },
+            {
+              "Bookmaker": "BR4Bet",
+              "Odd_1X": 1.35,
+              "Odd_12": 1.25,
+              "Odd_X2": 1.52
+            },
+            {
+              "Bookmaker": "Betboom.br",
+              "Odd_1X": 1.4,
+              "Odd_12": 1.27,
+              "Odd_X2": 1.55
+            },
+            {
+              "Bookmaker": "Multibet.br",
+              "Odd_1X": 1.35,
+              "Odd_12": 1.25,
+              "Odd_X2": 1.52
+            },
+            {
+              "Bookmaker": "LuvaBet",
+              "Odd_1X": 1.36,
+              "Odd_12": 1.25,
+              "Odd_X2": 1.5
+            },
+            {
+              "Bookmaker": "Alfabet",
+              "Odd_1X": 1.4,
+              "Odd_12": 1.3,
+              "Odd_X2": 1.55
+            },
+            {
+              "Bookmaker": "Betfair",
+              "Odd_1X": 1.36,
+              "Odd_12": 1.25,
+              "Odd_X2": 1.53
+            },
+            {
+              "Bookmaker": "Casadeapostas",
+              "Odd_1X": 1.4,
+              "Odd_12": 1.28,
+              "Odd_X2": 1.5
+            },
+            {
+              "Bookmaker": "Esportes da Sorte",
+              "Odd_1X": 1.43,
+              "Odd_12": 1.31,
+              "Odd_X2": 1.57
+            },
+            {
+              "Bookmaker": "Goldebet",
+              "Odd_1X": 1.35,
+              "Odd_12": 1.25,
+              "Odd_X2": 1.52
+            },
+            {
+              "Bookmaker": "Jogo de Ouro",
+              "Odd_1X": 1.35,
+              "Odd_12": 1.25,
+              "Odd_X2": 1.52
+            },
+            {
+              "Bookmaker": "KTO.br",
+              "Odd_1X": 1.27,
+              "Odd_12": 1.23,
+              "Odd_X2": 1.54
+            },
+            {
+              "Bookmaker": "Lotogreen",
+              "Odd_1X": 1.35,
+              "Odd_12": 1.25,
+              "Odd_X2": 1.52
+            }
+          ],
+          "Statistics_FT": {},
+          "Statistics_HT": {},
+          "Statistics_2T": {},
+          "Min_Goals_Home": [
+            49
+          ],
+          "Min_Goals_Away": [
+            35,
+            88
+          ],
+          "Match_ID": "t2QpclX1"
         }
       ]
     }

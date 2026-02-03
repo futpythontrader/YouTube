@@ -1,5 +1,13 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+FlashScore Scraper V2 - Baseado no projeto funcionando
+Usa flashscore.com (sem .br) e BeautifulSoup para mais velocidade
+"""
+
 import json
 import time
+import platform
 from datetime import datetime
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
@@ -7,6 +15,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
 import pandas as pd
 from tqdm import tqdm
@@ -30,16 +39,27 @@ class FlashScoreScraper:
         chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
         chrome_options.add_experimental_option('useAutomationExtension', False)
         
+        # Detecta o sistema operacional e usa o chromedriver correto
+        sistema = platform.system()
+        
         try:
-            service = Service('./chromedriver')
+            if sistema == 'Windows':
+                # Windows usa chromedriver.exe
+                service = Service('./chromedriver.exe')
+            else:
+                # Linux/Mac usa chromedriver
+                service = Service('./chromedriver')
+            
             driver = webdriver.Chrome(service=service, options=chrome_options)
-            driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
-        
-        except:
-            service = Service('./chromedriver.exe')
+            print(f"✓ Usando chromedriver local para {sistema}")
+        except Exception as e:
+            # Se falhar, usa o webdriver-manager para baixar a versão correta
+            print(f"⚠ Chromedriver local falhou, baixando versão compatível...")
+            service = Service(ChromeDriverManager().install())
             driver = webdriver.Chrome(service=service, options=chrome_options)
-            driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
         
+        driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
+
         return driver
     
     def accept_cookies(self):
@@ -241,11 +261,11 @@ class FlashScoreScraper:
             
             for row in rows:
                 # Nome da casa de apostas
-                bookmaker_elem = row.select_one("img[title]")
+                bookmaker_elem = row.select_one("div.wcl-bookmakerLogo_4IUU0 a img")
                 if not bookmaker_elem:
                     continue
                 
-                bookmaker = bookmaker_elem.get('title', '').strip()
+                bookmaker = (bookmaker_elem.get('title') or bookmaker_elem.get('alt', '')).strip()
                 
                 # Odds 1-X-2
                 odds_cells = row.select("a.oddsCell__odd")
@@ -377,11 +397,11 @@ class FlashScoreScraper:
                 # Extrai odds desta tabela
                 rows = table.select("div.ui-table__row")
                 for row in rows:
-                    bookmaker_elem = row.select_one("img[title]")
+                    bookmaker_elem = row.select_one("div.wcl-bookmakerLogo_4IUU0 a img")
                     if not bookmaker_elem:
                         continue
                     
-                    bookmaker = bookmaker_elem.get('title', '').strip()
+                    bookmaker = (bookmaker_elem.get('title') or bookmaker_elem.get('alt', '')).strip()
                     odds_cells = row.select("a.oddsCell__odd")
                     
                     if len(odds_cells) >= 2:
@@ -414,8 +434,8 @@ class FlashScoreScraper:
         
         return data
     
-    def extract_statistics(self, match_id, data, period=0, period_name="FT"):
-        """Extrai estatísticas de um período (0=FT, 1=HT, 2=2T)"""
+    def extract_statistics(self, match_id, data, period="overall", period_name="FT"):
+        """Extrai estatísticas de um período (overall=FT, 1st-half=HT, 2nd-half=2T)"""
         home_slug = data.get('Home_Slug', '')
         away_slug = data.get('Away_Slug', '')
         
@@ -436,34 +456,41 @@ class FlashScoreScraper:
             stats_dict = {}
             
             for estatistica in estatisticas:
-                valores = estatistica.select("div[data-testid='wcl-statistics-value'] strong")
-                if len(valores) != 2:
-                    continue
+                # Valor Home: div.wcl-homeValue_3Q-7P > span[data-testid='wcl-scores-simple-text-01']
+                home_value_elem = estatistica.select_one("div.wcl-homeValue_3Q-7P span[data-testid='wcl-scores-simple-text-01']")
                 
-                valor_home = valores[0].text.strip()
-                valor_away = valores[1].text.strip()
+                # Valor Away: div.wcl-awayValue_Y-QR1 > span[data-testid='wcl-scores-simple-text-01']
+                away_value_elem = estatistica.select_one("div.wcl-awayValue_Y-QR1 span[data-testid='wcl-scores-simple-text-01']")
                 
-                nome_estatistica_elem = estatistica.select_one("div[data-testid='wcl-statistics-category'] strong")
-                if nome_estatistica_elem:
+                # Nome da estatística: div[data-testid='wcl-statistics-category'] > span[data-testid='wcl-scores-simple-text-01']
+                nome_estatistica_elem = estatistica.select_one("div[data-testid='wcl-statistics-category'] span[data-testid='wcl-scores-simple-text-01']")
+                
+                if home_value_elem and away_value_elem and nome_estatistica_elem:
+                    valor_home = home_value_elem.text.strip()
+                    valor_away = away_value_elem.text.strip()
                     nome_estatistica = nome_estatistica_elem.text.strip()
                     
                     def convert_value(value):
+                        # Remove informações extras como "(405/496)" do formato "82% (405/496)"
+                        value_clean = value.split('(')[0].strip()
+                        
                         try:
-                            if value.endswith('%'):
-                                return float(value[:-1]) / 100
-                            return float(value)
+                            if value_clean.endswith('%'):
+                                return float(value_clean[:-1]) / 100
+                            return float(value_clean)
                         except ValueError:
                             try:
-                                return int(value)
+                                return int(value_clean)
                             except ValueError:
-                                return value
+                                return value_clean
                     
                     stats_dict[nome_estatistica] = {
                         'Home': convert_value(valor_home),
                         'Away': convert_value(valor_away)
                     }
             
-            data[f'Statistics_{period_name}'] = stats_dict
+            if stats_dict:
+                data[f'Statistics_{period_name}'] = stats_dict
         
         except Exception as e:
             print(f"  ✗ Erro stats {period_name}: {e}")
@@ -472,15 +499,15 @@ class FlashScoreScraper:
     
     def extract_statistics_ft(self, match_id, data):
         """Extrai estatísticas Full Time"""
-        return self.extract_statistics(match_id, data, period=0, period_name="FT")
+        return self.extract_statistics(match_id, data, period="overall", period_name="FT")
     
     def extract_statistics_ht(self, match_id, data):
         """Extrai estatísticas Half Time (1º tempo)"""
-        return self.extract_statistics(match_id, data, period=1, period_name="HT")
+        return self.extract_statistics(match_id, data, period="1st-half", period_name="HT")
     
     def extract_statistics_2t(self, match_id, data):
         """Extrai estatísticas 2º Tempo"""
-        return self.extract_statistics(match_id, data, period=2, period_name="2T")
+        return self.extract_statistics(match_id, data, period="2nd-half", period_name="2T")
     
     def extract_odds_1x2_ht(self, match_id, data):
         """Extrai odds 1X2 Half Time"""
@@ -508,11 +535,11 @@ class FlashScoreScraper:
             odds_data = []
             
             for row in rows:
-                bookmaker_elem = row.select_one("img[title]")
+                bookmaker_elem = row.select_one("div.wcl-bookmakerLogo_4IUU0 a img")
                 if not bookmaker_elem:
                     continue
                 
-                bookmaker = bookmaker_elem.get('title', '').strip()
+                bookmaker = (bookmaker_elem.get('title') or bookmaker_elem.get('alt', '')).strip()
                 odds_cells = row.select("a.oddsCell__odd")
                 
                 if len(odds_cells) < 3:
@@ -582,11 +609,11 @@ class FlashScoreScraper:
             btts_data = []
             
             for row in rows:
-                bookmaker_elem = row.select_one("img[title]")
+                bookmaker_elem = row.select_one("div.wcl-bookmakerLogo_4IUU0 a img")
                 if not bookmaker_elem:
                     continue
                 
-                bookmaker = bookmaker_elem.get('title', '').strip()
+                bookmaker = (bookmaker_elem.get('title') or bookmaker_elem.get('alt', '')).strip()
                 odds_cells = row.select("a.oddsCell__odd")
                 
                 if len(odds_cells) >= 2:
@@ -639,11 +666,11 @@ class FlashScoreScraper:
             dc_data = []
             
             for row in rows:
-                bookmaker_elem = row.select_one("img[title]")
+                bookmaker_elem = row.select_one("div.wcl-bookmakerLogo_4IUU0 a img")
                 if not bookmaker_elem:
                     continue
                 
-                bookmaker = bookmaker_elem.get('title', '').strip()
+                bookmaker = (bookmaker_elem.get('title') or bookmaker_elem.get('alt', '')).strip()
                 odds_cells = row.select("a.oddsCell__odd")
                 
                 if len(odds_cells) >= 3:
@@ -710,65 +737,248 @@ class FlashScoreScraper:
             
             soup = BeautifulSoup(self.driver.page_source, 'html.parser')
             
-            # Pega TODOS os scores (span.wcl-oddsValue_jvPMg) e TODAS as tabelas
-            score_spans = soup.select("span.wcl-oddsValue_jvPMg")
-            tables = soup.select("div.ui-table.oddsCell__odds")
+            # NOVA ESTRUTURA: pega todas as linhas (ui-table__row)
+            rows = soup.select("div.ui-table__row")
             
             cs_data = {}
-            seen_scores = set()
-            score_to_table = {}
-            table_idx = 0
             
-            # Mapeia scores únicos para suas tabelas
-            for score_span in score_spans:
-                score_text = score_span.text.strip()
-                if ':' in score_text:
-                    # Só processa cada score uma vez
-                    if score_text not in seen_scores:
-                        seen_scores.add(score_text)
-                        
-                        if table_idx < len(tables):
-                            score_to_table[score_text] = tables[table_idx]
-                            table_idx += 1
-            
-            # Processa cada score único
-            for score in sorted(seen_scores):
-                if score not in score_to_table:
+            # Cada linha tem: bookmaker + score + 1 odd
+            for row in rows:
+                # Bookmaker
+                bookmaker_elem = row.select_one("div.wcl-bookmakerLogo_4IUU0 a img")
+                if not bookmaker_elem:
                     continue
-                    
-                table = score_to_table[score]
-                cs_data[score] = []
                 
-                # Extrai odds desta tabela
-                rows = table.select("div.ui-table__row")
-                for row in rows:
-                    bookmaker_elem = row.select_one("img[title]")
-                    if not bookmaker_elem:
+                bookmaker = (bookmaker_elem.get('title') or bookmaker_elem.get('alt', '')).strip()
+                
+                # Score
+                score_elem = row.select_one("span.wcl-oddsValue_jvPMg")
+                if not score_elem:
+                    continue
+                
+                score = score_elem.text.strip()
+                if ':' not in score:
+                    continue
+                
+                # Odd (apenas 1 para CS)
+                odds_cells = row.select("a.oddsCell__odd")
+                if not odds_cells:
+                    continue
+                
+                try:
+                    # Ignora odds canceladas
+                    if odds_cells[0].select("span.oddsCell__lineThrough"):
                         continue
                     
-                    bookmaker = bookmaker_elem.get('title', '').strip()
-                    odds_cells = row.select("a.oddsCell__odd")
-                    
-                    if odds_cells:
-                        try:
-                            # Ignora odds canceladas
-                            if odds_cells[0].select("span.oddsCell__lineThrough"):
-                                continue
-                            
-                            odd_span = odds_cells[0].select_one("span")
-                            if odd_span:
-                                odd_value = float(odd_span.text.strip().replace(',', '.'))
-                                cs_data[score].append({
-                                    'Bookmaker': bookmaker,
-                                    'Odd': odd_value
-                                })
-                        except:
-                            continue
+                    odd_span = odds_cells[0].select_one("span")
+                    if odd_span:
+                        odd_value = float(odd_span.text.strip().replace(',', '.'))
+                        
+                        # Adiciona ao dicionário
+                        if score not in cs_data:
+                            cs_data[score] = []
+                        
+                        cs_data[score].append({
+                            'Bookmaker': bookmaker,
+                            'Odd': odd_value
+                        })
+                except:
+                    continue
             
             data['Odds_CS_FT'] = cs_data
         
         except Exception as e:
             print(f"  ✗ Erro CS FT: {e}")
+        
+        return data
+    
+    def extract_odds_asian_handicap_ft(self, match_id, data):
+        """Extrai odds Asian Handicap Full Time - TODAS AS LINHAS"""
+        home_slug = data.get('Home_Slug', '')
+        away_slug = data.get('Away_Slug', '')
+        
+        if not home_slug or not away_slug:
+            return data
+        
+        url = f"{self.base_url}/match/football/{home_slug}/{away_slug}/odds/asian-handicap/full-time/?mid={match_id}"
+        self.driver.get(url)
+        
+        try:
+            WebDriverWait(self.driver, 10).until(
+                EC.visibility_of_element_located((By.CSS_SELECTOR, "div.ui-table"))
+            )
+            
+            # Clica em "Show more" se existir
+            try:
+                show_more = self.driver.find_element(By.CSS_SELECTOR, "a.showMore__text")
+                show_more.click()
+                time.sleep(1)
+            except:
+                pass
+            
+            soup = BeautifulSoup(self.driver.page_source, 'html.parser')
+            
+            # NOVA ESTRUTURA: pega todas as linhas (ui-table__row)
+            rows = soup.select("div.ui-table__row")
+            
+            ah_data = {}
+            
+            # Cada linha tem: bookmaker + line + 2 odds (Home, Away)
+            for row in rows:
+                # Bookmaker
+                bookmaker_elem = row.select_one("div.wcl-bookmakerLogo_4IUU0 a img")
+                if not bookmaker_elem:
+                    continue
+                
+                bookmaker = (bookmaker_elem.get('title') or bookmaker_elem.get('alt', '')).strip()
+                
+                # Line
+                line_elem = row.select_one("span.wcl-oddsValue_jvPMg")
+                if not line_elem:
+                    continue
+                
+                line = line_elem.text.strip().replace(' ', '')
+                if not line or ('+' not in line and '-' not in line and line != '0'):
+                    continue
+                
+                line_key = f"AH_{line}"
+                
+                # Odds (2 para AH: Home, Away)
+                odds_cells = row.select("a.oddsCell__odd")
+                if len(odds_cells) < 2:
+                    continue
+                
+                try:
+                    home_odd = None
+                    away_odd = None
+                    
+                    # Home odd (primeira célula)
+                    if not odds_cells[0].select("span.oddsCell__lineThrough"):
+                        home_span = odds_cells[0].select_one("span")
+                        if home_span:
+                            home_odd = float(home_span.text.strip().replace(',', '.'))
+                    
+                    # Away odd (segunda célula)
+                    if not odds_cells[1].select("span.oddsCell__lineThrough"):
+                        away_span = odds_cells[1].select_one("span")
+                        if away_span:
+                            away_odd = float(away_span.text.strip().replace(',', '.'))
+                    
+                    if home_odd or away_odd:
+                        if line_key not in ah_data:
+                            ah_data[line_key] = []
+                        
+                        ah_data[line_key].append({
+                            'Bookmaker': bookmaker,
+                            'Home': home_odd,
+                            'Away': away_odd
+                        })
+                except:
+                    continue
+            
+            data['Odds_AH_FT'] = ah_data
+        
+        except Exception as e:
+            print(f"  ✗ Erro AH FT: {e}")
+        
+        return data
+    
+    def extract_odds_european_handicap_ft(self, match_id, data):
+        """Extrai odds European Handicap Full Time - TODAS AS LINHAS"""
+        home_slug = data.get('Home_Slug', '')
+        away_slug = data.get('Away_Slug', '')
+        
+        if not home_slug or not away_slug:
+            return data
+        
+        url = f"{self.base_url}/match/football/{home_slug}/{away_slug}/odds/european-handicap/full-time/?mid={match_id}"
+        self.driver.get(url)
+        
+        try:
+            WebDriverWait(self.driver, 10).until(
+                EC.visibility_of_element_located((By.CSS_SELECTOR, "div.ui-table"))
+            )
+            
+            # Clica em "Show more" se existir
+            try:
+                show_more = self.driver.find_element(By.CSS_SELECTOR, "a.showMore__text")
+                show_more.click()
+                time.sleep(1)
+            except:
+                pass
+            
+            soup = BeautifulSoup(self.driver.page_source, 'html.parser')
+            
+            # NOVA ESTRUTURA: pega todas as linhas (ui-table__row)
+            rows = soup.select("div.ui-table__row")
+            
+            eh_data = {}
+            
+            # Cada linha tem: bookmaker + line + 3 odds (Home, Draw, Away)
+            for row in rows:
+                # Bookmaker
+                bookmaker_elem = row.select_one("div.wcl-bookmakerLogo_4IUU0 a img")
+                if not bookmaker_elem:
+                    continue
+                
+                bookmaker = (bookmaker_elem.get('title') or bookmaker_elem.get('alt', '')).strip()
+                
+                # Line
+                line_elem = row.select_one("span.wcl-oddsValue_jvPMg")
+                if not line_elem:
+                    continue
+                
+                line = line_elem.text.strip().replace(' ', '')
+                if not line:
+                    continue
+                
+                line_key = f"EH_{line}"
+                
+                # Odds (3 para EH: Home, Draw, Away)
+                odds_cells = row.select("a.oddsCell__odd")
+                if len(odds_cells) < 3:
+                    continue
+                
+                try:
+                    home_odd = None
+                    draw_odd = None
+                    away_odd = None
+                    
+                    # Home odd (primeira célula)
+                    if not odds_cells[0].select("span.oddsCell__lineThrough"):
+                        home_span = odds_cells[0].select_one("span")
+                        if home_span:
+                            home_odd = float(home_span.text.strip().replace(',', '.'))
+                    
+                    # Draw odd (segunda célula)
+                    if not odds_cells[1].select("span.oddsCell__lineThrough"):
+                        draw_span = odds_cells[1].select_one("span")
+                        if draw_span:
+                            draw_odd = float(draw_span.text.strip().replace(',', '.'))
+                    
+                    # Away odd (terceira célula)
+                    if not odds_cells[2].select("span.oddsCell__lineThrough"):
+                        away_span = odds_cells[2].select_one("span")
+                        if away_span:
+                            away_odd = float(away_span.text.strip().replace(',', '.'))
+                    
+                    if home_odd or draw_odd or away_odd:
+                        if line_key not in eh_data:
+                            eh_data[line_key] = []
+                        
+                        eh_data[line_key].append({
+                            'Bookmaker': bookmaker,
+                            'Home': home_odd,
+                            'Draw': draw_odd,
+                            'Away': away_odd
+                        })
+                except:
+                    continue
+            
+            data['Odds_EH_FT'] = eh_data
+        
+        except Exception as e:
+            print(f"  ✗ Erro EH FT: {e}")
         
         return data
     
@@ -836,11 +1046,11 @@ class FlashScoreScraper:
                 # Extrai odds desta tabela
                 rows = table.select("div.ui-table__row")
                 for row in rows:
-                    bookmaker_elem = row.select_one("img[title]")
+                    bookmaker_elem = row.select_one("div.wcl-bookmakerLogo_4IUU0 a img")
                     if not bookmaker_elem:
                         continue
                     
-                    bookmaker = bookmaker_elem.get('title', '').strip()
+                    bookmaker = (bookmaker_elem.get('title') or bookmaker_elem.get('alt', '')).strip()
                     odds_cells = row.select("a.oddsCell__odd")
                     
                     if len(odds_cells) >= 2:
@@ -920,14 +1130,28 @@ class FlashScoreScraper:
         if data.get('Odds_DC_FT'):
             print(f"  ✓ DC FT: {len(data['Odds_DC_FT'])} casas")
         
-        # 8. Odds Correct Score FT - REMOVIDO para acelerar scraping
-        # data = self.extract_odds_cs_ft(match_id, data)
-        # if data.get('Odds_CS_FT'):
-        #     total_scores = len(data['Odds_CS_FT'])
-        #     total_cs_odds = sum(len(odds) for odds in data['Odds_CS_FT'].values())
-        #     print(f"  ✓ CS FT: {total_scores} placares, {total_cs_odds} odds")
+        # 8. Odds Correct Score FT
+        data = self.extract_odds_cs_ft(match_id, data)
+        if data.get('Odds_CS_FT'):
+            total_scores = len(data['Odds_CS_FT'])
+            total_cs_odds = sum(len(odds) for odds in data['Odds_CS_FT'].values())
+            print(f"  ✓ CS FT: {total_scores} placares, {total_cs_odds} odds")
         
-        # 9. Estatísticas FT
+        # 9. Odds Asian Handicap FT
+        data = self.extract_odds_asian_handicap_ft(match_id, data)
+        if data.get('Odds_AH_FT'):
+            total_lines = len(data['Odds_AH_FT'])
+            total_ah_odds = sum(len(odds) for odds in data['Odds_AH_FT'].values())
+            print(f"  ✓ Asian Handicap FT: {total_lines} linhas, {total_ah_odds} odds")
+        
+        # 10. Odds European Handicap FT
+        data = self.extract_odds_european_handicap_ft(match_id, data)
+        if data.get('Odds_EH_FT'):
+            total_lines = len(data['Odds_EH_FT'])
+            total_eh_odds = sum(len(odds) for odds in data['Odds_EH_FT'].values())
+            print(f"  ✓ European Handicap FT: {total_lines} linhas, {total_eh_odds} odds")
+        
+        # 11. Estatísticas FT
         data = self.extract_statistics_ft(match_id, data)
         if data.get('Statistics_FT'):
             print(f"  ✓ Stats FT: {len(data['Statistics_FT'])} métricas")

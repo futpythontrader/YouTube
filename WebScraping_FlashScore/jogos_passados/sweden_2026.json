@@ -1,0 +1,15 @@
+{
+  "country": "SWEDEN",
+  "season": "2026",
+  "scrape_date": "2026-01-26T09:58:59.602674",
+  "total_leagues": 1,
+  "leagues": [
+    {
+      "name": "Allsvenskan 2026",
+      "url": "https://www.flashscore.com/football/sweden/allsvenskan-2026/results/",
+      "total_matches": 0,
+      "scraped_matches": 0,
+      "matches": []
+    }
+  ]
+}
