@@ -1,0 +1,90 @@
+{% extends "base.html" %}
+{% block title %}Resultado #{{ backtest.pk }} — BacktestBet{% endblock %}
+
+{% block content %}
+<div class="max-w-3xl mx-auto space-y-6">
+    <div class="flex items-center justify-between">
+        <div>
+            <h1 class="text-2xl font-bold text-gray-900">Resultado do Backtest</h1>
+            <p class="text-gray-500 text-sm mt-1">
+                Executado em {{ backtest.criado_em|date:"d/m/Y à\s H:i" }}
+            </p>
+        </div>
+        <a href="{% url 'backtest:dashboard' %}"
+           class="text-indigo-600 hover:text-indigo-800 font-medium text-sm">
+            &larr; Voltar ao Dashboard
+        </a>
+    </div>
+
+    {# Strategy Info #}
+    <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-6">
+        <h2 class="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-3">Parâmetros Utilizados</h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
+            <div>
+                <span class="text-gray-500">Tipo:</span>
+                <span class="ml-1 font-medium">{{ backtest.get_tipo_back_usado_display|default:backtest.tipo_back_usado }}</span>
+            </div>
+            <div>
+                <span class="text-gray-500">Odd Mínima:</span>
+                <span class="ml-1 font-medium">{{ backtest.odd_min_usada|floatformat:2 }}</span>
+            </div>
+            <div>
+                <span class="text-gray-500">Odd Máxima:</span>
+                <span class="ml-1 font-medium">{{ backtest.odd_max_usada|floatformat:2 }}</span>
+            </div>
+            {% if backtest.strategy %}
+            <div>
+                <span class="text-gray-500">Estratégia:</span>
+                <span class="ml-1 font-medium">{{ backtest.strategy.nome }}</span>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+
+    {# KPI Cards #}
+    <div class="grid grid-cols-2 md:grid-cols-5 gap-3">
+        <div class="bg-white rounded-xl border border-gray-200 p-4 text-center shadow-sm">
+            <p class="text-xs text-gray-500 uppercase tracking-wide">Profit Total</p>
+            <p class="text-xl font-bold {% if backtest.profit_total >= 0 %}text-green-600{% else %}text-red-600{% endif %} mt-1">
+                {{ backtest.profit_total|floatformat:2 }}
+            </p>
+        </div>
+        <div class="bg-white rounded-xl border border-gray-200 p-4 text-center shadow-sm">
+            <p class="text-xs text-gray-500 uppercase tracking-wide">Jogos</p>
+            <p class="text-xl font-bold text-gray-900 mt-1">{{ backtest.total_jogos }}</p>
+        </div>
+        <div class="bg-white rounded-xl border border-gray-200 p-4 text-center shadow-sm">
+            <p class="text-xs text-gray-500 uppercase tracking-wide">Win Rate</p>
+            <p class="text-xl font-bold text-indigo-600 mt-1">{{ backtest.win_rate|floatformat:1 }}%</p>
+        </div>
+        <div class="bg-white rounded-xl border border-gray-200 p-4 text-center shadow-sm">
+            <p class="text-xs text-gray-500 uppercase tracking-wide">ROI</p>
+            <p class="text-xl font-bold {% if backtest.roi >= 0 %}text-green-600{% else %}text-red-600{% endif %} mt-1">
+                {{ backtest.roi|floatformat:1 }}%
+            </p>
+        </div>
+        <div class="bg-white rounded-xl border border-gray-200 p-4 text-center shadow-sm">
+            <p class="text-xs text-gray-500 uppercase tracking-wide">Max Drawdown</p>
+            <p class="text-xl font-bold text-red-600 mt-1">-{{ backtest.max_drawdown|floatformat:2 }}</p>
+        </div>
+    </div>
+
+    {# Breakdown #}
+    <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-6">
+        <h2 class="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-3">Detalhamento</h2>
+        <div class="flex items-center gap-6 text-sm">
+            <div class="flex items-center gap-2">
+                <span class="w-3 h-3 rounded-full bg-green-500 inline-block"></span>
+                <span class="text-gray-700"><strong>{{ backtest.verdes }}</strong> Verdes</span>
+            </div>
+            <div class="flex items-center gap-2">
+                <span class="w-3 h-3 rounded-full bg-red-500 inline-block"></span>
+                <span class="text-gray-700"><strong>{{ backtest.vermelhas }}</strong> Vermelhas</span>
+            </div>
+            <div class="text-gray-500">
+                Total: <strong>{{ backtest.total_jogos }}</strong> jogos
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,257 @@
+{% if errors %}
+<div class="bg-red-50 border border-red-200 rounded-xl p-4 text-red-700">
+    <p class="font-semibold">Erro ao executar backtest:</p>
+    <ul class="list-disc ml-4 mt-1 text-sm">
+        {% for field, errs in form.errors.items %}
+            {% for e in errs %}
+                <li>{{ e }}</li>
+            {% endfor %}
+        {% endfor %}
+    </ul>
+</div>
+{% else %}
+
+{# ── KPI Cards ── #}
+<div class="grid grid-cols-2 md:grid-cols-5 gap-3 mb-6">
+    <div class="bg-white rounded-xl border border-gray-200 p-4 text-center shadow-sm">
+        <p class="text-xs text-gray-500 uppercase tracking-wide">Profit Total</p>
+        <p class="text-xl font-bold {% if result.profit_total >= 0 %}text-green-600{% else %}text-red-600{% endif %} mt-1">
+            {{ result.profit_total|floatformat:2 }}
+        </p>
+    </div>
+    <div class="bg-white rounded-xl border border-gray-200 p-4 text-center shadow-sm">
+        <p class="text-xs text-gray-500 uppercase tracking-wide">Jogos</p>
+        <p class="text-xl font-bold text-gray-900 mt-1">{{ result.total_jogos }}</p>
+    </div>
+    <div class="bg-white rounded-xl border border-gray-200 p-4 text-center shadow-sm">
+        <p class="text-xs text-gray-500 uppercase tracking-wide">Win Rate</p>
+        <p class="text-xl font-bold text-indigo-600 mt-1">{{ result.win_rate|floatformat:1 }}%</p>
+    </div>
+    <div class="bg-white rounded-xl border border-gray-200 p-4 text-center shadow-sm">
+        <p class="text-xs text-gray-500 uppercase tracking-wide">ROI</p>
+        <p class="text-xl font-bold {% if result.roi >= 0 %}text-green-600{% else %}text-red-600{% endif %} mt-1">
+            {{ result.roi|floatformat:1 }}%
+        </p>
+    </div>
+    <div class="bg-white rounded-xl border border-gray-200 p-4 text-center shadow-sm">
+        <p class="text-xs text-gray-500 uppercase tracking-wide">Max Drawdown</p>
+        <p class="text-xl font-bold text-red-600 mt-1">-{{ result.max_drawdown|floatformat:2 }}</p>
+    </div>
+</div>
+
+{# ── Green/Red Breakdown ── #}
+<div class="flex items-center gap-4 mb-6 text-sm">
+    <span class="flex items-center gap-1">
+        <span class="w-3 h-3 rounded-full bg-green-500 inline-block"></span>
+        <strong class="text-green-700">{{ result.verdes }}</strong> Verdes
+    </span>
+    <span class="flex items-center gap-1">
+        <span class="w-3 h-3 rounded-full bg-red-500 inline-block"></span>
+        <strong class="text-red-700">{{ result.vermelhas }}</strong> Vermelhas
+    </span>
+</div>
+
+{# ── Chart.js Canvas — P&amp;L ── #}
+{% if result.pl_curve %}
+<div class="bg-white rounded-xl border border-gray-200 p-4 mb-4 shadow-sm">
+    <h3 class="text-sm font-semibold text-gray-700 mb-3">Curva de P&amp;L Acumulado</h3>
+    <div class="relative" style="height: 300px;">
+        <canvas id="pl-chart"></canvas>
+    </div>
+</div>
+{% endif %}
+
+{# ── Chart.js Canvas — Drawdown ── #}
+{% if result.drawdown_curve %}
+<div class="bg-white rounded-xl border border-gray-200 p-4 mb-6 shadow-sm">
+    <h3 class="text-sm font-semibold text-gray-700 mb-3">Drawdown</h3>
+    <div class="relative" style="height: 250px;">
+        <canvas id="drawdown-chart"></canvas>
+    </div>
+</div>
+{% endif %}
+
+{# ── Matches Table ── #}
+{% if last_matches %}
+<div class="bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
+    <div class="px-4 py-3 border-b border-gray-200">
+        <h3 class="text-sm font-semibold text-gray-700">
+            Últimos {{ last_matches|length }} Jogos
+            {% if result.total_jogos > last_matches|length %}
+                <span class="text-gray-400 font-normal">(de {{ result.total_jogos }})</span>
+            {% endif %}
+        </h3>
+    </div>
+    <div class="overflow-x-auto">
+        <table class="w-full text-sm">
+            <thead>
+                <tr class="border-b border-gray-100 text-left text-gray-500">
+                    <th class="px-4 py-2 font-medium">Jogo</th>
+                    <th class="px-4 py-2 font-medium text-center">Odd</th>
+                    <th class="px-4 py-2 font-medium text-center">Resultado</th>
+                    <th class="px-4 py-2 font-medium text-right">Profit</th>
+                    <th class="px-4 py-2 font-medium text-right">P&L Acum.</th>
+                </tr>
+            </thead>
+            <tbody class="divide-y divide-gray-50">
+                {% for item in last_matches reversed %}
+                <tr class="hover:bg-gray-50">
+                    <td class="px-4 py-2">
+                        <span class="font-medium text-gray-900">{{ item.match.home }}</span>
+                        <span class="text-gray-400 mx-1">vs</span>
+                        <span class="font-medium text-gray-900">{{ item.match.away }}</span>
+                        <div class="text-xs text-gray-400">{{ item.match.date|date:"d/m/Y" }}</div>
+                    </td>
+                    <td class="px-4 py-2 text-center text-gray-700">{{ item.odd|floatformat:2 }}</td>
+                    <td class="px-4 py-2 text-center">
+                        {% if item.result == 'Green' %}
+                            <span class="inline-block px-2 py-0.5 rounded-full text-xs font-semibold bg-green-100 text-green-700">Green</span>
+                        {% else %}
+                            <span class="inline-block px-2 py-0.5 rounded-full text-xs font-semibold bg-red-100 text-red-700">Red</span>
+                        {% endif %}
+                    </td>
+                    <td class="px-4 py-2 text-right {% if item.profit >= 0 %}text-green-600{% else %}text-red-600{% endif %} font-medium">
+                        {{ item.profit|floatformat:2 }}
+                    </td>
+                    <td class="px-4 py-2 text-right {% if item.running_pl >= 0 %}text-green-600{% else %}text-red-600{% endif %}">
+                        {{ item.running_pl|floatformat:2 }}
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% else %}
+<div class="bg-white rounded-xl border border-gray-200 p-6 text-center text-gray-400 shadow-sm">
+    <p>Nenhum jogo encontrado com os filtros aplicados.</p>
+    <p class="text-sm mt-1">Tente ampliar a faixa de odds ou remover os filtros de data/liga.</p>
+</div>
+{% endif %}
+
+{# ── Chart.js Initialization ── #}
+{% if result.pl_curve %}
+<script>
+    (function() {
+        const existingPll = Chart.getChart('pl-chart');
+        if (existingPll) existingPll.destroy();
+
+        const ctx = document.getElementById('pl-chart').getContext('2d');
+        const gradient = ctx.createLinearGradient(0, 0, 0, 300);
+        gradient.addColorStop(0, 'rgba(99, 102, 241, 0.3)');
+        gradient.addColorStop(1, 'rgba(99, 102, 241, 0.02)');
+
+        new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: {{ result.labels|safe }},
+                datasets: [{
+                    label: 'P&L Acumulado',
+                    data: {{ result.pl_curve|safe }},
+                    borderColor: '#4f46e5',
+                    backgroundColor: gradient,
+                    borderWidth: 2,
+                    fill: true,
+                    tension: 0.3,
+                    pointRadius: 0,
+                    pointHoverRadius: 4,
+                    pointHoverBackgroundColor: '#4f46e5',
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                interaction: { intersect: false, mode: 'index' },
+                plugins: {
+                    legend: { display: false },
+                    tooltip: {
+                        backgroundColor: '#1f2937',
+                        titleColor: '#f9fafb',
+                        bodyColor: '#f9fafb',
+                        padding: 12,
+                        cornerRadius: 8,
+                        callbacks: {
+                            label: function(ctx) {
+                                return 'P&L: ' + ctx.parsed.y.toFixed(2);
+                            }
+                        }
+                    }
+                },
+                scales: {
+                    x: { display: false },
+                    y: {
+                        grid: { color: '#f3f4f6' },
+                        ticks: {
+                            callback: function(value) { return value.toFixed(1); }
+                        }
+                    }
+                }
+            }
+        });
+    })();
+</script>
+{% endif %}
+
+{% if result.drawdown_curve %}
+<script>
+    (function() {
+        const existingDd = Chart.getChart('drawdown-chart');
+        if (existingDd) existingDd.destroy();
+
+        const ctx = document.getElementById('drawdown-chart').getContext('2d');
+        const gradient = ctx.createLinearGradient(0, 0, 0, 250);
+        gradient.addColorStop(0, 'rgba(239, 68, 68, 0.25)');
+        gradient.addColorStop(1, 'rgba(239, 68, 68, 0.02)');
+
+        new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: {{ result.labels|safe }},
+                datasets: [{
+                    label: 'Drawdown',
+                    data: {{ result.drawdown_curve|safe }},
+                    borderColor: '#ef4444',
+                    backgroundColor: gradient,
+                    borderWidth: 2,
+                    fill: true,
+                    tension: 0.3,
+                    pointRadius: 0,
+                    pointHoverRadius: 4,
+                    pointHoverBackgroundColor: '#ef4444',
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                interaction: { intersect: false, mode: 'index' },
+                plugins: {
+                    legend: { display: false },
+                    tooltip: {
+                        backgroundColor: '#1f2937',
+                        titleColor: '#f9fafb',
+                        bodyColor: '#f9fafb',
+                        padding: 12,
+                        cornerRadius: 8,
+                        callbacks: {
+                            label: function(ctx) {
+                                return 'Drawdown: ' + ctx.parsed.y.toFixed(2);
+                            }
+                        }
+                    }
+                },
+                scales: {
+                    x: { display: false },
+                    y: {
+                        grid: { color: '#f3f4f6' },
+                        ticks: {
+                            callback: function(value) { return value.toFixed(1); }
+                        }
+                    }
+                }
+            }
+        });
+    })();
+</script>
+{% endif %}
+
+{% endif %}

@@ -1,0 +1,58 @@
+<div id="strategy-list">
+    {% if strategies %}
+    <div class="overflow-x-auto">
+        <table class="w-full text-sm">
+            <thead>
+                <tr class="border-b border-gray-200 text-left text-gray-500">
+                    <th class="pb-2 font-medium">Nome</th>
+                    <th class="pb-2 font-medium">Tipo</th>
+                    <th class="pb-2 font-medium">Odd Mín.</th>
+                    <th class="pb-2 font-medium">Odd Máx.</th>
+                    <th class="pb-2 font-medium text-right">Ações</th>
+                </tr>
+            </thead>
+            <tbody class="divide-y divide-gray-100">
+                {% for s in strategies %}
+                <tr class="hover:bg-gray-50">
+                    <td class="py-2 font-medium text-gray-900">{{ s.nome }}</td>
+                    <td class="py-2">
+                        <span class="inline-block px-2 py-0.5 rounded text-xs font-medium
+                            {% if s.tipo_back == 'HOME' %}bg-blue-100 text-blue-700
+                            {% elif s.tipo_back == 'DRAW' %}bg-amber-100 text-amber-700
+                            {% else %}bg-purple-100 text-purple-700{% endif %}">
+                            {{ s.get_tipo_back_display }}
+                        </span>
+                    </td>
+                    <td class="py-2 text-gray-600">{{ s.odd_min|floatformat:2 }}</td>
+                    <td class="py-2 text-gray-600">{{ s.odd_max|floatformat:2 }}</td>
+                    <td class="py-2 text-right">
+                        <div class="flex items-center justify-end gap-1">
+                            <button
+                                hx-get="{% url 'backtest:strategy_edit' s.pk %}"
+                                hx-target="#modal-container"
+                                hx-swap="innerHTML"
+                                class="text-indigo-600 hover:text-indigo-800 text-xs font-medium px-2 py-1 rounded hover:bg-indigo-50 transition">
+                                Editar
+                            </button>
+                            <button
+                                hx-delete="{% url 'backtest:strategy_delete' s.pk %}"
+                                hx-target="#strategy-list"
+                                hx-swap="outerHTML"
+                                hx-confirm="Excluir a estratégia &quot;{{ s.nome }}&quot;?"
+                                class="text-red-500 hover:text-red-700 text-xs font-medium px-2 py-1 rounded hover:bg-red-50 transition">
+                                Excluir
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    {% else %}
+    <div class="text-center text-gray-400 py-6">
+        <p>Nenhuma estratégia salva ainda.</p>
+        <p class="text-sm">Crie uma nova estratégia ou salve uma ao executar um backtest.</p>
+    </div>
+    {% endif %}
+</div>

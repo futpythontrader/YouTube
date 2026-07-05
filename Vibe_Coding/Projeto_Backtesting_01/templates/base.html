@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}BacktestBet{% endblock %}</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/htmx.org@2.0.4"></script>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    {% block extra_head %}{% endblock %}
+</head>
+<body class="bg-gray-50 text-gray-900 antialiased min-h-screen flex flex-col">
+    {% if user.is_authenticated %}
+        {% include "partials/_navbar.html" %}
+    {% endif %}
+    <main class="flex-1 max-w-7xl mx-auto px-4 py-8 w-full">
+        {% if messages %}
+            {% include "partials/_messages.html" %}
+        {% endif %}
+        {% block content %}{% endblock %}
+    </main>
+    {% if user.is_authenticated %}
+        {% include "partials/_footer.html" %}
+    {% endif %}
+</body>
+</html>

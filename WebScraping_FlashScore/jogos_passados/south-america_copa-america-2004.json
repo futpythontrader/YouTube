@@ -1,0 +1,531 @@
+{
+  "country": "SOUTH-AMERICA",
+  "season": "2004",
+  "scrape_date": "2026-06-10T08:28:08.683172",
+  "total_leagues": 1,
+  "leagues": [
+    {
+      "name": "Copa America 2004",
+      "url": "https://www.flashscore.com/football/south-america/copa-america-2004/results/",
+      "total_matches": 26,
+      "scraped_matches": 25,
+      "matches": [
+        {
+          "Id": "ree0CfCL",
+          "League": "South America - Copa América",
+          "Round": "Play Offs",
+          "Date": "24/07/2004",
+          "Time": "21:45",
+          "Home": "Colombia",
+          "Away": "Uruguay",
+          "Home_Slug": "colombia-G02s4PCS",
+          "Away_Slug": "uruguay-xMk44orG",
+          "Home_Score": 1,
+          "Away_Score": 2,
+          "Min_Goals_Home": [
+            71
+          ],
+          "Min_Goals_Away": [
+            3,
+            82
+          ],
+          "Match_ID": "ree0CfCL"
+        },
+        {
+          "Id": "AschEGs9",
+          "League": "South America - Copa América",
+          "Round": "Play Offs",
+          "Date": "20/07/2004",
+          "Time": "21:45",
+          "Home": "Argentina",
+          "Away": "Colombia",
+          "Home_Slug": "argentina-f9OppQjp",
+          "Away_Slug": "colombia-G02s4PCS",
+          "Home_Score": 3,
+          "Away_Score": 0,
+          "Min_Goals_Home": [
+            32,
+            51,
+            80
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "AschEGs9"
+        },
+        {
+          "Id": "jHjcjDk2",
+          "League": "South America - Copa América",
+          "Round": "Play Offs",
+          "Date": "18/07/2004",
+          "Time": "17:00",
+          "Home": "Paraguay",
+          "Away": "Uruguay",
+          "Home_Slug": "paraguay-YaNlqp6j",
+          "Away_Slug": "uruguay-xMk44orG",
+          "Home_Score": 1,
+          "Away_Score": 3,
+          "Min_Goals_Home": [
+            15
+          ],
+          "Min_Goals_Away": [
+            40,
+            65,
+            88
+          ],
+          "Match_ID": "jHjcjDk2"
+        },
+        {
+          "Id": "dvglFdS2",
+          "League": "South America - Copa América",
+          "Round": "Play Offs",
+          "Date": "18/07/2004",
+          "Time": "22:00",
+          "Home": "Mexico",
+          "Away": "Brazil",
+          "Home_Slug": "mexico-O6iHcNkd",
+          "Away_Slug": "brazil-I9l9aqLq",
+          "Home_Score": 0,
+          "Away_Score": 4,
+          "Min_Goals_Home": [],
+          "Min_Goals_Away": [
+            27,
+            65,
+            78,
+            87
+          ],
+          "Match_ID": "dvglFdS2"
+        },
+        {
+          "Id": "CQigigzd",
+          "League": "South America - Copa América",
+          "Round": "Play Offs",
+          "Date": "17/07/2004",
+          "Time": "21:45",
+          "Home": "Colombia",
+          "Away": "Costa Rica",
+          "Home_Slug": "colombia-G02s4PCS",
+          "Away_Slug": "costa-rica-C4ePE2kq",
+          "Home_Score": 2,
+          "Away_Score": 0,
+          "Min_Goals_Home": [
+            41,
+            44
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "CQigigzd"
+        },
+        {
+          "Id": "rimkhZKk",
+          "League": "South America - Copa América",
+          "Round": "Play Offs",
+          "Date": "17/07/2004",
+          "Time": "19:00",
+          "Home": "Peru",
+          "Away": "Argentina",
+          "Home_Slug": "peru-Uend67D3",
+          "Away_Slug": "argentina-f9OppQjp",
+          "Home_Score": 0,
+          "Away_Score": 1,
+          "Min_Goals_Home": [],
+          "Min_Goals_Away": [
+            60
+          ],
+          "Match_ID": "rimkhZKk"
+        },
+        {
+          "Id": "40logF5q",
+          "League": "South America - Copa América",
+          "Round": "-",
+          "Date": "14/07/2004",
+          "Time": "21:45",
+          "Home": "Brazil",
+          "Away": "Paraguay",
+          "Home_Slug": "brazil-I9l9aqLq",
+          "Away_Slug": "paraguay-YaNlqp6j",
+          "Home_Score": 1,
+          "Away_Score": 2,
+          "Min_Goals_Home": [
+            35
+          ],
+          "Min_Goals_Away": [
+            29,
+            71
+          ],
+          "Match_ID": "40logF5q"
+        },
+        {
+          "Id": "bJBIcecS",
+          "League": "South America - Copa América",
+          "Round": "-",
+          "Date": "14/07/2004",
+          "Time": "19:30",
+          "Home": "Costa Rica",
+          "Away": "Chile",
+          "Home_Slug": "costa-rica-C4ePE2kq",
+          "Away_Slug": "chile-KUCG35cM",
+          "Home_Score": 2,
+          "Away_Score": 1,
+          "Min_Goals_Home": [
+            59,
+            89
+          ],
+          "Min_Goals_Away": [
+            40
+          ],
+          "Match_ID": "bJBIcecS"
+        },
+        {
+          "Id": "2D933Jrc",
+          "League": "South America - Copa América",
+          "Round": "-",
+          "Date": "13/07/2004",
+          "Time": "21:45",
+          "Home": "Argentina",
+          "Away": "Uruguay",
+          "Home_Slug": "argentina-f9OppQjp",
+          "Away_Slug": "uruguay-xMk44orG",
+          "Home_Score": 4,
+          "Away_Score": 2,
+          "Min_Goals_Home": [
+            20,
+            21,
+            81,
+            89
+          ],
+          "Min_Goals_Away": [
+            8,
+            39
+          ],
+          "Match_ID": "2D933Jrc"
+        },
+        {
+          "Id": "phcDvz6d",
+          "League": "South America - Copa América",
+          "Round": "-",
+          "Date": "13/07/2004",
+          "Time": "19:30",
+          "Home": "Mexico",
+          "Away": "Ecuador",
+          "Home_Slug": "mexico-O6iHcNkd",
+          "Away_Slug": "ecuador-8tbm8Tri",
+          "Home_Score": 2,
+          "Away_Score": 1,
+          "Min_Goals_Home": [
+            26,
+            42
+          ],
+          "Min_Goals_Away": [
+            71
+          ],
+          "Match_ID": "phcDvz6d"
+        },
+        {
+          "Id": "dreMnbbG",
+          "League": "South America - Copa América",
+          "Round": "-",
+          "Date": "12/07/2004",
+          "Time": "21:45",
+          "Home": "Peru",
+          "Away": "Colombia",
+          "Home_Slug": "peru-Uend67D3",
+          "Away_Slug": "colombia-G02s4PCS",
+          "Home_Score": 2,
+          "Away_Score": 2,
+          "Min_Goals_Home": [
+            58,
+            60
+          ],
+          "Min_Goals_Away": [
+            34,
+            52
+          ],
+          "Match_ID": "dreMnbbG"
+        },
+        {
+          "Id": "EJ5HmvqA",
+          "League": "South America - Copa América",
+          "Round": "-",
+          "Date": "12/07/2004",
+          "Time": "19:30",
+          "Home": "Venezuela",
+          "Away": "Bolivia",
+          "Home_Slug": "venezuela-raj05RS9",
+          "Away_Slug": "bolivia-nXdi7mbc",
+          "Home_Score": 1,
+          "Away_Score": 1,
+          "Min_Goals_Home": [
+            27
+          ],
+          "Min_Goals_Away": [
+            32
+          ],
+          "Match_ID": "EJ5HmvqA"
+        },
+        {
+          "Id": "Wh1KayrM",
+          "League": "South America - Copa América",
+          "Round": "-",
+          "Date": "11/07/2004",
+          "Time": "19:15",
+          "Home": "Paraguay",
+          "Away": "Chile",
+          "Home_Slug": "paraguay-YaNlqp6j",
+          "Away_Slug": "chile-KUCG35cM",
+          "Home_Score": 1,
+          "Away_Score": 1,
+          "Min_Goals_Home": [
+            79
+          ],
+          "Min_Goals_Away": [
+            72
+          ],
+          "Match_ID": "Wh1KayrM"
+        },
+        {
+          "Id": "xW1G0HSF",
+          "League": "South America - Copa América",
+          "Round": "-",
+          "Date": "11/07/2004",
+          "Time": "17:00",
+          "Home": "Brazil",
+          "Away": "Costa Rica",
+          "Home_Slug": "brazil-I9l9aqLq",
+          "Away_Slug": "costa-rica-C4ePE2kq",
+          "Home_Score": 4,
+          "Away_Score": 1,
+          "Min_Goals_Home": [
+            45,
+            49,
+            54,
+            68
+          ],
+          "Min_Goals_Away": [
+            81
+          ],
+          "Match_ID": "xW1G0HSF"
+        },
+        {
+          "Id": "Wlg9uGjj",
+          "League": "South America - Copa América",
+          "Round": "-",
+          "Date": "10/07/2004",
+          "Time": "21:45",
+          "Home": "Argentina",
+          "Away": "Mexico",
+          "Home_Slug": "argentina-f9OppQjp",
+          "Away_Slug": "mexico-O6iHcNkd",
+          "Home_Score": 0,
+          "Away_Score": 1,
+          "Min_Goals_Home": [],
+          "Min_Goals_Away": [
+            9
+          ],
+          "Match_ID": "Wlg9uGjj"
+        },
+        {
+          "Id": "lQ34tdyp",
+          "League": "South America - Copa América",
+          "Round": "-",
+          "Date": "10/07/2004",
+          "Time": "19:30",
+          "Home": "Uruguay",
+          "Away": "Ecuador",
+          "Home_Slug": "uruguay-xMk44orG",
+          "Away_Slug": "ecuador-8tbm8Tri",
+          "Home_Score": 2,
+          "Away_Score": 1,
+          "Min_Goals_Home": [
+            60,
+            78
+          ],
+          "Min_Goals_Away": [
+            72
+          ],
+          "Match_ID": "lQ34tdyp"
+        },
+        {
+          "Id": "0G1DlKT3",
+          "League": "South America - Copa América",
+          "Round": "-",
+          "Date": "09/07/2004",
+          "Time": "21:45",
+          "Home": "Peru",
+          "Away": "Venezuela",
+          "Home_Slug": "peru-Uend67D3",
+          "Away_Slug": "venezuela-raj05RS9",
+          "Home_Score": 3,
+          "Away_Score": 1,
+          "Min_Goals_Home": [
+            34,
+            62,
+            72
+          ],
+          "Min_Goals_Away": [
+            74
+          ],
+          "Match_ID": "0G1DlKT3"
+        },
+        {
+          "Id": "6g29k0Ec",
+          "League": "South America - Copa América",
+          "Round": "-",
+          "Date": "09/07/2004",
+          "Time": "19:30",
+          "Home": "Colombia",
+          "Away": "Bolivia",
+          "Home_Slug": "colombia-G02s4PCS",
+          "Away_Slug": "bolivia-nXdi7mbc",
+          "Home_Score": 1,
+          "Away_Score": 0,
+          "Min_Goals_Home": [
+            90
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "6g29k0Ec"
+        },
+        {
+          "Id": "bu3C1cD9",
+          "League": "South America - Copa América",
+          "Round": "-",
+          "Date": "08/07/2004",
+          "Time": "21:45",
+          "Home": "Brazil",
+          "Away": "Chile",
+          "Home_Slug": "brazil-I9l9aqLq",
+          "Away_Slug": "chile-KUCG35cM",
+          "Home_Score": 1,
+          "Away_Score": 0,
+          "Min_Goals_Home": [
+            90
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "bu3C1cD9"
+        },
+        {
+          "Id": "t4872wb3",
+          "League": "South America - Copa América",
+          "Round": "-",
+          "Date": "08/07/2004",
+          "Time": "19:30",
+          "Home": "Costa Rica",
+          "Away": "Paraguay",
+          "Home_Slug": "costa-rica-C4ePE2kq",
+          "Away_Slug": "paraguay-YaNlqp6j",
+          "Home_Score": 0,
+          "Away_Score": 1,
+          "Min_Goals_Home": [],
+          "Min_Goals_Away": [
+            85
+          ],
+          "Match_ID": "t4872wb3"
+        },
+        {
+          "Id": "nHHxoxTS",
+          "League": "South America - Copa América",
+          "Round": "-",
+          "Date": "07/07/2004",
+          "Time": "21:45",
+          "Home": "Argentina",
+          "Away": "Ecuador",
+          "Home_Slug": "argentina-f9OppQjp",
+          "Away_Slug": "ecuador-8tbm8Tri",
+          "Home_Score": 6,
+          "Away_Score": 1,
+          "Min_Goals_Home": [
+            5,
+            64,
+            74,
+            79,
+            84,
+            90
+          ],
+          "Min_Goals_Away": [
+            62
+          ],
+          "Match_ID": "nHHxoxTS"
+        },
+        {
+          "Id": "viIYoIDM",
+          "League": "South America - Copa América",
+          "Round": "-",
+          "Date": "07/07/2004",
+          "Time": "19:30",
+          "Home": "Mexico",
+          "Away": "Uruguay",
+          "Home_Slug": "mexico-O6iHcNkd",
+          "Away_Slug": "uruguay-xMk44orG",
+          "Home_Score": 2,
+          "Away_Score": 2,
+          "Min_Goals_Home": [
+            45,
+            69
+          ],
+          "Min_Goals_Away": [
+            43,
+            87
+          ],
+          "Match_ID": "viIYoIDM"
+        },
+        {
+          "Id": "S235jtai",
+          "League": "South America - Copa América",
+          "Round": "-",
+          "Date": "06/07/2004",
+          "Time": "21:45",
+          "Home": "Peru",
+          "Away": "Bolivia",
+          "Home_Slug": "peru-Uend67D3",
+          "Away_Slug": "bolivia-nXdi7mbc",
+          "Home_Score": 2,
+          "Away_Score": 2,
+          "Min_Goals_Home": [
+            68,
+            86
+          ],
+          "Min_Goals_Away": [
+            36,
+            57
+          ],
+          "Match_ID": "S235jtai"
+        },
+        {
+          "Id": "nTeERdMj",
+          "League": "South America - Copa América",
+          "Round": "-",
+          "Date": "06/07/2004",
+          "Time": "19:30",
+          "Home": "Venezuela",
+          "Away": "Colombia",
+          "Home_Slug": "venezuela-raj05RS9",
+          "Away_Slug": "colombia-G02s4PCS",
+          "Home_Score": 0,
+          "Away_Score": 1,
+          "Min_Goals_Home": [],
+          "Min_Goals_Away": [
+            21
+          ],
+          "Match_ID": "nTeERdMj"
+        },
+        {
+          "Id": "44ddDzcF",
+          "League": "South America - Copa América",
+          "Round": "Play Offs",
+          "Date": "21/07/2004",
+          "Time": "21:45",
+          "Home": "Uruguay",
+          "Away": "Brazil",
+          "Home_Slug": "uruguay-xMk44orG",
+          "Away_Slug": "brazil-I9l9aqLq",
+          "Home_Score": 1,
+          "Away_Score": 1,
+          "Min_Goals_Home": [
+            22
+          ],
+          "Min_Goals_Away": [
+            46
+          ],
+          "Match_ID": "44ddDzcF"
+        }
+      ]
+    }
+  ]
+}

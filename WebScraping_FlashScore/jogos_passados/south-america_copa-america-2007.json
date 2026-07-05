@@ -1,0 +1,1506 @@
+{
+  "country": "SOUTH-AMERICA",
+  "season": "2007",
+  "scrape_date": "2026-06-10T08:19:20.378631",
+  "total_leagues": 1,
+  "leagues": [
+    {
+      "name": "Copa America 2007",
+      "url": "https://www.flashscore.com/football/south-america/copa-america-2007/results/",
+      "total_matches": 26,
+      "scraped_matches": 25,
+      "matches": [
+        {
+          "Id": "f13bLCLu",
+          "League": "South America - Copa América",
+          "Round": "Play Offs",
+          "Date": "15/07/2007",
+          "Time": "18:05",
+          "Home": "Brazil",
+          "Away": "Argentina",
+          "Home_Slug": "brazil-I9l9aqLq",
+          "Away_Slug": "argentina-f9OppQjp",
+          "Home_Score": 3,
+          "Away_Score": 0,
+          "Odds_1X2_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1": 4.33,
+              "Odd_X": 3.4,
+              "Odd_2": 1.83
+            }
+          ],
+          "Best_Odd_1_FT": 4.33,
+          "Best_Odd_X_FT": 3.4,
+          "Best_Odd_2_FT": 1.83,
+          "Odds_1X2_HT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1": 4.33,
+              "Odd_X": 3.4,
+              "Odd_2": 1.83
+            }
+          ],
+          "Odds_OU_FT": {},
+          "Odds_OU_HT": {},
+          "Odds_BTTS_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Yes": 4.33,
+              "No": 3.4
+            }
+          ],
+          "Odds_DC_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1X": 4.33,
+              "Odd_12": 3.4,
+              "Odd_X2": 1.83
+            }
+          ],
+          "Odds_CS_FT": {},
+          "Odds_AH_FT": {},
+          "Odds_EH_FT": {},
+          "Min_Goals_Home": [
+            4,
+            40,
+            69
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "f13bLCLu"
+        },
+        {
+          "Id": "EN3p0TkU",
+          "League": "South America - Copa América",
+          "Round": "Play Offs",
+          "Date": "14/07/2007",
+          "Time": "18:05",
+          "Home": "Uruguay",
+          "Away": "Mexico",
+          "Home_Slug": "uruguay-xMk44orG",
+          "Away_Slug": "mexico-O6iHcNkd",
+          "Home_Score": 1,
+          "Away_Score": 3,
+          "Odds_1X2_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1": 2.7,
+              "Odd_X": 3.25,
+              "Odd_2": 2.5
+            }
+          ],
+          "Best_Odd_1_FT": 2.7,
+          "Best_Odd_X_FT": 3.25,
+          "Best_Odd_2_FT": 2.5,
+          "Odds_1X2_HT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1": 2.7,
+              "Odd_X": 3.25,
+              "Odd_2": 2.5
+            }
+          ],
+          "Odds_OU_FT": {},
+          "Odds_OU_HT": {},
+          "Odds_BTTS_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Yes": 2.7,
+              "No": 3.25
+            }
+          ],
+          "Odds_DC_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1X": 2.7,
+              "Odd_12": 3.25,
+              "Odd_X2": 2.5
+            }
+          ],
+          "Odds_CS_FT": {},
+          "Odds_AH_FT": {},
+          "Odds_EH_FT": {},
+          "Min_Goals_Home": [
+            22
+          ],
+          "Min_Goals_Away": [
+            38,
+            68,
+            76
+          ],
+          "Match_ID": "EN3p0TkU"
+        },
+        {
+          "Id": "zX4t19zO",
+          "League": "South America - Copa América",
+          "Round": "Play Offs",
+          "Date": "11/07/2007",
+          "Time": "21:50",
+          "Home": "Mexico",
+          "Away": "Argentina",
+          "Home_Slug": "mexico-O6iHcNkd",
+          "Away_Slug": "argentina-f9OppQjp",
+          "Home_Score": 0,
+          "Away_Score": 3,
+          "Odds_1X2_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1": 6.0,
+              "Odd_X": 3.6,
+              "Odd_2": 1.57
+            }
+          ],
+          "Best_Odd_1_FT": 6.0,
+          "Best_Odd_X_FT": 3.6,
+          "Best_Odd_2_FT": 1.57,
+          "Odds_1X2_HT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1": 6.0,
+              "Odd_X": 3.6,
+              "Odd_2": 1.57
+            }
+          ],
+          "Odds_OU_FT": {},
+          "Odds_OU_HT": {},
+          "Odds_BTTS_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Yes": 6.0,
+              "No": 3.6
+            }
+          ],
+          "Odds_DC_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1X": 6.0,
+              "Odd_12": 3.6,
+              "Odd_X2": 1.57
+            }
+          ],
+          "Odds_CS_FT": {},
+          "Odds_AH_FT": {},
+          "Odds_EH_FT": {},
+          "Min_Goals_Home": [],
+          "Min_Goals_Away": [
+            45,
+            61,
+            65
+          ],
+          "Match_ID": "zX4t19zO"
+        },
+        {
+          "Id": "v5BX2V5B",
+          "League": "South America - Copa América",
+          "Round": "Play Offs",
+          "Date": "08/07/2007",
+          "Time": "19:50",
+          "Home": "Argentina",
+          "Away": "Peru",
+          "Home_Slug": "argentina-f9OppQjp",
+          "Away_Slug": "peru-Uend67D3",
+          "Home_Score": 4,
+          "Away_Score": 0,
+          "Odds_1X2_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1": 1.18,
+              "Odd_X": 6.5,
+              "Odd_2": 15.0
+            }
+          ],
+          "Best_Odd_1_FT": 1.18,
+          "Best_Odd_X_FT": 6.5,
+          "Best_Odd_2_FT": 15.0,
+          "Odds_1X2_HT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1": 1.18,
+              "Odd_X": 6.5,
+              "Odd_2": 15.0
+            }
+          ],
+          "Odds_OU_FT": {},
+          "Odds_OU_HT": {},
+          "Odds_BTTS_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Yes": 1.18,
+              "No": 6.5
+            }
+          ],
+          "Odds_DC_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1X": 1.18,
+              "Odd_12": 6.5,
+              "Odd_X2": 15.0
+            }
+          ],
+          "Odds_CS_FT": {},
+          "Odds_AH_FT": {},
+          "Odds_EH_FT": {},
+          "Min_Goals_Home": [
+            47,
+            62,
+            75,
+            86
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "v5BX2V5B"
+        },
+        {
+          "Id": "prCT3Bj5",
+          "League": "South America - Copa América",
+          "Round": "Play Offs",
+          "Date": "08/07/2007",
+          "Time": "17:05",
+          "Home": "Mexico",
+          "Away": "Paraguay",
+          "Home_Slug": "mexico-O6iHcNkd",
+          "Away_Slug": "paraguay-YaNlqp6j",
+          "Home_Score": 6,
+          "Away_Score": 0,
+          "Odds_1X2_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1": 2.38,
+              "Odd_X": 3.0,
+              "Odd_2": 3.1
+            }
+          ],
+          "Best_Odd_1_FT": 2.38,
+          "Best_Odd_X_FT": 3.0,
+          "Best_Odd_2_FT": 3.1,
+          "Odds_1X2_HT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1": 2.38,
+              "Odd_X": 3.0,
+              "Odd_2": 3.1
+            }
+          ],
+          "Odds_OU_FT": {},
+          "Odds_OU_HT": {},
+          "Odds_BTTS_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Yes": 2.38,
+              "No": 3.0
+            }
+          ],
+          "Odds_DC_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1X": 2.38,
+              "Odd_12": 3.0,
+              "Odd_X2": 3.1
+            }
+          ],
+          "Odds_CS_FT": {},
+          "Odds_AH_FT": {},
+          "Odds_EH_FT": {},
+          "Min_Goals_Home": [
+            5,
+            27,
+            39,
+            79,
+            87,
+            90
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "prCT3Bj5"
+        },
+        {
+          "Id": "SMqH4iya",
+          "League": "South America - Copa América",
+          "Round": "Play Offs",
+          "Date": "07/07/2007",
+          "Time": "21:50",
+          "Home": "Chile",
+          "Away": "Brazil",
+          "Home_Slug": "chile-KUCG35cM",
+          "Away_Slug": "brazil-I9l9aqLq",
+          "Home_Score": 1,
+          "Away_Score": 6,
+          "Odds_1X2_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1": 8.5,
+              "Odd_X": 4.5,
+              "Odd_2": 1.36
+            }
+          ],
+          "Best_Odd_1_FT": 8.5,
+          "Best_Odd_X_FT": 4.5,
+          "Best_Odd_2_FT": 1.36,
+          "Odds_1X2_HT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1": 8.5,
+              "Odd_X": 4.5,
+              "Odd_2": 1.36
+            }
+          ],
+          "Odds_OU_FT": {},
+          "Odds_OU_HT": {},
+          "Odds_BTTS_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Yes": 8.5,
+              "No": 4.5
+            }
+          ],
+          "Odds_DC_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1X": 8.5,
+              "Odd_12": 4.5,
+              "Odd_X2": 1.36
+            }
+          ],
+          "Odds_CS_FT": {},
+          "Odds_AH_FT": {},
+          "Odds_EH_FT": {},
+          "Min_Goals_Home": [
+            76
+          ],
+          "Min_Goals_Away": [
+            17,
+            23,
+            28,
+            51,
+            69,
+            85
+          ],
+          "Match_ID": "SMqH4iya"
+        },
+        {
+          "Id": "pbfC5XLh",
+          "League": "South America - Copa América",
+          "Round": "Play Offs",
+          "Date": "07/07/2007",
+          "Time": "19:05",
+          "Home": "Venezuela",
+          "Away": "Uruguay",
+          "Home_Slug": "venezuela-raj05RS9",
+          "Away_Slug": "uruguay-xMk44orG",
+          "Home_Score": 1,
+          "Away_Score": 4,
+          "Odds_1X2_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1": 2.63,
+              "Odd_X": 3.1,
+              "Odd_2": 2.63
+            }
+          ],
+          "Best_Odd_1_FT": 2.63,
+          "Best_Odd_X_FT": 3.1,
+          "Best_Odd_2_FT": 2.63,
+          "Odds_1X2_HT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1": 2.63,
+              "Odd_X": 3.1,
+              "Odd_2": 2.63
+            }
+          ],
+          "Odds_OU_FT": {},
+          "Odds_OU_HT": {},
+          "Odds_BTTS_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Yes": 2.63,
+              "No": 3.1
+            }
+          ],
+          "Odds_DC_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1X": 2.63,
+              "Odd_12": 3.1,
+              "Odd_X2": 2.63
+            }
+          ],
+          "Odds_CS_FT": {},
+          "Odds_AH_FT": {},
+          "Odds_EH_FT": {},
+          "Min_Goals_Home": [
+            41
+          ],
+          "Min_Goals_Away": [
+            38,
+            65,
+            87,
+            90
+          ],
+          "Match_ID": "pbfC5XLh"
+        },
+        {
+          "Id": "67e86D6n",
+          "League": "South America - Copa América",
+          "Round": "-",
+          "Date": "05/07/2007",
+          "Time": "21:50",
+          "Home": "Argentina",
+          "Away": "Paraguay",
+          "Home_Slug": "argentina-f9OppQjp",
+          "Away_Slug": "paraguay-YaNlqp6j",
+          "Home_Score": 1,
+          "Away_Score": 0,
+          "Odds_1X2_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1": 1.62,
+              "Odd_X": 3.6,
+              "Odd_2": 6.0
+            }
+          ],
+          "Best_Odd_1_FT": 1.62,
+          "Best_Odd_X_FT": 3.6,
+          "Best_Odd_2_FT": 6.0,
+          "Odds_1X2_HT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1": 1.62,
+              "Odd_X": 3.6,
+              "Odd_2": 6.0
+            }
+          ],
+          "Odds_OU_FT": {},
+          "Odds_OU_HT": {},
+          "Odds_BTTS_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Yes": 1.62,
+              "No": 3.6
+            }
+          ],
+          "Odds_DC_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1X": 1.62,
+              "Odd_12": 3.6,
+              "Odd_X2": 6.0
+            }
+          ],
+          "Odds_CS_FT": {},
+          "Odds_AH_FT": {},
+          "Odds_EH_FT": {},
+          "Min_Goals_Home": [
+            79
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "67e86D6n"
+        },
+        {
+          "Id": "CWt57git",
+          "League": "South America - Copa América",
+          "Round": "-",
+          "Date": "05/07/2007",
+          "Time": "19:35",
+          "Home": "Colombia",
+          "Away": "USA",
+          "Home_Slug": "colombia-G02s4PCS",
+          "Away_Slug": "usa-fuitL4CF",
+          "Home_Score": 1,
+          "Away_Score": 0,
+          "Odds_1X2_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1": 2.2,
+              "Odd_X": 3.3,
+              "Odd_2": 3.2
+            }
+          ],
+          "Best_Odd_1_FT": 2.2,
+          "Best_Odd_X_FT": 3.3,
+          "Best_Odd_2_FT": 3.2,
+          "Odds_1X2_HT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1": 2.2,
+              "Odd_X": 3.3,
+              "Odd_2": 3.2
+            }
+          ],
+          "Odds_OU_FT": {},
+          "Odds_OU_HT": {},
+          "Odds_BTTS_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Yes": 2.2,
+              "No": 3.3
+            }
+          ],
+          "Odds_DC_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1X": 2.2,
+              "Odd_12": 3.3,
+              "Odd_X2": 3.2
+            }
+          ],
+          "Odds_CS_FT": {},
+          "Odds_AH_FT": {},
+          "Odds_EH_FT": {},
+          "Min_Goals_Home": [
+            15
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "CWt57git"
+        },
+        {
+          "Id": "GG3x6qe6",
+          "League": "South America - Copa América",
+          "Round": "-",
+          "Date": "04/07/2007",
+          "Time": "21:50",
+          "Home": "Brazil",
+          "Away": "Ecuador",
+          "Home_Slug": "brazil-I9l9aqLq",
+          "Away_Slug": "ecuador-8tbm8Tri",
+          "Home_Score": 1,
+          "Away_Score": 0,
+          "Odds_1X2_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1": 1.29,
+              "Odd_X": 5.0,
+              "Odd_2": 10.0
+            }
+          ],
+          "Best_Odd_1_FT": 1.29,
+          "Best_Odd_X_FT": 5.0,
+          "Best_Odd_2_FT": 10.0,
+          "Odds_1X2_HT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1": 1.29,
+              "Odd_X": 5.0,
+              "Odd_2": 10.0
+            }
+          ],
+          "Odds_OU_FT": {},
+          "Odds_OU_HT": {},
+          "Odds_BTTS_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Yes": 1.29,
+              "No": 5.0
+            }
+          ],
+          "Odds_DC_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1X": 1.29,
+              "Odd_12": 5.0,
+              "Odd_X2": 10.0
+            }
+          ],
+          "Odds_CS_FT": {},
+          "Odds_AH_FT": {},
+          "Odds_EH_FT": {},
+          "Min_Goals_Home": [
+            56
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "GG3x6qe6"
+        },
+        {
+          "Id": "bu9X6Pu0",
+          "League": "South America - Copa América",
+          "Round": "-",
+          "Date": "04/07/2007",
+          "Time": "19:35",
+          "Home": "Mexico",
+          "Away": "Chile",
+          "Home_Slug": "mexico-O6iHcNkd",
+          "Away_Slug": "chile-KUCG35cM",
+          "Home_Score": 0,
+          "Away_Score": 0,
+          "Odds_1X2_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1": 3.0,
+              "Odd_X": 2.5,
+              "Odd_2": 2.88
+            }
+          ],
+          "Best_Odd_1_FT": 3.0,
+          "Best_Odd_X_FT": 2.5,
+          "Best_Odd_2_FT": 2.88,
+          "Odds_1X2_HT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1": 3.0,
+              "Odd_X": 2.5,
+              "Odd_2": 2.88
+            }
+          ],
+          "Odds_OU_FT": {},
+          "Odds_OU_HT": {},
+          "Odds_BTTS_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Yes": 3.0,
+              "No": 2.5
+            }
+          ],
+          "Odds_DC_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1X": 3.0,
+              "Odd_12": 2.5,
+              "Odd_X2": 2.88
+            }
+          ],
+          "Odds_CS_FT": {},
+          "Odds_AH_FT": {},
+          "Odds_EH_FT": {},
+          "Min_Goals_Home": [],
+          "Min_Goals_Away": [],
+          "Match_ID": "bu9X6Pu0"
+        },
+        {
+          "Id": "joWvSZB8",
+          "League": "South America - Copa América",
+          "Round": "-",
+          "Date": "03/07/2007",
+          "Time": "21:50",
+          "Home": "Venezuela",
+          "Away": "Uruguay",
+          "Home_Slug": "venezuela-raj05RS9",
+          "Away_Slug": "uruguay-xMk44orG",
+          "Home_Score": 0,
+          "Away_Score": 0,
+          "Odds_1X2_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1": 3.1,
+              "Odd_X": 2.63,
+              "Odd_2": 2.54
+            }
+          ],
+          "Best_Odd_1_FT": 3.1,
+          "Best_Odd_X_FT": 2.63,
+          "Best_Odd_2_FT": 2.54,
+          "Odds_1X2_HT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1": 3.1,
+              "Odd_X": 2.63,
+              "Odd_2": 2.54
+            }
+          ],
+          "Odds_OU_FT": {},
+          "Odds_OU_HT": {},
+          "Odds_BTTS_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Yes": 3.1,
+              "No": 2.63
+            }
+          ],
+          "Odds_DC_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1X": 3.1,
+              "Odd_12": 2.63,
+              "Odd_X2": 2.54
+            }
+          ],
+          "Odds_CS_FT": {},
+          "Odds_AH_FT": {},
+          "Odds_EH_FT": {},
+          "Min_Goals_Home": [],
+          "Min_Goals_Away": [],
+          "Match_ID": "joWvSZB8"
+        },
+        {
+          "Id": "bDEl3jZ7",
+          "League": "South America - Copa América",
+          "Round": "-",
+          "Date": "03/07/2007",
+          "Time": "19:35",
+          "Home": "Peru",
+          "Away": "Bolivia",
+          "Home_Slug": "peru-Uend67D3",
+          "Away_Slug": "bolivia-nXdi7mbc",
+          "Home_Score": 2,
+          "Away_Score": 2,
+          "Odds_1X2_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1": 1.73,
+              "Odd_X": 3.4,
+              "Odd_2": 4.75
+            }
+          ],
+          "Best_Odd_1_FT": 1.73,
+          "Best_Odd_X_FT": 3.4,
+          "Best_Odd_2_FT": 4.75,
+          "Odds_1X2_HT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1": 1.73,
+              "Odd_X": 3.4,
+              "Odd_2": 4.75
+            }
+          ],
+          "Odds_OU_FT": {},
+          "Odds_OU_HT": {},
+          "Odds_BTTS_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Yes": 1.73,
+              "No": 3.4
+            }
+          ],
+          "Odds_DC_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1X": 1.73,
+              "Odd_12": 3.4,
+              "Odd_X2": 4.75
+            }
+          ],
+          "Odds_CS_FT": {},
+          "Odds_AH_FT": {},
+          "Odds_EH_FT": {},
+          "Min_Goals_Home": [
+            34,
+            85
+          ],
+          "Min_Goals_Away": [
+            25,
+            45
+          ],
+          "Match_ID": "bDEl3jZ7"
+        },
+        {
+          "Id": "ANfwCZrP",
+          "League": "South America - Copa América",
+          "Round": "-",
+          "Date": "02/07/2007",
+          "Time": "21:50",
+          "Home": "Argentina",
+          "Away": "Colombia",
+          "Home_Slug": "argentina-f9OppQjp",
+          "Away_Slug": "colombia-G02s4PCS",
+          "Home_Score": 4,
+          "Away_Score": 2,
+          "Odds_1X2_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1": 1.29,
+              "Odd_X": 5.0,
+              "Odd_2": 10.0
+            }
+          ],
+          "Best_Odd_1_FT": 1.29,
+          "Best_Odd_X_FT": 5.0,
+          "Best_Odd_2_FT": 10.0,
+          "Odds_1X2_HT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1": 1.29,
+              "Odd_X": 5.0,
+              "Odd_2": 10.0
+            }
+          ],
+          "Odds_OU_FT": {},
+          "Odds_OU_HT": {},
+          "Odds_BTTS_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Yes": 1.29,
+              "No": 5.0
+            }
+          ],
+          "Odds_DC_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1X": 1.29,
+              "Odd_12": 5.0,
+              "Odd_X2": 10.0
+            }
+          ],
+          "Odds_CS_FT": {},
+          "Odds_AH_FT": {},
+          "Odds_EH_FT": {},
+          "Min_Goals_Home": [
+            20,
+            34,
+            45,
+            90
+          ],
+          "Min_Goals_Away": [
+            10,
+            73
+          ],
+          "Match_ID": "ANfwCZrP"
+        },
+        {
+          "Id": "2X5l3suP",
+          "League": "South America - Copa América",
+          "Round": "-",
+          "Date": "02/07/2007",
+          "Time": "19:35",
+          "Home": "USA",
+          "Away": "Paraguay",
+          "Home_Slug": "usa-fuitL4CF",
+          "Away_Slug": "paraguay-YaNlqp6j",
+          "Home_Score": 1,
+          "Away_Score": 3,
+          "Odds_1X2_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1": 4.0,
+              "Odd_X": 3.25,
+              "Odd_2": 1.91
+            }
+          ],
+          "Best_Odd_1_FT": 4.0,
+          "Best_Odd_X_FT": 3.25,
+          "Best_Odd_2_FT": 1.91,
+          "Odds_1X2_HT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1": 4.0,
+              "Odd_X": 3.25,
+              "Odd_2": 1.91
+            }
+          ],
+          "Odds_OU_FT": {},
+          "Odds_OU_HT": {},
+          "Odds_BTTS_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Yes": 4.0,
+              "No": 3.25
+            }
+          ],
+          "Odds_DC_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1X": 4.0,
+              "Odd_12": 3.25,
+              "Odd_X2": 1.91
+            }
+          ],
+          "Odds_CS_FT": {},
+          "Odds_AH_FT": {},
+          "Odds_EH_FT": {},
+          "Min_Goals_Home": [
+            40
+          ],
+          "Min_Goals_Away": [
+            30,
+            56,
+            90
+          ],
+          "Match_ID": "2X5l3suP"
+        },
+        {
+          "Id": "GWoL75Qg",
+          "League": "South America - Copa América",
+          "Round": "-",
+          "Date": "01/07/2007",
+          "Time": "19:20",
+          "Home": "Mexico",
+          "Away": "Ecuador",
+          "Home_Slug": "mexico-O6iHcNkd",
+          "Away_Slug": "ecuador-8tbm8Tri",
+          "Home_Score": 2,
+          "Away_Score": 1,
+          "Odds_1X2_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1": 2.0,
+              "Odd_X": 3.2,
+              "Odd_2": 3.75
+            }
+          ],
+          "Best_Odd_1_FT": 2.0,
+          "Best_Odd_X_FT": 3.2,
+          "Best_Odd_2_FT": 3.75,
+          "Odds_1X2_HT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1": 2.0,
+              "Odd_X": 3.2,
+              "Odd_2": 3.75
+            }
+          ],
+          "Odds_OU_FT": {},
+          "Odds_OU_HT": {},
+          "Odds_BTTS_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Yes": 2.0,
+              "No": 3.2
+            }
+          ],
+          "Odds_DC_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1X": 2.0,
+              "Odd_12": 3.2,
+              "Odd_X2": 3.75
+            }
+          ],
+          "Odds_CS_FT": {},
+          "Odds_AH_FT": {},
+          "Odds_EH_FT": {},
+          "Min_Goals_Home": [
+            21,
+            80
+          ],
+          "Min_Goals_Away": [
+            85
+          ],
+          "Match_ID": "GWoL75Qg"
+        },
+        {
+          "Id": "M9nH8oBm",
+          "League": "South America - Copa América",
+          "Round": "-",
+          "Date": "01/07/2007",
+          "Time": "17:05",
+          "Home": "Brazil",
+          "Away": "Chile",
+          "Home_Slug": "brazil-I9l9aqLq",
+          "Away_Slug": "chile-KUCG35cM",
+          "Home_Score": 3,
+          "Away_Score": 0,
+          "Odds_1X2_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1": 1.36,
+              "Odd_X": 4.5,
+              "Odd_2": 8.5
+            }
+          ],
+          "Best_Odd_1_FT": 1.36,
+          "Best_Odd_X_FT": 4.5,
+          "Best_Odd_2_FT": 8.5,
+          "Odds_1X2_HT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1": 1.36,
+              "Odd_X": 4.5,
+              "Odd_2": 8.5
+            }
+          ],
+          "Odds_OU_FT": {},
+          "Odds_OU_HT": {},
+          "Odds_BTTS_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Yes": 1.36,
+              "No": 4.5
+            }
+          ],
+          "Odds_DC_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1X": 1.36,
+              "Odd_12": 4.5,
+              "Odd_X2": 8.5
+            }
+          ],
+          "Odds_CS_FT": {},
+          "Odds_AH_FT": {},
+          "Odds_EH_FT": {},
+          "Min_Goals_Home": [
+            36,
+            84,
+            87
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "M9nH8oBm"
+        },
+        {
+          "Id": "KMFp4WJ1",
+          "League": "South America - Copa América",
+          "Round": "-",
+          "Date": "30/06/2007",
+          "Time": "19:20",
+          "Home": "Venezuela",
+          "Away": "Peru",
+          "Home_Slug": "venezuela-raj05RS9",
+          "Away_Slug": "peru-Uend67D3",
+          "Home_Score": 2,
+          "Away_Score": 0,
+          "Odds_1X2_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1": 2.4,
+              "Odd_X": 3.2,
+              "Odd_2": 2.88
+            }
+          ],
+          "Best_Odd_1_FT": 2.4,
+          "Best_Odd_X_FT": 3.2,
+          "Best_Odd_2_FT": 2.88,
+          "Odds_1X2_HT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1": 2.4,
+              "Odd_X": 3.2,
+              "Odd_2": 2.88
+            }
+          ],
+          "Odds_OU_FT": {},
+          "Odds_OU_HT": {},
+          "Odds_BTTS_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Yes": 2.4,
+              "No": 3.2
+            }
+          ],
+          "Odds_DC_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1X": 2.4,
+              "Odd_12": 3.2,
+              "Odd_X2": 2.88
+            }
+          ],
+          "Odds_CS_FT": {},
+          "Odds_AH_FT": {},
+          "Odds_EH_FT": {},
+          "Min_Goals_Home": [
+            49,
+            79
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "KMFp4WJ1"
+        },
+        {
+          "Id": "xbQu5C4e",
+          "League": "South America - Copa América",
+          "Round": "-",
+          "Date": "30/06/2007",
+          "Time": "17:05",
+          "Home": "Bolivia",
+          "Away": "Uruguay",
+          "Home_Slug": "bolivia-nXdi7mbc",
+          "Away_Slug": "uruguay-xMk44orG",
+          "Home_Score": 0,
+          "Away_Score": 1,
+          "Odds_1X2_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1": 6.0,
+              "Odd_X": 4.0,
+              "Odd_2": 1.5
+            }
+          ],
+          "Best_Odd_1_FT": 6.0,
+          "Best_Odd_X_FT": 4.0,
+          "Best_Odd_2_FT": 1.5,
+          "Odds_1X2_HT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1": 6.0,
+              "Odd_X": 4.0,
+              "Odd_2": 1.5
+            }
+          ],
+          "Odds_OU_FT": {},
+          "Odds_OU_HT": {},
+          "Odds_BTTS_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Yes": 6.0,
+              "No": 4.0
+            }
+          ],
+          "Odds_DC_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1X": 6.0,
+              "Odd_12": 4.0,
+              "Odd_X2": 1.5
+            }
+          ],
+          "Odds_CS_FT": {},
+          "Odds_AH_FT": {},
+          "Odds_EH_FT": {},
+          "Min_Goals_Home": [],
+          "Min_Goals_Away": [
+            58
+          ],
+          "Match_ID": "xbQu5C4e"
+        },
+        {
+          "Id": "lU1p4NPI",
+          "League": "South America - Copa América",
+          "Round": "-",
+          "Date": "28/06/2007",
+          "Time": "21:50",
+          "Home": "Argentina",
+          "Away": "USA",
+          "Home_Slug": "argentina-f9OppQjp",
+          "Away_Slug": "usa-fuitL4CF",
+          "Home_Score": 4,
+          "Away_Score": 1,
+          "Odds_1X2_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1": 1.25,
+              "Odd_X": 5.5,
+              "Odd_2": 13.0
+            }
+          ],
+          "Best_Odd_1_FT": 1.25,
+          "Best_Odd_X_FT": 5.5,
+          "Best_Odd_2_FT": 13.0,
+          "Odds_1X2_HT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1": 1.25,
+              "Odd_X": 5.5,
+              "Odd_2": 13.0
+            }
+          ],
+          "Odds_OU_FT": {},
+          "Odds_OU_HT": {},
+          "Odds_BTTS_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Yes": 1.25,
+              "No": 5.5
+            }
+          ],
+          "Odds_DC_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1X": 1.25,
+              "Odd_12": 5.5,
+              "Odd_X2": 13.0
+            }
+          ],
+          "Odds_CS_FT": {},
+          "Odds_AH_FT": {},
+          "Odds_EH_FT": {},
+          "Min_Goals_Home": [
+            12,
+            64,
+            78,
+            85
+          ],
+          "Min_Goals_Away": [
+            9
+          ],
+          "Match_ID": "lU1p4NPI"
+        },
+        {
+          "Id": "f72t53AC",
+          "League": "South America - Copa América",
+          "Round": "-",
+          "Date": "28/06/2007",
+          "Time": "19:35",
+          "Home": "Paraguay",
+          "Away": "Colombia",
+          "Home_Slug": "paraguay-YaNlqp6j",
+          "Away_Slug": "colombia-G02s4PCS",
+          "Home_Score": 5,
+          "Away_Score": 0,
+          "Odds_1X2_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1": 2.88,
+              "Odd_X": 3.25,
+              "Odd_2": 2.38
+            }
+          ],
+          "Best_Odd_1_FT": 2.88,
+          "Best_Odd_X_FT": 3.25,
+          "Best_Odd_2_FT": 2.38,
+          "Odds_1X2_HT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1": 2.88,
+              "Odd_X": 3.25,
+              "Odd_2": 2.38
+            }
+          ],
+          "Odds_OU_FT": {},
+          "Odds_OU_HT": {},
+          "Odds_BTTS_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Yes": 2.88,
+              "No": 3.25
+            }
+          ],
+          "Odds_DC_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1X": 2.88,
+              "Odd_12": 3.25,
+              "Odd_X2": 2.38
+            }
+          ],
+          "Odds_CS_FT": {},
+          "Odds_AH_FT": {},
+          "Odds_EH_FT": {},
+          "Min_Goals_Home": [
+            30,
+            46,
+            80,
+            85,
+            88
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "f72t53AC"
+        },
+        {
+          "Id": "AZrD9Res",
+          "League": "South America - Copa América",
+          "Round": "-",
+          "Date": "27/06/2007",
+          "Time": "21:50",
+          "Home": "Brazil",
+          "Away": "Mexico",
+          "Home_Slug": "brazil-I9l9aqLq",
+          "Away_Slug": "mexico-O6iHcNkd",
+          "Home_Score": 0,
+          "Away_Score": 2,
+          "Odds_1X2_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1": 1.5,
+              "Odd_X": 3.75,
+              "Odd_2": 7.0
+            }
+          ],
+          "Best_Odd_1_FT": 1.5,
+          "Best_Odd_X_FT": 3.75,
+          "Best_Odd_2_FT": 7.0,
+          "Odds_1X2_HT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1": 1.5,
+              "Odd_X": 3.75,
+              "Odd_2": 7.0
+            }
+          ],
+          "Odds_OU_FT": {},
+          "Odds_OU_HT": {},
+          "Odds_BTTS_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Yes": 1.5,
+              "No": 3.75
+            }
+          ],
+          "Odds_DC_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1X": 1.5,
+              "Odd_12": 3.75,
+              "Odd_X2": 7.0
+            }
+          ],
+          "Odds_CS_FT": {},
+          "Odds_AH_FT": {},
+          "Odds_EH_FT": {},
+          "Min_Goals_Home": [],
+          "Min_Goals_Away": [
+            24,
+            29
+          ],
+          "Match_ID": "AZrD9Res"
+        },
+        {
+          "Id": "UyVrRgRE",
+          "League": "South America - Copa América",
+          "Round": "-",
+          "Date": "27/06/2007",
+          "Time": "19:35",
+          "Home": "Ecuador",
+          "Away": "Chile",
+          "Home_Slug": "ecuador-8tbm8Tri",
+          "Away_Slug": "chile-KUCG35cM",
+          "Home_Score": 2,
+          "Away_Score": 3,
+          "Odds_1X2_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1": 2.88,
+              "Odd_X": 3.2,
+              "Odd_2": 2.4
+            }
+          ],
+          "Best_Odd_1_FT": 2.88,
+          "Best_Odd_X_FT": 3.2,
+          "Best_Odd_2_FT": 2.4,
+          "Odds_1X2_HT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1": 2.88,
+              "Odd_X": 3.2,
+              "Odd_2": 2.4
+            }
+          ],
+          "Odds_OU_FT": {},
+          "Odds_OU_HT": {},
+          "Odds_BTTS_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Yes": 2.88,
+              "No": 3.2
+            }
+          ],
+          "Odds_DC_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1X": 2.88,
+              "Odd_12": 3.2,
+              "Odd_X2": 2.4
+            }
+          ],
+          "Odds_CS_FT": {},
+          "Odds_AH_FT": {},
+          "Odds_EH_FT": {},
+          "Min_Goals_Home": [
+            16,
+            23
+          ],
+          "Min_Goals_Away": [
+            20,
+            80,
+            87
+          ],
+          "Match_ID": "UyVrRgRE"
+        },
+        {
+          "Id": "OfMy6hkk",
+          "League": "South America - Copa América",
+          "Round": "-",
+          "Date": "26/06/2007",
+          "Time": "21:50",
+          "Home": "Venezuela",
+          "Away": "Bolivia",
+          "Home_Slug": "venezuela-raj05RS9",
+          "Away_Slug": "bolivia-nXdi7mbc",
+          "Home_Score": 2,
+          "Away_Score": 2,
+          "Odds_1X2_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1": 1.44,
+              "Odd_X": 4.0,
+              "Odd_2": 7.5
+            }
+          ],
+          "Best_Odd_1_FT": 1.44,
+          "Best_Odd_X_FT": 4.0,
+          "Best_Odd_2_FT": 7.5,
+          "Odds_1X2_HT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1": 1.44,
+              "Odd_X": 4.0,
+              "Odd_2": 7.5
+            }
+          ],
+          "Odds_OU_FT": {},
+          "Odds_OU_HT": {},
+          "Odds_BTTS_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Yes": 1.44,
+              "No": 4.0
+            }
+          ],
+          "Odds_DC_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1X": 1.44,
+              "Odd_12": 4.0,
+              "Odd_X2": 7.5
+            }
+          ],
+          "Odds_CS_FT": {},
+          "Odds_AH_FT": {},
+          "Odds_EH_FT": {},
+          "Min_Goals_Home": [
+            21,
+            56
+          ],
+          "Min_Goals_Away": [
+            39,
+            84
+          ],
+          "Match_ID": "OfMy6hkk"
+        },
+        {
+          "Id": "UXMX6YZr",
+          "League": "South America - Copa América",
+          "Round": "-",
+          "Date": "26/06/2007",
+          "Time": "19:05",
+          "Home": "Uruguay",
+          "Away": "Peru",
+          "Home_Slug": "uruguay-xMk44orG",
+          "Away_Slug": "peru-Uend67D3",
+          "Home_Score": 0,
+          "Away_Score": 3,
+          "Odds_1X2_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1": 1.67,
+              "Odd_X": 3.4,
+              "Odd_2": 5.25
+            }
+          ],
+          "Best_Odd_1_FT": 1.67,
+          "Best_Odd_X_FT": 3.4,
+          "Best_Odd_2_FT": 5.25,
+          "Odds_1X2_HT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1": 1.67,
+              "Odd_X": 3.4,
+              "Odd_2": 5.25
+            }
+          ],
+          "Odds_OU_FT": {},
+          "Odds_OU_HT": {},
+          "Odds_BTTS_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Yes": 1.67,
+              "No": 3.4
+            }
+          ],
+          "Odds_DC_FT": [
+            {
+              "Bookmaker": "bet365",
+              "Odd_1X": 1.67,
+              "Odd_12": 3.4,
+              "Odd_X2": 5.25
+            }
+          ],
+          "Odds_CS_FT": {},
+          "Odds_AH_FT": {},
+          "Odds_EH_FT": {},
+          "Min_Goals_Home": [],
+          "Min_Goals_Away": [
+            27,
+            70,
+            89
+          ],
+          "Match_ID": "UXMX6YZr"
+        }
+      ]
+    }
+  ]
+}

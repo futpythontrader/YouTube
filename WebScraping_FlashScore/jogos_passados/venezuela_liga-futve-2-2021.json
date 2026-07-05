@@ -1,0 +1,6721 @@
+{
+  "country": "VENEZUELA",
+  "season": "2021",
+  "scrape_date": "2026-05-18T13:08:36.564905",
+  "total_leagues": 1,
+  "leagues": [
+    {
+      "name": "Liga Futve 2 2021",
+      "url": "https://www.flashscore.com/football/venezuela/liga-futve-2-2021/results/",
+      "total_matches": 161,
+      "scraped_matches": 161,
+      "matches": [
+        {
+          "Id": "hvVuonQB",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Play Offs",
+          "Date": "15/11/2021",
+          "Time": "18:00",
+          "Home": "Atletico La Cruz",
+          "Away": "Titanes",
+          "Home_Slug": "atletico-la-cruz-GCKnAG4T",
+          "Away_Slug": "titanes-fc-6eug9B26",
+          "Home_Score": 2,
+          "Away_Score": 1,
+          "Min_Goals_Home": [
+            56,
+            62
+          ],
+          "Min_Goals_Away": [
+            86
+          ],
+          "Match_ID": "hvVuonQB"
+        },
+        {
+          "Id": "pOIEbOYA",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Play Offs",
+          "Date": "07/11/2021",
+          "Time": "16:30",
+          "Home": "Titanes",
+          "Away": "Atletico La Cruz",
+          "Home_Slug": "titanes-fc-6eug9B26",
+          "Away_Slug": "atletico-la-cruz-GCKnAG4T",
+          "Home_Score": 1,
+          "Away_Score": 0,
+          "Min_Goals_Home": [
+            55
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "pOIEbOYA"
+        },
+        {
+          "Id": "vRa1X0Fl",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Play Offs",
+          "Date": "03/11/2021",
+          "Time": "16:30",
+          "Home": "Atletico La Cruz",
+          "Away": "Libertador",
+          "Home_Slug": "atletico-la-cruz-GCKnAG4T",
+          "Away_Slug": "libertador-fc-AVlmQbko",
+          "Home_Score": 1,
+          "Away_Score": 0,
+          "Min_Goals_Home": [
+            52
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "vRa1X0Fl"
+        },
+        {
+          "Id": "KtJUxNiR",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Play Offs",
+          "Date": "03/11/2021",
+          "Time": "17:00",
+          "Home": "Urena",
+          "Away": "Titanes",
+          "Home_Slug": "urena-x6MdZOGO",
+          "Away_Slug": "titanes-fc-6eug9B26",
+          "Home_Score": 1,
+          "Away_Score": 2,
+          "Min_Goals_Home": [
+            66
+          ],
+          "Min_Goals_Away": [
+            48,
+            85
+          ],
+          "Match_ID": "KtJUxNiR"
+        },
+        {
+          "Id": "QNecYt0r",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Play Offs",
+          "Date": "31/10/2021",
+          "Time": "16:30",
+          "Home": "Libertador",
+          "Away": "Atletico La Cruz",
+          "Home_Slug": "libertador-fc-AVlmQbko",
+          "Away_Slug": "atletico-la-cruz-GCKnAG4T",
+          "Home_Score": 1,
+          "Away_Score": 1,
+          "Min_Goals_Home": [
+            10
+          ],
+          "Min_Goals_Away": [
+            58
+          ],
+          "Match_ID": "QNecYt0r"
+        },
+        {
+          "Id": "tjKQw3xL",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Play Offs",
+          "Date": "31/10/2021",
+          "Time": "16:30",
+          "Home": "Titanes",
+          "Away": "Urena",
+          "Home_Slug": "titanes-fc-6eug9B26",
+          "Away_Slug": "urena-x6MdZOGO",
+          "Home_Score": 1,
+          "Away_Score": 0,
+          "Min_Goals_Home": [
+            24
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "tjKQw3xL"
+        },
+        {
+          "Id": "vod9XbIG",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Play Offs",
+          "Date": "27/10/2021",
+          "Time": "16:00",
+          "Home": "Barquisimeto",
+          "Away": "Titanes",
+          "Home_Slug": "barquisimeto-4rp8eIDa",
+          "Away_Slug": "titanes-fc-6eug9B26",
+          "Home_Score": 0,
+          "Away_Score": 1,
+          "Min_Goals_Home": [],
+          "Min_Goals_Away": [
+            84
+          ],
+          "Match_ID": "vod9XbIG"
+        },
+        {
+          "Id": "AikgysJi",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Play Offs",
+          "Date": "27/10/2021",
+          "Time": "20:00",
+          "Home": "Libertador",
+          "Away": "Bolivar",
+          "Home_Slug": "libertador-fc-AVlmQbko",
+          "Away_Slug": "bolivar-KpRwCxzH",
+          "Home_Score": 0,
+          "Away_Score": 1,
+          "Min_Goals_Home": [],
+          "Min_Goals_Away": [
+            44
+          ],
+          "Match_ID": "AikgysJi"
+        },
+        {
+          "Id": "rJ20ZKm4",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Play Offs",
+          "Date": "27/10/2021",
+          "Time": "17:00",
+          "Home": "Urena",
+          "Away": "Local Andina",
+          "Home_Slug": "urena-x6MdZOGO",
+          "Away_Slug": "union-local-andina-EmDKuKX9",
+          "Home_Score": 3,
+          "Away_Score": 0,
+          "Min_Goals_Home": [
+            20,
+            52,
+            68
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "rJ20ZKm4"
+        },
+        {
+          "Id": "CbfHVxmT",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Play Offs",
+          "Date": "27/10/2021",
+          "Time": "16:00",
+          "Home": "Atletico La Cruz",
+          "Away": "Fundacion AIFI",
+          "Home_Slug": "atletico-la-cruz-GCKnAG4T",
+          "Away_Slug": "fundacion-aifi-QRGzwamI",
+          "Home_Score": 1,
+          "Away_Score": 1,
+          "Min_Goals_Home": [
+            60
+          ],
+          "Min_Goals_Away": [
+            52
+          ],
+          "Match_ID": "CbfHVxmT"
+        },
+        {
+          "Id": "WQ1Cllvi",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Play Offs",
+          "Date": "20/10/2021",
+          "Time": "16:00",
+          "Home": "Fundacion AIFI",
+          "Away": "Frontera",
+          "Home_Slug": "fundacion-aifi-QRGzwamI",
+          "Away_Slug": "real-frontera-4AqkWAQI",
+          "Home_Score": 2,
+          "Away_Score": 1,
+          "Odds_1X2_FT": [
+            {
+              "Bookmaker": "Betfair",
+              "Odd_1": 2.2,
+              "Odd_X": 3.9,
+              "Odd_2": 2.45
+            }
+          ],
+          "Best_Odd_1_FT": 2.2,
+          "Best_Odd_X_FT": 3.9,
+          "Best_Odd_2_FT": 2.45,
+          "Odds_1X2_HT": [
+            {
+              "Bookmaker": "Betfair",
+              "Odd_1": 2.2,
+              "Odd_X": 3.9,
+              "Odd_2": 2.45
+            }
+          ],
+          "Odds_OU_FT": {
+            "OU_0.5": [
+              {
+                "Bookmaker": "Betfair",
+                "Over": 1.03,
+                "Under": 9.0
+              }
+            ],
+            "OU_1.5": [
+              {
+                "Bookmaker": "Betfair",
+                "Over": 1.25,
+                "Under": 3.6
+              }
+            ],
+            "OU_2.5": [
+              {
+                "Bookmaker": "Betfair",
+                "Over": 1.91,
+                "Under": 1.8
+              }
+            ],
+            "OU_3.5": [
+              {
+                "Bookmaker": "Betfair",
+                "Over": 3.3,
+                "Under": 1.29
+              }
+            ],
+            "OU_4.5": [
+              {
+                "Bookmaker": "Betfair",
+                "Over": 7.0,
+                "Under": 1.07
+              }
+            ]
+          },
+          "Odds_OU_HT": {
+            "OU_0.5": [
+              {
+                "Bookmaker": "Betfair",
+                "Over": 1.03,
+                "Under": 9.0
+              }
+            ],
+            "OU_1.5": [
+              {
+                "Bookmaker": "Betfair",
+                "Over": 1.25,
+                "Under": 3.6
+              }
+            ],
+            "OU_2.5": [
+              {
+                "Bookmaker": "Betfair",
+                "Over": 1.91,
+                "Under": 1.8
+              }
+            ],
+            "OU_3.5": [
+              {
+                "Bookmaker": "Betfair",
+                "Over": 3.3,
+                "Under": 1.29
+              }
+            ],
+            "OU_4.5": [
+              {
+                "Bookmaker": "Betfair",
+                "Over": 7.0,
+                "Under": 1.07
+              }
+            ]
+          },
+          "Odds_BTTS_FT": [
+            {
+              "Bookmaker": "Betfair",
+              "Yes": 1.65,
+              "No": 2.1
+            }
+          ],
+          "Odds_DC_FT": [
+            {
+              "Bookmaker": "Betfair",
+              "Odd_1X": 1.44,
+              "Odd_12": 1.2,
+              "Odd_X2": 1.57
+            }
+          ],
+          "Odds_CS_FT": {
+            "1:0": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 7.5
+              }
+            ],
+            "2:0": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 10.0
+              }
+            ],
+            "2:1": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 8.0
+              }
+            ],
+            "3:0": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 19.0
+              }
+            ],
+            "3:1": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 15.0
+              }
+            ],
+            "3:2": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 21.0
+              }
+            ],
+            "4:0": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 56.0
+              }
+            ],
+            "4:1": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 41.0
+              }
+            ],
+            "4:2": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 61.0
+              }
+            ],
+            "4:3": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "5:0": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "5:1": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "5:2": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "5:3": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "5:4": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "6:0": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "6:1": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "6:2": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "6:3": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "6:4": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "6:5": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "7:0": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "7:1": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "7:2": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "7:3": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "7:4": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "8:0": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "8:1": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "8:2": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "8:3": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "9:0": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "9:1": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "9:2": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "10:0": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "10:1": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "11:0": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "0:0": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 9.0
+              }
+            ],
+            "1:1": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 5.5
+              }
+            ],
+            "2:2": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 11.0
+              }
+            ],
+            "3:3": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 56.0
+              }
+            ],
+            "4:4": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "5:5": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "0:1": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 9.0
+              }
+            ],
+            "0:2": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 13.0
+              }
+            ],
+            "1:2": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 9.5
+              }
+            ],
+            "0:3": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 29.0
+              }
+            ],
+            "1:3": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 21.0
+              }
+            ],
+            "2:3": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 26.0
+              }
+            ],
+            "0:4": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "1:4": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "2:4": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "3:4": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "0:5": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "1:5": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "2:5": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "3:5": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "4:5": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "0:6": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "1:6": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "2:6": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "3:6": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "4:6": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "5:6": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "0:7": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "1:7": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "2:7": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "3:7": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "4:7": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "0:8": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "1:8": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "2:8": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "3:8": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "0:9": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "1:9": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "2:9": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "0:10": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "1:10": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "0:11": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ]
+          },
+          "Odds_AH_FT": {},
+          "Odds_EH_FT": {},
+          "Min_Goals_Home": [
+            10,
+            120
+          ],
+          "Min_Goals_Away": [
+            30
+          ],
+          "Match_ID": "WQ1Cllvi"
+        },
+        {
+          "Id": "Y7eDWIXM",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Play Offs",
+          "Date": "24/10/2021",
+          "Time": "16:30",
+          "Home": "Fundacion AIFI",
+          "Away": "Atletico La Cruz",
+          "Home_Slug": "fundacion-aifi-QRGzwamI",
+          "Away_Slug": "atletico-la-cruz-GCKnAG4T",
+          "Home_Score": 2,
+          "Away_Score": 2,
+          "Min_Goals_Home": [
+            59,
+            77
+          ],
+          "Min_Goals_Away": [
+            30,
+            90
+          ],
+          "Match_ID": "Y7eDWIXM"
+        },
+        {
+          "Id": "W0jkxN3o",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Play Offs",
+          "Date": "23/10/2021",
+          "Time": "16:30",
+          "Home": "Bolivar",
+          "Away": "Libertador",
+          "Home_Slug": "bolivar-KpRwCxzH",
+          "Away_Slug": "libertador-fc-AVlmQbko",
+          "Home_Score": 1,
+          "Away_Score": 2,
+          "Min_Goals_Home": [
+            12
+          ],
+          "Min_Goals_Away": [
+            18,
+            88
+          ],
+          "Match_ID": "W0jkxN3o"
+        },
+        {
+          "Id": "4S3dz1Yc",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Play Offs",
+          "Date": "24/10/2021",
+          "Time": "16:30",
+          "Home": "Local Andina",
+          "Away": "Urena",
+          "Home_Slug": "union-local-andina-EmDKuKX9",
+          "Away_Slug": "urena-x6MdZOGO",
+          "Home_Score": 0,
+          "Away_Score": 0,
+          "Min_Goals_Home": [],
+          "Min_Goals_Away": [],
+          "Match_ID": "4S3dz1Yc"
+        },
+        {
+          "Id": "Qsh5Yv3A",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Play Offs",
+          "Date": "23/10/2021",
+          "Time": "16:30",
+          "Home": "Titanes",
+          "Away": "Barquisimeto",
+          "Home_Slug": "titanes-fc-6eug9B26",
+          "Away_Slug": "barquisimeto-4rp8eIDa",
+          "Home_Score": 0,
+          "Away_Score": 0,
+          "Min_Goals_Home": [],
+          "Min_Goals_Away": [],
+          "Match_ID": "Qsh5Yv3A"
+        },
+        {
+          "Id": "IRqhIH7n",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 14",
+          "Date": "16/10/2021",
+          "Time": "16:30",
+          "Home": "Angostura",
+          "Away": "Miranda",
+          "Home_Slug": "angostura-IZnAvh6K",
+          "Away_Slug": "deportivo-miranda-bqdjykPk",
+          "Home_Score": 0,
+          "Away_Score": 1,
+          "Min_Goals_Home": [],
+          "Min_Goals_Away": [
+            71
+          ],
+          "Match_ID": "IRqhIH7n"
+        },
+        {
+          "Id": "8ANKwpyG",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 18",
+          "Date": "16/10/2021",
+          "Time": "16:30",
+          "Home": "Barquisimeto",
+          "Away": "JBL Zulia",
+          "Home_Slug": "barquisimeto-4rp8eIDa",
+          "Away_Slug": "jbl-zulia-0dqSS3OK",
+          "Home_Score": 6,
+          "Away_Score": 0,
+          "Min_Goals_Home": [
+            15,
+            35,
+            52,
+            60,
+            70,
+            75
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "8ANKwpyG"
+        },
+        {
+          "Id": "hpx5FFi5",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 14",
+          "Date": "16/10/2021",
+          "Time": "16:30",
+          "Home": "Dynamo Puerto",
+          "Away": "Bolivar",
+          "Home_Slug": "dynamo-puerto-fc-IRzKqzlk",
+          "Away_Slug": "bolivar-KpRwCxzH",
+          "Home_Score": 1,
+          "Away_Score": 1,
+          "Min_Goals_Home": [
+            30
+          ],
+          "Min_Goals_Away": [
+            10
+          ],
+          "Match_ID": "hpx5FFi5"
+        },
+        {
+          "Id": "zJjlMH5r",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 18",
+          "Date": "16/10/2021",
+          "Time": "16:30",
+          "Home": "El Vigia",
+          "Away": "Frontera",
+          "Home_Slug": "atletico-el-vigia-OYcssXWF",
+          "Away_Slug": "real-frontera-4AqkWAQI",
+          "Home_Score": 2,
+          "Away_Score": 2,
+          "Min_Goals_Home": [
+            31,
+            68
+          ],
+          "Min_Goals_Away": [
+            23,
+            51
+          ],
+          "Match_ID": "zJjlMH5r"
+        },
+        {
+          "Id": "Egw1Gexa",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 14",
+          "Date": "16/10/2021",
+          "Time": "16:30",
+          "Home": "Libertador",
+          "Away": "Fundacion AIFI",
+          "Home_Slug": "libertador-fc-AVlmQbko",
+          "Away_Slug": "fundacion-aifi-QRGzwamI",
+          "Home_Score": 2,
+          "Away_Score": 1,
+          "Min_Goals_Home": [
+            21,
+            49
+          ],
+          "Min_Goals_Away": [
+            90
+          ],
+          "Match_ID": "Egw1Gexa"
+        },
+        {
+          "Id": "E9khLyLl",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 18",
+          "Date": "16/10/2021",
+          "Time": "16:30",
+          "Home": "Llaneros",
+          "Away": "Yaracuy",
+          "Home_Slug": "llaneros-8QB0oj1F",
+          "Away_Slug": "yaracuy-fc-8fMPE5T8",
+          "Home_Score": 1,
+          "Away_Score": 2,
+          "Min_Goals_Home": [
+            38
+          ],
+          "Min_Goals_Away": [
+            35,
+            68
+          ],
+          "Match_ID": "E9khLyLl"
+        },
+        {
+          "Id": "UJOGvQL9",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 18",
+          "Date": "16/10/2021",
+          "Time": "16:30",
+          "Home": "Titanes",
+          "Away": "Local Andina",
+          "Home_Slug": "titanes-fc-6eug9B26",
+          "Away_Slug": "union-local-andina-EmDKuKX9",
+          "Home_Score": 1,
+          "Away_Score": 4,
+          "Min_Goals_Home": [
+            54
+          ],
+          "Min_Goals_Away": [
+            1,
+            21,
+            45,
+            61
+          ],
+          "Match_ID": "UJOGvQL9"
+        },
+        {
+          "Id": "neZBu663",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 18",
+          "Date": "16/10/2021",
+          "Time": "16:30",
+          "Home": "Urena",
+          "Away": "Rayo Zuliano",
+          "Home_Slug": "urena-x6MdZOGO",
+          "Away_Slug": "rayo-zuliano-l0k1Tw5i",
+          "Home_Score": 4,
+          "Away_Score": 0,
+          "Min_Goals_Home": [
+            19,
+            45,
+            89,
+            90
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "neZBu663"
+        },
+        {
+          "Id": "dIrdHyNh",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 14",
+          "Date": "15/10/2021",
+          "Time": "16:30",
+          "Home": "Atletico La Cruz",
+          "Away": "Minerven",
+          "Home_Slug": "atletico-la-cruz-GCKnAG4T",
+          "Away_Slug": "minerven-tvA8qUVR",
+          "Home_Score": 6,
+          "Away_Score": 2,
+          "Min_Goals_Home": [
+            1,
+            9,
+            33,
+            54,
+            72,
+            81
+          ],
+          "Min_Goals_Away": [
+            10,
+            90
+          ],
+          "Match_ID": "dIrdHyNh"
+        },
+        {
+          "Id": "nqgMNwpP",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 13",
+          "Date": "10/10/2021",
+          "Time": "16:30",
+          "Home": "Fundacion AIFI",
+          "Away": "Dynamo Puerto",
+          "Home_Slug": "fundacion-aifi-QRGzwamI",
+          "Away_Slug": "dynamo-puerto-fc-IRzKqzlk",
+          "Home_Score": 5,
+          "Away_Score": 1,
+          "Min_Goals_Home": [
+            12,
+            39,
+            40,
+            83,
+            86
+          ],
+          "Min_Goals_Away": [
+            2
+          ],
+          "Match_ID": "nqgMNwpP"
+        },
+        {
+          "Id": "rBSuFotP",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 13",
+          "Date": "10/10/2021",
+          "Time": "16:30",
+          "Home": "Minerven",
+          "Away": "Libertador",
+          "Home_Slug": "minerven-tvA8qUVR",
+          "Away_Slug": "libertador-fc-AVlmQbko",
+          "Home_Score": 0,
+          "Away_Score": 2,
+          "Min_Goals_Home": [],
+          "Min_Goals_Away": [
+            31,
+            42
+          ],
+          "Match_ID": "rBSuFotP"
+        },
+        {
+          "Id": "bwucO4yT",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 17",
+          "Date": "10/10/2021",
+          "Time": "16:00",
+          "Home": "JBL Zulia",
+          "Away": "Llaneros",
+          "Home_Slug": "jbl-zulia-0dqSS3OK",
+          "Away_Slug": "llaneros-8QB0oj1F",
+          "Home_Score": 1,
+          "Away_Score": 2,
+          "Min_Goals_Home": [
+            20
+          ],
+          "Min_Goals_Away": [
+            41,
+            62
+          ],
+          "Match_ID": "bwucO4yT"
+        },
+        {
+          "Id": "4KTyGRQI",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 13",
+          "Date": "09/10/2021",
+          "Time": "16:30",
+          "Home": "Atletico La Cruz",
+          "Away": "Angostura",
+          "Home_Slug": "atletico-la-cruz-GCKnAG4T",
+          "Away_Slug": "angostura-IZnAvh6K",
+          "Home_Score": 2,
+          "Away_Score": 0,
+          "Min_Goals_Home": [
+            45,
+            76
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "4KTyGRQI"
+        },
+        {
+          "Id": "0nROJOqp",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 17",
+          "Date": "09/10/2021",
+          "Time": "16:30",
+          "Home": "Frontera",
+          "Away": "Titanes",
+          "Home_Slug": "real-frontera-4AqkWAQI",
+          "Away_Slug": "titanes-fc-6eug9B26",
+          "Home_Score": 0,
+          "Away_Score": 2,
+          "Min_Goals_Home": [],
+          "Min_Goals_Away": [
+            70,
+            84
+          ],
+          "Match_ID": "0nROJOqp"
+        },
+        {
+          "Id": "O4plJcht",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 13",
+          "Date": "09/10/2021",
+          "Time": "16:30",
+          "Home": "Bolivar",
+          "Away": "Miranda",
+          "Home_Slug": "bolivar-KpRwCxzH",
+          "Away_Slug": "deportivo-miranda-bqdjykPk",
+          "Home_Score": 0,
+          "Away_Score": 0,
+          "Min_Goals_Home": [],
+          "Min_Goals_Away": [],
+          "Match_ID": "O4plJcht"
+        },
+        {
+          "Id": "KlsQH2Ed",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 17",
+          "Date": "09/10/2021",
+          "Time": "16:30",
+          "Home": "Local Andina",
+          "Away": "Barquisimeto",
+          "Home_Slug": "union-local-andina-EmDKuKX9",
+          "Away_Slug": "barquisimeto-4rp8eIDa",
+          "Home_Score": 1,
+          "Away_Score": 0,
+          "Min_Goals_Home": [
+            83
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "KlsQH2Ed"
+        },
+        {
+          "Id": "YiV7tnic",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 17",
+          "Date": "09/10/2021",
+          "Time": "16:30",
+          "Home": "Rayo Zuliano",
+          "Away": "El Vigia",
+          "Home_Slug": "rayo-zuliano-l0k1Tw5i",
+          "Away_Slug": "atletico-el-vigia-OYcssXWF",
+          "Home_Score": 0,
+          "Away_Score": 1,
+          "Min_Goals_Home": [],
+          "Min_Goals_Away": [
+            13
+          ],
+          "Match_ID": "YiV7tnic"
+        },
+        {
+          "Id": "tbrMIraj",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 17",
+          "Date": "09/10/2021",
+          "Time": "16:30",
+          "Home": "Yaracuy",
+          "Away": "Urena",
+          "Home_Slug": "yaracuy-fc-8fMPE5T8",
+          "Away_Slug": "urena-x6MdZOGO",
+          "Home_Score": 3,
+          "Away_Score": 4,
+          "Min_Goals_Home": [
+            2,
+            13,
+            27
+          ],
+          "Min_Goals_Away": [
+            10,
+            35,
+            49,
+            90
+          ],
+          "Match_ID": "tbrMIraj"
+        },
+        {
+          "Id": "8lnpR6iA",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 16",
+          "Date": "03/10/2021",
+          "Time": "16:00",
+          "Home": "Barquisimeto",
+          "Away": "Frontera",
+          "Home_Slug": "barquisimeto-4rp8eIDa",
+          "Away_Slug": "real-frontera-4AqkWAQI",
+          "Home_Score": 2,
+          "Away_Score": 0,
+          "Min_Goals_Home": [
+            38,
+            90
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "8lnpR6iA"
+        },
+        {
+          "Id": "jDykQQ6G",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 16",
+          "Date": "03/10/2021",
+          "Time": "16:00",
+          "Home": "El Vigia",
+          "Away": "Urena",
+          "Home_Slug": "atletico-el-vigia-OYcssXWF",
+          "Away_Slug": "urena-x6MdZOGO",
+          "Home_Score": 0,
+          "Away_Score": 2,
+          "Min_Goals_Home": [],
+          "Min_Goals_Away": [
+            11,
+            30
+          ],
+          "Match_ID": "jDykQQ6G"
+        },
+        {
+          "Id": "4GugPpMM",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 16",
+          "Date": "03/10/2021",
+          "Time": "16:00",
+          "Home": "Llaneros",
+          "Away": "Local Andina",
+          "Home_Slug": "llaneros-8QB0oj1F",
+          "Away_Slug": "union-local-andina-EmDKuKX9",
+          "Home_Score": 1,
+          "Away_Score": 5,
+          "Min_Goals_Home": [
+            72
+          ],
+          "Min_Goals_Away": [
+            4,
+            45,
+            64,
+            73,
+            83
+          ],
+          "Match_ID": "4GugPpMM"
+        },
+        {
+          "Id": "AqFYG7BC",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 12",
+          "Date": "02/10/2021",
+          "Time": "16:30",
+          "Home": "Bolivar",
+          "Away": "Atletico La Cruz",
+          "Home_Slug": "bolivar-KpRwCxzH",
+          "Away_Slug": "atletico-la-cruz-GCKnAG4T",
+          "Home_Score": 0,
+          "Away_Score": 0,
+          "Min_Goals_Home": [],
+          "Min_Goals_Away": [],
+          "Match_ID": "AqFYG7BC"
+        },
+        {
+          "Id": "WhGUHmd6",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 12",
+          "Date": "02/10/2021",
+          "Time": "16:30",
+          "Home": "Libertador",
+          "Away": "Angostura",
+          "Home_Slug": "libertador-fc-AVlmQbko",
+          "Away_Slug": "angostura-IZnAvh6K",
+          "Home_Score": 1,
+          "Away_Score": 1,
+          "Min_Goals_Home": [
+            23
+          ],
+          "Min_Goals_Away": [
+            65
+          ],
+          "Match_ID": "WhGUHmd6"
+        },
+        {
+          "Id": "zRMLJ9Rg",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 12",
+          "Date": "02/10/2021",
+          "Time": "16:00",
+          "Home": "Dynamo Puerto",
+          "Away": "Minerven",
+          "Home_Slug": "dynamo-puerto-fc-IRzKqzlk",
+          "Away_Slug": "minerven-tvA8qUVR",
+          "Home_Score": 1,
+          "Away_Score": 1,
+          "Min_Goals_Home": [
+            53
+          ],
+          "Min_Goals_Away": [
+            55
+          ],
+          "Match_ID": "zRMLJ9Rg"
+        },
+        {
+          "Id": "UcmtSnx4",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 16",
+          "Date": "02/10/2021",
+          "Time": "16:30",
+          "Home": "Titanes",
+          "Away": "Rayo Zuliano",
+          "Home_Slug": "titanes-fc-6eug9B26",
+          "Away_Slug": "rayo-zuliano-l0k1Tw5i",
+          "Home_Score": 0,
+          "Away_Score": 0,
+          "Min_Goals_Home": [],
+          "Min_Goals_Away": [],
+          "Match_ID": "UcmtSnx4"
+        },
+        {
+          "Id": "lUQPITt0",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 12",
+          "Date": "02/10/2021",
+          "Time": "16:00",
+          "Home": "Miranda",
+          "Away": "Fundacion AIFI",
+          "Home_Slug": "deportivo-miranda-bqdjykPk",
+          "Away_Slug": "fundacion-aifi-QRGzwamI",
+          "Home_Score": 0,
+          "Away_Score": 1,
+          "Min_Goals_Home": [],
+          "Min_Goals_Away": [
+            66
+          ],
+          "Match_ID": "lUQPITt0"
+        },
+        {
+          "Id": "MXqYT87i",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 15",
+          "Date": "29/09/2021",
+          "Time": "17:00",
+          "Home": "Rayo Zuliano",
+          "Away": "Barquisimeto",
+          "Home_Slug": "rayo-zuliano-l0k1Tw5i",
+          "Away_Slug": "barquisimeto-4rp8eIDa",
+          "Home_Score": 1,
+          "Away_Score": 1,
+          "Min_Goals_Home": [
+            43
+          ],
+          "Min_Goals_Away": [
+            54
+          ],
+          "Match_ID": "MXqYT87i"
+        },
+        {
+          "Id": "0OrxTSMc",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 16",
+          "Date": "02/10/2021",
+          "Time": "16:00",
+          "Home": "Yaracuy",
+          "Away": "JBL Zulia",
+          "Home_Slug": "yaracuy-fc-8fMPE5T8",
+          "Away_Slug": "jbl-zulia-0dqSS3OK",
+          "Home_Score": 3,
+          "Away_Score": 0,
+          "Min_Goals_Home": [],
+          "Min_Goals_Away": [],
+          "Match_ID": "0OrxTSMc"
+        },
+        {
+          "Id": "QB1GBRiN",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 15",
+          "Date": "29/09/2021",
+          "Time": "16:30",
+          "Home": "Urena",
+          "Away": "Titanes",
+          "Home_Slug": "urena-x6MdZOGO",
+          "Away_Slug": "titanes-fc-6eug9B26",
+          "Home_Score": 1,
+          "Away_Score": 1,
+          "Min_Goals_Home": [
+            13
+          ],
+          "Min_Goals_Away": [
+            25
+          ],
+          "Match_ID": "QB1GBRiN"
+        },
+        {
+          "Id": "Msmn65Fp",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 15",
+          "Date": "29/09/2021",
+          "Time": "16:00",
+          "Home": "Yaracuy",
+          "Away": "El Vigia",
+          "Home_Slug": "yaracuy-fc-8fMPE5T8",
+          "Away_Slug": "atletico-el-vigia-OYcssXWF",
+          "Home_Score": 1,
+          "Away_Score": 1,
+          "Min_Goals_Home": [
+            4
+          ],
+          "Min_Goals_Away": [
+            28
+          ],
+          "Match_ID": "Msmn65Fp"
+        },
+        {
+          "Id": "420KAo7T",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 15",
+          "Date": "29/09/2021",
+          "Time": "12:00",
+          "Home": "Frontera",
+          "Away": "Llaneros",
+          "Home_Slug": "real-frontera-4AqkWAQI",
+          "Away_Slug": "llaneros-8QB0oj1F",
+          "Home_Score": 3,
+          "Away_Score": 0,
+          "Min_Goals_Home": [
+            46,
+            58,
+            75
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "420KAo7T"
+        },
+        {
+          "Id": "KS5k5PUj",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 15",
+          "Date": "29/09/2021",
+          "Time": "12:00",
+          "Home": "Local Andina",
+          "Away": "JBL Zulia",
+          "Home_Slug": "union-local-andina-EmDKuKX9",
+          "Away_Slug": "jbl-zulia-0dqSS3OK",
+          "Home_Score": 2,
+          "Away_Score": 2,
+          "Min_Goals_Home": [
+            11,
+            50
+          ],
+          "Min_Goals_Away": [
+            39,
+            90
+          ],
+          "Match_ID": "KS5k5PUj"
+        },
+        {
+          "Id": "Uq87DmNA",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 14",
+          "Date": "26/09/2021",
+          "Time": "16:00",
+          "Home": "Barquisimeto",
+          "Away": "Urena",
+          "Home_Slug": "barquisimeto-4rp8eIDa",
+          "Away_Slug": "urena-x6MdZOGO",
+          "Home_Score": 1,
+          "Away_Score": 1,
+          "Min_Goals_Home": [
+            30
+          ],
+          "Min_Goals_Away": [
+            10
+          ],
+          "Match_ID": "Uq87DmNA"
+        },
+        {
+          "Id": "MJtoQBlQ",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 11",
+          "Date": "26/09/2021",
+          "Time": "16:30",
+          "Home": "Atletico La Cruz",
+          "Away": "Fundacion AIFI",
+          "Home_Slug": "atletico-la-cruz-GCKnAG4T",
+          "Away_Slug": "fundacion-aifi-QRGzwamI",
+          "Home_Score": 0,
+          "Away_Score": 0,
+          "Min_Goals_Home": [],
+          "Min_Goals_Away": [],
+          "Match_ID": "MJtoQBlQ"
+        },
+        {
+          "Id": "8z7BC7xH",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 14",
+          "Date": "26/09/2021",
+          "Time": "16:00",
+          "Home": "Llaneros",
+          "Away": "Rayo Zuliano",
+          "Home_Slug": "llaneros-8QB0oj1F",
+          "Away_Slug": "rayo-zuliano-l0k1Tw5i",
+          "Home_Score": 0,
+          "Away_Score": 3,
+          "Min_Goals_Home": [],
+          "Min_Goals_Away": [
+            28,
+            43,
+            45
+          ],
+          "Match_ID": "8z7BC7xH"
+        },
+        {
+          "Id": "rTssRiZJ",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 11",
+          "Date": "26/09/2021",
+          "Time": "16:00",
+          "Home": "Minerven",
+          "Away": "Miranda",
+          "Home_Slug": "minerven-tvA8qUVR",
+          "Away_Slug": "deportivo-miranda-bqdjykPk",
+          "Home_Score": 0,
+          "Away_Score": 1,
+          "Min_Goals_Home": [],
+          "Min_Goals_Away": [
+            2
+          ],
+          "Match_ID": "rTssRiZJ"
+        },
+        {
+          "Id": "MJ4aF9hb",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 14",
+          "Date": "25/09/2021",
+          "Time": "16:30",
+          "Home": "Titanes",
+          "Away": "El Vigia",
+          "Home_Slug": "titanes-fc-6eug9B26",
+          "Away_Slug": "atletico-el-vigia-OYcssXWF",
+          "Home_Score": 3,
+          "Away_Score": 0,
+          "Odds_1X2_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1": 2.22,
+              "Odd_X": 3.2,
+              "Odd_2": 2.87
+            }
+          ],
+          "Best_Odd_1_FT": 2.22,
+          "Best_Odd_X_FT": 3.2,
+          "Best_Odd_2_FT": 2.87,
+          "Odds_1X2_HT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1": 2.87,
+              "Odd_X": 2.07,
+              "Odd_2": 3.5
+            }
+          ],
+          "Odds_OU_FT": {
+            "OU_2.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.85,
+                "Under": 1.75
+              }
+            ]
+          },
+          "Odds_OU_HT": {
+            "OU_0.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.4,
+                "Under": 2.52
+              }
+            ]
+          },
+          "Odds_BTTS_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Yes": 2.22,
+              "No": 3.2
+            }
+          ],
+          "Odds_DC_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1X": 1.38,
+              "Odd_12": 1.32,
+              "Odd_X2": 1.6
+            }
+          ],
+          "Odds_CS_FT": {
+            "1:0": [
+              {
+                "Bookmaker": "Betano.br",
+                "Odd": 8.0
+              }
+            ],
+            "2:0": [
+              {
+                "Bookmaker": "Betano.br",
+                "Odd": 11.25
+              }
+            ],
+            "2:1": [
+              {
+                "Bookmaker": "Betano.br",
+                "Odd": 9.0
+              }
+            ],
+            "3:0": [
+              {
+                "Bookmaker": "Betano.br",
+                "Odd": 23.0
+              }
+            ],
+            "3:1": [
+              {
+                "Bookmaker": "Betano.br",
+                "Odd": 18.5
+              }
+            ],
+            "3:2": [
+              {
+                "Bookmaker": "Betano.br",
+                "Odd": 28.0
+              }
+            ],
+            "4:0": [
+              {
+                "Bookmaker": "Betano.br",
+                "Odd": 60.0
+              }
+            ],
+            "4:1": [
+              {
+                "Bookmaker": "Betano.br",
+                "Odd": 50.0
+              }
+            ],
+            "4:2": [
+              {
+                "Bookmaker": "Betano.br",
+                "Odd": 75.0
+              }
+            ],
+            "4:3": [
+              {
+                "Bookmaker": "Betano.br",
+                "Odd": 175.0
+              }
+            ],
+            "5:0": [
+              {
+                "Bookmaker": "Betano.br",
+                "Odd": 200.0
+              }
+            ],
+            "5:1": [
+              {
+                "Bookmaker": "Betano.br",
+                "Odd": 150.0
+              }
+            ],
+            "5:2": [
+              {
+                "Bookmaker": "Betano.br",
+                "Odd": 250.0
+              }
+            ],
+            "5:3": [
+              {
+                "Bookmaker": "Betano.br",
+                "Odd": 500.0
+              }
+            ],
+            "0:0": [
+              {
+                "Bookmaker": "Betano.br",
+                "Odd": 9.5
+              }
+            ],
+            "1:1": [
+              {
+                "Bookmaker": "Betano.br",
+                "Odd": 6.4
+              }
+            ],
+            "2:2": [
+              {
+                "Bookmaker": "Betano.br",
+                "Odd": 13.5
+              }
+            ],
+            "3:3": [
+              {
+                "Bookmaker": "Betano.br",
+                "Odd": 60.0
+              }
+            ],
+            "4:4": [
+              {
+                "Bookmaker": "Betano.br",
+                "Odd": 450.0
+              }
+            ],
+            "0:1": [
+              {
+                "Bookmaker": "Betano.br",
+                "Odd": 9.25
+              }
+            ],
+            "0:2": [
+              {
+                "Bookmaker": "Betano.br",
+                "Odd": 15.0
+              }
+            ],
+            "1:2": [
+              {
+                "Bookmaker": "Betano.br",
+                "Odd": 10.5
+              }
+            ],
+            "0:3": [
+              {
+                "Bookmaker": "Betano.br",
+                "Odd": 35.0
+              }
+            ],
+            "1:3": [
+              {
+                "Bookmaker": "Betano.br",
+                "Odd": 25.0
+              }
+            ],
+            "2:3": [
+              {
+                "Bookmaker": "Betano.br",
+                "Odd": 32.0
+              }
+            ],
+            "0:4": [
+              {
+                "Bookmaker": "Betano.br",
+                "Odd": 110.0
+              }
+            ],
+            "1:4": [
+              {
+                "Bookmaker": "Betano.br",
+                "Odd": 75.0
+              }
+            ],
+            "2:4": [
+              {
+                "Bookmaker": "Betano.br",
+                "Odd": 100.0
+              }
+            ],
+            "3:4": [
+              {
+                "Bookmaker": "Betano.br",
+                "Odd": 200.0
+              }
+            ],
+            "0:5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Odd": 400.0
+              }
+            ],
+            "1:5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Odd": 300.0
+              }
+            ],
+            "2:5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Odd": 400.0
+              }
+            ]
+          },
+          "Odds_AH_FT": {},
+          "Odds_EH_FT": {
+            "EH_-1": [
+              {
+                "Bookmaker": "Betano.br",
+                "Home": 4.4,
+                "Draw": 3.85,
+                "Away": 1.6
+              }
+            ]
+          },
+          "Min_Goals_Home": [
+            6,
+            22,
+            58
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "MJ4aF9hb"
+        },
+        {
+          "Id": "t4NHKkCm",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 11",
+          "Date": "25/09/2021",
+          "Time": "18:00",
+          "Home": "Angostura",
+          "Away": "Bolivar",
+          "Home_Slug": "angostura-IZnAvh6K",
+          "Away_Slug": "bolivar-KpRwCxzH",
+          "Home_Score": 0,
+          "Away_Score": 1,
+          "Min_Goals_Home": [],
+          "Min_Goals_Away": [
+            72
+          ],
+          "Match_ID": "t4NHKkCm"
+        },
+        {
+          "Id": "2DODLVds",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 11",
+          "Date": "25/09/2021",
+          "Time": "16:30",
+          "Home": "Libertador",
+          "Away": "Dynamo Puerto",
+          "Home_Slug": "libertador-fc-AVlmQbko",
+          "Away_Slug": "dynamo-puerto-fc-IRzKqzlk",
+          "Home_Score": 2,
+          "Away_Score": 0,
+          "Min_Goals_Home": [
+            8,
+            52
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "2DODLVds"
+        },
+        {
+          "Id": "zN83ET74",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 14",
+          "Date": "25/09/2021",
+          "Time": "16:00",
+          "Home": "Yaracuy",
+          "Away": "Local Andina",
+          "Home_Slug": "yaracuy-fc-8fMPE5T8",
+          "Away_Slug": "union-local-andina-EmDKuKX9",
+          "Home_Score": 0,
+          "Away_Score": 0,
+          "Min_Goals_Home": [],
+          "Min_Goals_Away": [],
+          "Match_ID": "zN83ET74"
+        },
+        {
+          "Id": "veFfGkwh",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 14",
+          "Date": "24/09/2021",
+          "Time": "16:30",
+          "Home": "JBL Zulia",
+          "Away": "Frontera",
+          "Home_Slug": "jbl-zulia-0dqSS3OK",
+          "Away_Slug": "real-frontera-4AqkWAQI",
+          "Home_Score": 1,
+          "Away_Score": 3,
+          "Min_Goals_Home": [
+            38
+          ],
+          "Min_Goals_Away": [
+            41,
+            48,
+            80
+          ],
+          "Match_ID": "veFfGkwh"
+        },
+        {
+          "Id": "UPga28dJ",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 10",
+          "Date": "19/09/2021",
+          "Time": "16:30",
+          "Home": "Bolivar",
+          "Away": "Minerven",
+          "Home_Slug": "bolivar-KpRwCxzH",
+          "Away_Slug": "minerven-tvA8qUVR",
+          "Home_Score": 1,
+          "Away_Score": 0,
+          "Min_Goals_Home": [
+            9
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "UPga28dJ"
+        },
+        {
+          "Id": "WltscSxU",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 13",
+          "Date": "19/09/2021",
+          "Time": "16:00",
+          "Home": "El Vigia",
+          "Away": "Barquisimeto",
+          "Home_Slug": "atletico-el-vigia-OYcssXWF",
+          "Away_Slug": "barquisimeto-4rp8eIDa",
+          "Home_Score": 2,
+          "Away_Score": 0,
+          "Min_Goals_Home": [
+            12,
+            37
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "WltscSxU"
+        },
+        {
+          "Id": "YcS8hnoo",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 13",
+          "Date": "19/09/2021",
+          "Time": "16:00",
+          "Home": "Frontera",
+          "Away": "Local Andina",
+          "Home_Slug": "real-frontera-4AqkWAQI",
+          "Away_Slug": "union-local-andina-EmDKuKX9",
+          "Home_Score": 0,
+          "Away_Score": 1,
+          "Min_Goals_Home": [],
+          "Min_Goals_Away": [
+            45
+          ],
+          "Match_ID": "YcS8hnoo"
+        },
+        {
+          "Id": "04GjHVNo",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 13",
+          "Date": "19/09/2021",
+          "Time": "16:00",
+          "Home": "Rayo Zuliano",
+          "Away": "JBL Zulia",
+          "Home_Slug": "rayo-zuliano-l0k1Tw5i",
+          "Away_Slug": "jbl-zulia-0dqSS3OK",
+          "Home_Score": 0,
+          "Away_Score": 0,
+          "Min_Goals_Home": [],
+          "Min_Goals_Away": [],
+          "Match_ID": "04GjHVNo"
+        },
+        {
+          "Id": "Ikje3lsD",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 10",
+          "Date": "18/09/2021",
+          "Time": "16:30",
+          "Home": "Fundacion AIFI",
+          "Away": "Angostura",
+          "Home_Slug": "fundacion-aifi-QRGzwamI",
+          "Away_Slug": "angostura-IZnAvh6K",
+          "Home_Score": 1,
+          "Away_Score": 1,
+          "Min_Goals_Home": [
+            33
+          ],
+          "Min_Goals_Away": [
+            42
+          ],
+          "Match_ID": "Ikje3lsD"
+        },
+        {
+          "Id": "zNnYbl8H",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 13",
+          "Date": "18/09/2021",
+          "Time": "16:30",
+          "Home": "Urena",
+          "Away": "Llaneros",
+          "Home_Slug": "urena-x6MdZOGO",
+          "Away_Slug": "llaneros-8QB0oj1F",
+          "Home_Score": 2,
+          "Away_Score": 0,
+          "Min_Goals_Home": [
+            62,
+            75
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "zNnYbl8H"
+        },
+        {
+          "Id": "zR0j4UR6",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 10",
+          "Date": "18/09/2021",
+          "Time": "16:00",
+          "Home": "Dynamo Puerto",
+          "Away": "Atletico La Cruz",
+          "Home_Slug": "dynamo-puerto-fc-IRzKqzlk",
+          "Away_Slug": "atletico-la-cruz-GCKnAG4T",
+          "Home_Score": 1,
+          "Away_Score": 3,
+          "Min_Goals_Home": [
+            68
+          ],
+          "Min_Goals_Away": [
+            65,
+            75,
+            86
+          ],
+          "Match_ID": "zR0j4UR6"
+        },
+        {
+          "Id": "dz2n5AC0",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 10",
+          "Date": "18/09/2021",
+          "Time": "16:00",
+          "Home": "Miranda",
+          "Away": "Libertador",
+          "Home_Slug": "deportivo-miranda-bqdjykPk",
+          "Away_Slug": "libertador-fc-AVlmQbko",
+          "Home_Score": 1,
+          "Away_Score": 0,
+          "Min_Goals_Home": [
+            59
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "dz2n5AC0"
+        },
+        {
+          "Id": "lQjxb8NN",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 13",
+          "Date": "18/09/2021",
+          "Time": "16:00",
+          "Home": "Yaracuy",
+          "Away": "Titanes",
+          "Home_Slug": "yaracuy-fc-8fMPE5T8",
+          "Away_Slug": "titanes-fc-6eug9B26",
+          "Home_Score": 2,
+          "Away_Score": 1,
+          "Min_Goals_Home": [
+            36,
+            43
+          ],
+          "Min_Goals_Away": [
+            42
+          ],
+          "Match_ID": "lQjxb8NN"
+        },
+        {
+          "Id": "29lQ0Aw5",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 12",
+          "Date": "13/09/2021",
+          "Time": "20:00",
+          "Home": "Barquisimeto",
+          "Away": "Titanes",
+          "Home_Slug": "barquisimeto-4rp8eIDa",
+          "Away_Slug": "titanes-fc-6eug9B26",
+          "Home_Score": 0,
+          "Away_Score": 0,
+          "Min_Goals_Home": [],
+          "Min_Goals_Away": [],
+          "Match_ID": "29lQ0Aw5"
+        },
+        {
+          "Id": "t0mUaUhB",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 12",
+          "Date": "12/09/2021",
+          "Time": "16:00",
+          "Home": "Llaneros",
+          "Away": "El Vigia",
+          "Home_Slug": "llaneros-8QB0oj1F",
+          "Away_Slug": "atletico-el-vigia-OYcssXWF",
+          "Home_Score": 3,
+          "Away_Score": 4,
+          "Min_Goals_Home": [
+            40,
+            42,
+            74
+          ],
+          "Min_Goals_Away": [
+            4,
+            22,
+            78,
+            86
+          ],
+          "Match_ID": "t0mUaUhB"
+        },
+        {
+          "Id": "pYgL1jOb",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 12",
+          "Date": "12/09/2021",
+          "Time": "12:00",
+          "Home": "Local Andina",
+          "Away": "Rayo Zuliano",
+          "Home_Slug": "union-local-andina-EmDKuKX9",
+          "Away_Slug": "rayo-zuliano-l0k1Tw5i",
+          "Home_Score": 3,
+          "Away_Score": 1,
+          "Min_Goals_Home": [
+            24,
+            50,
+            64
+          ],
+          "Min_Goals_Away": [
+            90
+          ],
+          "Match_ID": "pYgL1jOb"
+        },
+        {
+          "Id": "S0cr6jcf",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 9",
+          "Date": "11/09/2021",
+          "Time": "18:00",
+          "Home": "Angostura",
+          "Away": "Dynamo Puerto",
+          "Home_Slug": "angostura-IZnAvh6K",
+          "Away_Slug": "dynamo-puerto-fc-IRzKqzlk",
+          "Home_Score": 3,
+          "Away_Score": 3,
+          "Min_Goals_Home": [
+            56,
+            69,
+            73
+          ],
+          "Min_Goals_Away": [
+            9,
+            32,
+            90
+          ],
+          "Match_ID": "S0cr6jcf"
+        },
+        {
+          "Id": "6o9Z7CSs",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 9",
+          "Date": "11/09/2021",
+          "Time": "16:30",
+          "Home": "Fundacion AIFI",
+          "Away": "Minerven",
+          "Home_Slug": "fundacion-aifi-QRGzwamI",
+          "Away_Slug": "minerven-tvA8qUVR",
+          "Home_Score": 2,
+          "Away_Score": 0,
+          "Min_Goals_Home": [
+            10,
+            27
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "6o9Z7CSs"
+        },
+        {
+          "Id": "6seH2W8h",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 12",
+          "Date": "11/09/2021",
+          "Time": "16:30",
+          "Home": "JBL Zulia",
+          "Away": "Urena",
+          "Home_Slug": "jbl-zulia-0dqSS3OK",
+          "Away_Slug": "urena-x6MdZOGO",
+          "Home_Score": 0,
+          "Away_Score": 1,
+          "Min_Goals_Home": [],
+          "Min_Goals_Away": [
+            12
+          ],
+          "Match_ID": "6seH2W8h"
+        },
+        {
+          "Id": "lAbv7Wsl",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 9",
+          "Date": "11/09/2021",
+          "Time": "16:30",
+          "Home": "Libertador",
+          "Away": "Bolivar",
+          "Home_Slug": "libertador-fc-AVlmQbko",
+          "Away_Slug": "bolivar-KpRwCxzH",
+          "Home_Score": 3,
+          "Away_Score": 0,
+          "Min_Goals_Home": [
+            28,
+            33,
+            76
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "lAbv7Wsl"
+        },
+        {
+          "Id": "UPH7ChKQ",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 9",
+          "Date": "10/09/2021",
+          "Time": "16:00",
+          "Home": "Miranda",
+          "Away": "Atletico La Cruz",
+          "Home_Slug": "deportivo-miranda-bqdjykPk",
+          "Away_Slug": "atletico-la-cruz-GCKnAG4T",
+          "Home_Score": 0,
+          "Away_Score": 1,
+          "Min_Goals_Home": [],
+          "Min_Goals_Away": [
+            44
+          ],
+          "Match_ID": "UPH7ChKQ"
+        },
+        {
+          "Id": "CKeD3Cgn",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 12",
+          "Date": "11/09/2021",
+          "Time": "16:00",
+          "Home": "Yaracuy",
+          "Away": "Frontera",
+          "Home_Slug": "yaracuy-fc-8fMPE5T8",
+          "Away_Slug": "real-frontera-4AqkWAQI",
+          "Home_Score": 0,
+          "Away_Score": 0,
+          "Min_Goals_Home": [],
+          "Min_Goals_Away": [],
+          "Match_ID": "CKeD3Cgn"
+        },
+        {
+          "Id": "zNQ2q98U",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 11",
+          "Date": "08/09/2021",
+          "Time": "16:30",
+          "Home": "Titanes",
+          "Away": "Llaneros",
+          "Home_Slug": "titanes-fc-6eug9B26",
+          "Away_Slug": "llaneros-8QB0oj1F",
+          "Home_Score": 4,
+          "Away_Score": 0,
+          "Min_Goals_Home": [
+            48,
+            66,
+            69,
+            78
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "zNQ2q98U"
+        },
+        {
+          "Id": "SdNfoVwI",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 11",
+          "Date": "08/09/2021",
+          "Time": "16:30",
+          "Home": "Urena",
+          "Away": "Local Andina",
+          "Home_Slug": "urena-x6MdZOGO",
+          "Away_Slug": "union-local-andina-EmDKuKX9",
+          "Home_Score": 1,
+          "Away_Score": 1,
+          "Min_Goals_Home": [
+            83
+          ],
+          "Min_Goals_Away": [
+            90
+          ],
+          "Match_ID": "SdNfoVwI"
+        },
+        {
+          "Id": "l6OjnBOB",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 11",
+          "Date": "08/09/2021",
+          "Time": "16:00",
+          "Home": "El Vigia",
+          "Away": "JBL Zulia",
+          "Home_Slug": "atletico-el-vigia-OYcssXWF",
+          "Away_Slug": "jbl-zulia-0dqSS3OK",
+          "Home_Score": 2,
+          "Away_Score": 0,
+          "Min_Goals_Home": [
+            19,
+            90
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "l6OjnBOB"
+        },
+        {
+          "Id": "0ph94hvt",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 11",
+          "Date": "08/09/2021",
+          "Time": "16:00",
+          "Home": "Rayo Zuliano",
+          "Away": "Frontera",
+          "Home_Slug": "rayo-zuliano-l0k1Tw5i",
+          "Away_Slug": "real-frontera-4AqkWAQI",
+          "Home_Score": 1,
+          "Away_Score": 2,
+          "Min_Goals_Home": [
+            90
+          ],
+          "Min_Goals_Away": [
+            45,
+            54
+          ],
+          "Match_ID": "0ph94hvt"
+        },
+        {
+          "Id": "dWRbpkgO",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 11",
+          "Date": "08/09/2021",
+          "Time": "16:00",
+          "Home": "Yaracuy",
+          "Away": "Barquisimeto",
+          "Home_Slug": "yaracuy-fc-8fMPE5T8",
+          "Away_Slug": "barquisimeto-4rp8eIDa",
+          "Home_Score": 2,
+          "Away_Score": 1,
+          "Min_Goals_Home": [
+            30,
+            54
+          ],
+          "Min_Goals_Away": [
+            4
+          ],
+          "Match_ID": "dWRbpkgO"
+        },
+        {
+          "Id": "z3I3DY4K",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 8",
+          "Date": "05/09/2021",
+          "Time": "16:30",
+          "Home": "Atletico La Cruz",
+          "Away": "Libertador",
+          "Home_Slug": "atletico-la-cruz-GCKnAG4T",
+          "Away_Slug": "libertador-fc-AVlmQbko",
+          "Home_Score": 1,
+          "Away_Score": 0,
+          "Min_Goals_Home": [
+            6
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "z3I3DY4K"
+        },
+        {
+          "Id": "dCJaEEkE",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 8",
+          "Date": "05/09/2021",
+          "Time": "16:30",
+          "Home": "Bolivar",
+          "Away": "Fundacion AIFI",
+          "Home_Slug": "bolivar-KpRwCxzH",
+          "Away_Slug": "fundacion-aifi-QRGzwamI",
+          "Home_Score": 1,
+          "Away_Score": 0,
+          "Min_Goals_Home": [
+            85
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "dCJaEEkE"
+        },
+        {
+          "Id": "6sZomi95",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 10",
+          "Date": "05/09/2021",
+          "Time": "16:00",
+          "Home": "Llaneros",
+          "Away": "Barquisimeto",
+          "Home_Slug": "llaneros-8QB0oj1F",
+          "Away_Slug": "barquisimeto-4rp8eIDa",
+          "Home_Score": 0,
+          "Away_Score": 6,
+          "Min_Goals_Home": [],
+          "Min_Goals_Away": [
+            6,
+            38,
+            53,
+            60,
+            68,
+            80
+          ],
+          "Match_ID": "6sZomi95"
+        },
+        {
+          "Id": "bHVwkDvg",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 10",
+          "Date": "05/09/2021",
+          "Time": "12:00",
+          "Home": "Local Andina",
+          "Away": "El Vigia",
+          "Home_Slug": "union-local-andina-EmDKuKX9",
+          "Away_Slug": "atletico-el-vigia-OYcssXWF",
+          "Home_Score": 1,
+          "Away_Score": 0,
+          "Min_Goals_Home": [
+            53
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "bHVwkDvg"
+        },
+        {
+          "Id": "dKDOkVCD",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 8",
+          "Date": "04/09/2021",
+          "Time": "16:30",
+          "Home": "Minerven",
+          "Away": "Angostura",
+          "Home_Slug": "minerven-tvA8qUVR",
+          "Away_Slug": "angostura-IZnAvh6K",
+          "Home_Score": 0,
+          "Away_Score": 3,
+          "Min_Goals_Home": [],
+          "Min_Goals_Away": [],
+          "Match_ID": "dKDOkVCD"
+        },
+        {
+          "Id": "ITEKjBc7",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 8",
+          "Date": "04/09/2021",
+          "Time": "16:00",
+          "Home": "Dynamo Puerto",
+          "Away": "Miranda",
+          "Home_Slug": "dynamo-puerto-fc-IRzKqzlk",
+          "Away_Slug": "deportivo-miranda-bqdjykPk",
+          "Home_Score": 1,
+          "Away_Score": 1,
+          "Min_Goals_Home": [
+            90
+          ],
+          "Min_Goals_Away": [
+            62
+          ],
+          "Match_ID": "ITEKjBc7"
+        },
+        {
+          "Id": "KQWZkgPn",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 10",
+          "Date": "04/09/2021",
+          "Time": "16:00",
+          "Home": "Frontera",
+          "Away": "Urena",
+          "Home_Slug": "real-frontera-4AqkWAQI",
+          "Away_Slug": "urena-x6MdZOGO",
+          "Home_Score": 2,
+          "Away_Score": 2,
+          "Min_Goals_Home": [
+            63,
+            69
+          ],
+          "Min_Goals_Away": [
+            22,
+            84
+          ],
+          "Match_ID": "KQWZkgPn"
+        },
+        {
+          "Id": "hvVslXga",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 10",
+          "Date": "04/09/2021",
+          "Time": "16:00",
+          "Home": "Yaracuy",
+          "Away": "Rayo Zuliano",
+          "Home_Slug": "yaracuy-fc-8fMPE5T8",
+          "Away_Slug": "rayo-zuliano-l0k1Tw5i",
+          "Home_Score": 1,
+          "Away_Score": 0,
+          "Min_Goals_Home": [
+            29
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "hvVslXga"
+        },
+        {
+          "Id": "h40wiZ9t",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 10",
+          "Date": "03/09/2021",
+          "Time": "16:30",
+          "Home": "JBL Zulia",
+          "Away": "Titanes",
+          "Home_Slug": "jbl-zulia-0dqSS3OK",
+          "Away_Slug": "titanes-fc-6eug9B26",
+          "Home_Score": 1,
+          "Away_Score": 3,
+          "Min_Goals_Home": [
+            19
+          ],
+          "Min_Goals_Away": [
+            47,
+            89,
+            90
+          ],
+          "Match_ID": "h40wiZ9t"
+        },
+        {
+          "Id": "GvwA81uE",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 9",
+          "Date": "29/08/2021",
+          "Time": "17:00",
+          "Home": "Rayo Zuliano",
+          "Away": "Urena",
+          "Home_Slug": "rayo-zuliano-l0k1Tw5i",
+          "Away_Slug": "urena-x6MdZOGO",
+          "Home_Score": 1,
+          "Away_Score": 1,
+          "Min_Goals_Home": [
+            14
+          ],
+          "Min_Goals_Away": [
+            4
+          ],
+          "Match_ID": "GvwA81uE"
+        },
+        {
+          "Id": "O6FGiir1",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 7",
+          "Date": "29/08/2021",
+          "Time": "16:00",
+          "Home": "Bolivar",
+          "Away": "Dynamo Puerto",
+          "Home_Slug": "bolivar-KpRwCxzH",
+          "Away_Slug": "dynamo-puerto-fc-IRzKqzlk",
+          "Home_Score": 2,
+          "Away_Score": 0,
+          "Min_Goals_Home": [
+            5,
+            82
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "O6FGiir1"
+        },
+        {
+          "Id": "SvM7gDDl",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 7",
+          "Date": "29/08/2021",
+          "Time": "16:00",
+          "Home": "Minerven",
+          "Away": "Atletico La Cruz",
+          "Home_Slug": "minerven-tvA8qUVR",
+          "Away_Slug": "atletico-la-cruz-GCKnAG4T",
+          "Home_Score": 1,
+          "Away_Score": 2,
+          "Min_Goals_Home": [
+            35
+          ],
+          "Min_Goals_Away": [
+            50,
+            77
+          ],
+          "Match_ID": "SvM7gDDl"
+        },
+        {
+          "Id": "2ykSqI2D",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 9",
+          "Date": "29/08/2021",
+          "Time": "12:00",
+          "Home": "Local Andina",
+          "Away": "Titanes",
+          "Home_Slug": "union-local-andina-EmDKuKX9",
+          "Away_Slug": "titanes-fc-6eug9B26",
+          "Home_Score": 2,
+          "Away_Score": 3,
+          "Min_Goals_Home": [
+            23,
+            35
+          ],
+          "Min_Goals_Away": [
+            13,
+            31,
+            48
+          ],
+          "Match_ID": "2ykSqI2D"
+        },
+        {
+          "Id": "A3BChXSf",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 7",
+          "Date": "28/08/2021",
+          "Time": "16:30",
+          "Home": "Fundacion AIFI",
+          "Away": "Libertador",
+          "Home_Slug": "fundacion-aifi-QRGzwamI",
+          "Away_Slug": "libertador-fc-AVlmQbko",
+          "Home_Score": 1,
+          "Away_Score": 0,
+          "Min_Goals_Home": [
+            49
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "A3BChXSf"
+        },
+        {
+          "Id": "lYpOpbm7",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 9",
+          "Date": "28/08/2021",
+          "Time": "16:30",
+          "Home": "Yaracuy",
+          "Away": "Llaneros",
+          "Home_Slug": "yaracuy-fc-8fMPE5T8",
+          "Away_Slug": "llaneros-8QB0oj1F",
+          "Home_Score": 2,
+          "Away_Score": 1,
+          "Min_Goals_Home": [
+            6,
+            23
+          ],
+          "Min_Goals_Away": [
+            86
+          ],
+          "Match_ID": "lYpOpbm7"
+        },
+        {
+          "Id": "69eJovY0",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 9",
+          "Date": "28/08/2021",
+          "Time": "16:00",
+          "Home": "Frontera",
+          "Away": "El Vigia",
+          "Home_Slug": "real-frontera-4AqkWAQI",
+          "Away_Slug": "atletico-el-vigia-OYcssXWF",
+          "Home_Score": 1,
+          "Away_Score": 1,
+          "Min_Goals_Home": [
+            30
+          ],
+          "Min_Goals_Away": [
+            65
+          ],
+          "Match_ID": "69eJovY0"
+        },
+        {
+          "Id": "llN3fgbr",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 7",
+          "Date": "27/08/2021",
+          "Time": "16:00",
+          "Home": "Miranda",
+          "Away": "Angostura",
+          "Home_Slug": "deportivo-miranda-bqdjykPk",
+          "Away_Slug": "angostura-IZnAvh6K",
+          "Home_Score": 1,
+          "Away_Score": 0,
+          "Min_Goals_Home": [
+            25
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "llN3fgbr"
+        },
+        {
+          "Id": "SIdFnKIf",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 9",
+          "Date": "27/08/2021",
+          "Time": "12:00",
+          "Home": "JBL Zulia",
+          "Away": "Barquisimeto",
+          "Home_Slug": "jbl-zulia-0dqSS3OK",
+          "Away_Slug": "barquisimeto-4rp8eIDa",
+          "Home_Score": 0,
+          "Away_Score": 1,
+          "Min_Goals_Home": [],
+          "Min_Goals_Away": [
+            5
+          ],
+          "Match_ID": "SIdFnKIf"
+        },
+        {
+          "Id": "EBGvgMuR",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 8",
+          "Date": "22/08/2021",
+          "Time": "16:00",
+          "Home": "El Vigia",
+          "Away": "Rayo Zuliano",
+          "Home_Slug": "atletico-el-vigia-OYcssXWF",
+          "Away_Slug": "rayo-zuliano-l0k1Tw5i",
+          "Home_Score": 0,
+          "Away_Score": 0,
+          "Odds_1X2_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1": 2.4,
+              "Odd_X": 3.15,
+              "Odd_2": 2.65
+            }
+          ],
+          "Best_Odd_1_FT": 2.4,
+          "Best_Odd_X_FT": 3.15,
+          "Best_Odd_2_FT": 2.65,
+          "Odds_1X2_HT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1": 2.4,
+              "Odd_X": 3.15,
+              "Odd_2": 2.65
+            }
+          ],
+          "Odds_OU_FT": {
+            "OU_2.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.93,
+                "Under": 1.7
+              }
+            ]
+          },
+          "Odds_OU_HT": {
+            "OU_2.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.93,
+                "Under": 1.7
+              }
+            ]
+          },
+          "Odds_BTTS_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Yes": 2.4,
+              "No": 3.15
+            }
+          ],
+          "Odds_DC_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1X": 2.4,
+              "Odd_12": 3.15,
+              "Odd_X2": 2.65
+            }
+          ],
+          "Odds_CS_FT": {},
+          "Odds_AH_FT": {},
+          "Odds_EH_FT": {},
+          "Min_Goals_Home": [],
+          "Min_Goals_Away": [],
+          "Match_ID": "EBGvgMuR"
+        },
+        {
+          "Id": "Khg7ltlr",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 8",
+          "Date": "22/08/2021",
+          "Time": "16:00",
+          "Home": "Barquisimeto",
+          "Away": "Local Andina",
+          "Home_Slug": "barquisimeto-4rp8eIDa",
+          "Away_Slug": "union-local-andina-EmDKuKX9",
+          "Home_Score": 0,
+          "Away_Score": 0,
+          "Min_Goals_Home": [],
+          "Min_Goals_Away": [],
+          "Match_ID": "Khg7ltlr"
+        },
+        {
+          "Id": "2yDzf2QK",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 8",
+          "Date": "21/08/2021",
+          "Time": "16:30",
+          "Home": "Titanes",
+          "Away": "Frontera",
+          "Home_Slug": "titanes-fc-6eug9B26",
+          "Away_Slug": "real-frontera-4AqkWAQI",
+          "Home_Score": 2,
+          "Away_Score": 2,
+          "Odds_1X2_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1": 2.15,
+              "Odd_X": 3.1,
+              "Odd_2": 3.1
+            }
+          ],
+          "Best_Odd_1_FT": 2.15,
+          "Best_Odd_X_FT": 3.1,
+          "Best_Odd_2_FT": 3.1,
+          "Odds_1X2_HT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1": 2.15,
+              "Odd_X": 3.1,
+              "Odd_2": 3.1
+            }
+          ],
+          "Odds_OU_FT": {
+            "OU_2.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 2.07,
+                "Under": 1.6
+              }
+            ],
+            "OU_3.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 2.18,
+                "Under": 1.53
+              }
+            ]
+          },
+          "Odds_OU_HT": {
+            "OU_2.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 2.07,
+                "Under": 1.6
+              }
+            ],
+            "OU_3.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 2.18,
+                "Under": 1.53
+              }
+            ]
+          },
+          "Odds_BTTS_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Yes": 2.15,
+              "No": 3.1
+            }
+          ],
+          "Odds_DC_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1X": 2.15,
+              "Odd_12": 3.1,
+              "Odd_X2": 3.1
+            }
+          ],
+          "Odds_CS_FT": {},
+          "Odds_AH_FT": {},
+          "Odds_EH_FT": {},
+          "Min_Goals_Home": [
+            75,
+            90
+          ],
+          "Min_Goals_Away": [
+            2,
+            40
+          ],
+          "Match_ID": "2yDzf2QK"
+        },
+        {
+          "Id": "bqhBm03l",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 8",
+          "Date": "22/08/2021",
+          "Time": "16:00",
+          "Home": "Llaneros",
+          "Away": "JBL Zulia",
+          "Home_Slug": "llaneros-8QB0oj1F",
+          "Away_Slug": "jbl-zulia-0dqSS3OK",
+          "Home_Score": 1,
+          "Away_Score": 1,
+          "Min_Goals_Home": [
+            43
+          ],
+          "Min_Goals_Away": [
+            57
+          ],
+          "Match_ID": "bqhBm03l"
+        },
+        {
+          "Id": "ddVyaZkR",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 6",
+          "Date": "21/08/2021",
+          "Time": "18:00",
+          "Home": "Angostura",
+          "Away": "Atletico La Cruz",
+          "Home_Slug": "angostura-IZnAvh6K",
+          "Away_Slug": "atletico-la-cruz-GCKnAG4T",
+          "Home_Score": 0,
+          "Away_Score": 2,
+          "Min_Goals_Home": [],
+          "Min_Goals_Away": [
+            10,
+            82
+          ],
+          "Match_ID": "ddVyaZkR"
+        },
+        {
+          "Id": "8EDWfrBE",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 8",
+          "Date": "21/08/2021",
+          "Time": "16:30",
+          "Home": "Urena",
+          "Away": "Yaracuy",
+          "Home_Slug": "urena-x6MdZOGO",
+          "Away_Slug": "yaracuy-fc-8fMPE5T8",
+          "Home_Score": 4,
+          "Away_Score": 2,
+          "Odds_1X2_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1": 1.78,
+              "Odd_X": 3.3,
+              "Odd_2": 4.1
+            }
+          ],
+          "Best_Odd_1_FT": 1.78,
+          "Best_Odd_X_FT": 3.3,
+          "Best_Odd_2_FT": 4.1,
+          "Odds_1X2_HT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1": 1.78,
+              "Odd_X": 3.3,
+              "Odd_2": 4.1
+            }
+          ],
+          "Odds_OU_FT": {
+            "OU_2.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.98,
+                "Under": 1.65
+              }
+            ]
+          },
+          "Odds_OU_HT": {
+            "OU_2.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.98,
+                "Under": 1.65
+              }
+            ]
+          },
+          "Odds_BTTS_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Yes": 1.78,
+              "No": 3.3
+            }
+          ],
+          "Odds_DC_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1X": 1.78,
+              "Odd_12": 3.3,
+              "Odd_X2": 4.1
+            }
+          ],
+          "Odds_CS_FT": {},
+          "Odds_AH_FT": {},
+          "Odds_EH_FT": {},
+          "Min_Goals_Home": [
+            32,
+            37,
+            68,
+            72
+          ],
+          "Min_Goals_Away": [
+            24,
+            89
+          ],
+          "Match_ID": "8EDWfrBE"
+        },
+        {
+          "Id": "I5WXaFzL",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 6",
+          "Date": "21/08/2021",
+          "Time": "16:30",
+          "Home": "Libertador",
+          "Away": "Minerven",
+          "Home_Slug": "libertador-fc-AVlmQbko",
+          "Away_Slug": "minerven-tvA8qUVR",
+          "Home_Score": 5,
+          "Away_Score": 0,
+          "Min_Goals_Home": [
+            21,
+            22,
+            31,
+            79,
+            90
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "I5WXaFzL"
+        },
+        {
+          "Id": "xdOP1y68",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 6",
+          "Date": "21/08/2021",
+          "Time": "16:00",
+          "Home": "Dynamo Puerto",
+          "Away": "Fundacion AIFI",
+          "Home_Slug": "dynamo-puerto-fc-IRzKqzlk",
+          "Away_Slug": "fundacion-aifi-QRGzwamI",
+          "Home_Score": 1,
+          "Away_Score": 3,
+          "Odds_1X2_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1": 2.02,
+              "Odd_X": 3.2,
+              "Odd_2": 3.3
+            }
+          ],
+          "Best_Odd_1_FT": 2.02,
+          "Best_Odd_X_FT": 3.2,
+          "Best_Odd_2_FT": 3.3,
+          "Odds_1X2_HT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1": 2.02,
+              "Odd_X": 3.2,
+              "Odd_2": 3.3
+            }
+          ],
+          "Odds_OU_FT": {
+            "OU_2.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.93,
+                "Under": 1.7
+              }
+            ]
+          },
+          "Odds_OU_HT": {
+            "OU_2.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.93,
+                "Under": 1.7
+              }
+            ]
+          },
+          "Odds_BTTS_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Yes": 2.02,
+              "No": 3.2
+            }
+          ],
+          "Odds_DC_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1X": 2.02,
+              "Odd_12": 3.2,
+              "Odd_X2": 3.3
+            }
+          ],
+          "Odds_CS_FT": {},
+          "Odds_AH_FT": {},
+          "Odds_EH_FT": {},
+          "Min_Goals_Home": [
+            20
+          ],
+          "Min_Goals_Away": [
+            16,
+            38,
+            56
+          ],
+          "Match_ID": "xdOP1y68"
+        },
+        {
+          "Id": "h6VqXvJ7",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 7",
+          "Date": "15/08/2021",
+          "Time": "16:00",
+          "Home": "Frontera",
+          "Away": "Barquisimeto",
+          "Home_Slug": "real-frontera-4AqkWAQI",
+          "Away_Slug": "barquisimeto-4rp8eIDa",
+          "Home_Score": 1,
+          "Away_Score": 1,
+          "Odds_1X2_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1": 2.52,
+              "Odd_X": 3.2,
+              "Odd_2": 2.5
+            }
+          ],
+          "Best_Odd_1_FT": 2.52,
+          "Best_Odd_X_FT": 3.2,
+          "Best_Odd_2_FT": 2.5,
+          "Odds_1X2_HT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1": 2.52,
+              "Odd_X": 3.2,
+              "Odd_2": 2.5
+            }
+          ],
+          "Odds_OU_FT": {
+            "OU_2.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.8,
+                "Under": 1.8
+              }
+            ]
+          },
+          "Odds_OU_HT": {
+            "OU_2.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.8,
+                "Under": 1.8
+              }
+            ]
+          },
+          "Odds_BTTS_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Yes": 2.52,
+              "No": 3.2
+            }
+          ],
+          "Odds_DC_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1X": 2.52,
+              "Odd_12": 3.2,
+              "Odd_X2": 2.5
+            }
+          ],
+          "Odds_CS_FT": {},
+          "Odds_AH_FT": {},
+          "Odds_EH_FT": {},
+          "Min_Goals_Home": [
+            50
+          ],
+          "Min_Goals_Away": [
+            3
+          ],
+          "Match_ID": "h6VqXvJ7"
+        },
+        {
+          "Id": "zssT0eLE",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 6",
+          "Date": "21/08/2021",
+          "Time": "16:00",
+          "Home": "Miranda",
+          "Away": "Bolivar",
+          "Home_Slug": "deportivo-miranda-bqdjykPk",
+          "Away_Slug": "bolivar-KpRwCxzH",
+          "Home_Score": 1,
+          "Away_Score": 0,
+          "Min_Goals_Home": [
+            15
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "zssT0eLE"
+        },
+        {
+          "Id": "lzrVufqk",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 5",
+          "Date": "16/08/2021",
+          "Time": "16:00",
+          "Home": "Minerven",
+          "Away": "Dynamo Puerto",
+          "Home_Slug": "minerven-tvA8qUVR",
+          "Away_Slug": "dynamo-puerto-fc-IRzKqzlk",
+          "Home_Score": 3,
+          "Away_Score": 6,
+          "Min_Goals_Home": [],
+          "Min_Goals_Away": [],
+          "Match_ID": "lzrVufqk"
+        },
+        {
+          "Id": "EFWuYK31",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 7",
+          "Date": "15/08/2021",
+          "Time": "12:00",
+          "Home": "Local Andina",
+          "Away": "Llaneros",
+          "Home_Slug": "union-local-andina-EmDKuKX9",
+          "Away_Slug": "llaneros-8QB0oj1F",
+          "Home_Score": 4,
+          "Away_Score": 0,
+          "Odds_1X2_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1": 1.85,
+              "Odd_X": 3.35,
+              "Odd_2": 3.65
+            }
+          ],
+          "Best_Odd_1_FT": 1.85,
+          "Best_Odd_X_FT": 3.35,
+          "Best_Odd_2_FT": 3.65,
+          "Odds_1X2_HT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1": 1.85,
+              "Odd_X": 3.35,
+              "Odd_2": 3.65
+            }
+          ],
+          "Odds_OU_FT": {
+            "OU_2.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.88,
+                "Under": 1.72
+              }
+            ]
+          },
+          "Odds_OU_HT": {
+            "OU_2.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.88,
+                "Under": 1.72
+              }
+            ]
+          },
+          "Odds_BTTS_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Yes": 1.85,
+              "No": 3.35
+            }
+          ],
+          "Odds_DC_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1X": 1.85,
+              "Odd_12": 3.35,
+              "Odd_X2": 3.65
+            }
+          ],
+          "Odds_CS_FT": {},
+          "Odds_AH_FT": {},
+          "Odds_EH_FT": {},
+          "Min_Goals_Home": [
+            4,
+            17,
+            26,
+            85
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "EFWuYK31"
+        },
+        {
+          "Id": "UNESeOe8",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 7",
+          "Date": "15/08/2021",
+          "Time": "17:00",
+          "Home": "Rayo Zuliano",
+          "Away": "Titanes",
+          "Home_Slug": "rayo-zuliano-l0k1Tw5i",
+          "Away_Slug": "titanes-fc-6eug9B26",
+          "Home_Score": 0,
+          "Away_Score": 0,
+          "Min_Goals_Home": [],
+          "Min_Goals_Away": [],
+          "Match_ID": "UNESeOe8"
+        },
+        {
+          "Id": "p2yvvYD1",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 5",
+          "Date": "15/08/2021",
+          "Time": "16:30",
+          "Home": "Atletico La Cruz",
+          "Away": "Bolivar",
+          "Home_Slug": "atletico-la-cruz-GCKnAG4T",
+          "Away_Slug": "bolivar-KpRwCxzH",
+          "Home_Score": 0,
+          "Away_Score": 0,
+          "Min_Goals_Home": [],
+          "Min_Goals_Away": [],
+          "Match_ID": "p2yvvYD1"
+        },
+        {
+          "Id": "KhXyZ0le",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 7",
+          "Date": "14/08/2021",
+          "Time": "16:30",
+          "Home": "JBL Zulia",
+          "Away": "Yaracuy",
+          "Home_Slug": "jbl-zulia-0dqSS3OK",
+          "Away_Slug": "yaracuy-fc-8fMPE5T8",
+          "Home_Score": 1,
+          "Away_Score": 1,
+          "Odds_1X2_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1": 2.55,
+              "Odd_X": 3.1,
+              "Odd_2": 2.55
+            }
+          ],
+          "Best_Odd_1_FT": 2.55,
+          "Best_Odd_X_FT": 3.1,
+          "Best_Odd_2_FT": 2.55,
+          "Odds_1X2_HT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1": 2.55,
+              "Odd_X": 3.1,
+              "Odd_2": 2.55
+            }
+          ],
+          "Odds_OU_FT": {
+            "OU_1.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.52,
+                "Under": 2.22
+              }
+            ]
+          },
+          "Odds_OU_HT": {
+            "OU_1.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.52,
+                "Under": 2.22
+              }
+            ]
+          },
+          "Odds_BTTS_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Yes": 2.55,
+              "No": 3.1
+            }
+          ],
+          "Odds_DC_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1X": 2.55,
+              "Odd_12": 3.1,
+              "Odd_X2": 2.55
+            }
+          ],
+          "Odds_CS_FT": {},
+          "Odds_AH_FT": {},
+          "Odds_EH_FT": {},
+          "Min_Goals_Home": [
+            55
+          ],
+          "Min_Goals_Away": [
+            87
+          ],
+          "Match_ID": "KhXyZ0le"
+        },
+        {
+          "Id": "6kTXZtZl",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 7",
+          "Date": "14/08/2021",
+          "Time": "16:00",
+          "Home": "Urena",
+          "Away": "El Vigia",
+          "Home_Slug": "urena-x6MdZOGO",
+          "Away_Slug": "atletico-el-vigia-OYcssXWF",
+          "Home_Score": 2,
+          "Away_Score": 1,
+          "Odds_1X2_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1": 2.4,
+              "Odd_X": 3.25,
+              "Odd_2": 2.6
+            }
+          ],
+          "Best_Odd_1_FT": 2.4,
+          "Best_Odd_X_FT": 3.25,
+          "Best_Odd_2_FT": 2.6,
+          "Odds_1X2_HT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1": 2.4,
+              "Odd_X": 3.25,
+              "Odd_2": 2.6
+            }
+          ],
+          "Odds_OU_FT": {
+            "OU_2.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.85,
+                "Under": 1.75
+              }
+            ]
+          },
+          "Odds_OU_HT": {
+            "OU_2.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.85,
+                "Under": 1.75
+              }
+            ]
+          },
+          "Odds_BTTS_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Yes": 2.4,
+              "No": 3.25
+            }
+          ],
+          "Odds_DC_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1X": 2.4,
+              "Odd_12": 3.25,
+              "Odd_X2": 2.6
+            }
+          ],
+          "Odds_CS_FT": {},
+          "Odds_AH_FT": {},
+          "Odds_EH_FT": {},
+          "Min_Goals_Home": [
+            84,
+            90
+          ],
+          "Min_Goals_Away": [
+            45
+          ],
+          "Match_ID": "6kTXZtZl"
+        },
+        {
+          "Id": "OhzrwhT7",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 5",
+          "Date": "14/08/2021",
+          "Time": "18:00",
+          "Home": "Angostura",
+          "Away": "Libertador",
+          "Home_Slug": "angostura-IZnAvh6K",
+          "Away_Slug": "libertador-fc-AVlmQbko",
+          "Home_Score": 1,
+          "Away_Score": 1,
+          "Min_Goals_Home": [
+            26
+          ],
+          "Min_Goals_Away": [
+            81
+          ],
+          "Match_ID": "OhzrwhT7"
+        },
+        {
+          "Id": "SQtZvEbe",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 5",
+          "Date": "14/08/2021",
+          "Time": "16:30",
+          "Home": "Fundacion AIFI",
+          "Away": "Miranda",
+          "Home_Slug": "fundacion-aifi-QRGzwamI",
+          "Away_Slug": "deportivo-miranda-bqdjykPk",
+          "Home_Score": 3,
+          "Away_Score": 0,
+          "Min_Goals_Home": [
+            72,
+            81,
+            90
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "SQtZvEbe"
+        },
+        {
+          "Id": "MHi1u3BR",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 6",
+          "Date": "11/08/2021",
+          "Time": "16:30",
+          "Home": "JBL Zulia",
+          "Away": "Local Andina",
+          "Home_Slug": "jbl-zulia-0dqSS3OK",
+          "Away_Slug": "union-local-andina-EmDKuKX9",
+          "Home_Score": 0,
+          "Away_Score": 0,
+          "Min_Goals_Home": [],
+          "Min_Goals_Away": [],
+          "Match_ID": "MHi1u3BR"
+        },
+        {
+          "Id": "EihctqdL",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 6",
+          "Date": "11/08/2021",
+          "Time": "12:30",
+          "Home": "Titanes",
+          "Away": "Urena",
+          "Home_Slug": "titanes-fc-6eug9B26",
+          "Away_Slug": "urena-x6MdZOGO",
+          "Home_Score": 1,
+          "Away_Score": 1,
+          "Odds_1X2_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1": 2.22,
+              "Odd_X": 3.35,
+              "Odd_2": 2.77
+            }
+          ],
+          "Best_Odd_1_FT": 2.22,
+          "Best_Odd_X_FT": 3.35,
+          "Best_Odd_2_FT": 2.77,
+          "Odds_1X2_HT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1": 2.22,
+              "Odd_X": 3.35,
+              "Odd_2": 2.77
+            }
+          ],
+          "Odds_OU_FT": {
+            "OU_2.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.82,
+                "Under": 1.78
+              }
+            ]
+          },
+          "Odds_OU_HT": {
+            "OU_2.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.82,
+                "Under": 1.78
+              }
+            ]
+          },
+          "Odds_BTTS_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Yes": 2.22,
+              "No": 3.35
+            }
+          ],
+          "Odds_DC_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1X": 2.22,
+              "Odd_12": 3.35,
+              "Odd_X2": 2.77
+            }
+          ],
+          "Odds_CS_FT": {},
+          "Odds_AH_FT": {},
+          "Odds_EH_FT": {},
+          "Min_Goals_Home": [
+            56
+          ],
+          "Min_Goals_Away": [
+            4
+          ],
+          "Match_ID": "EihctqdL"
+        },
+        {
+          "Id": "z1ggsPtF",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 6",
+          "Date": "11/08/2021",
+          "Time": "16:00",
+          "Home": "Barquisimeto",
+          "Away": "Rayo Zuliano",
+          "Home_Slug": "barquisimeto-4rp8eIDa",
+          "Away_Slug": "rayo-zuliano-l0k1Tw5i",
+          "Home_Score": 1,
+          "Away_Score": 0,
+          "Min_Goals_Home": [
+            35
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "z1ggsPtF"
+        },
+        {
+          "Id": "hx4lr5R8",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 6",
+          "Date": "11/08/2021",
+          "Time": "16:00",
+          "Home": "El Vigia",
+          "Away": "Yaracuy",
+          "Home_Slug": "atletico-el-vigia-OYcssXWF",
+          "Away_Slug": "yaracuy-fc-8fMPE5T8",
+          "Home_Score": 2,
+          "Away_Score": 0,
+          "Min_Goals_Home": [
+            41,
+            51
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "hx4lr5R8"
+        },
+        {
+          "Id": "OQwTzNJr",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 6",
+          "Date": "11/08/2021",
+          "Time": "16:00",
+          "Home": "Llaneros",
+          "Away": "Frontera",
+          "Home_Slug": "llaneros-8QB0oj1F",
+          "Away_Slug": "real-frontera-4AqkWAQI",
+          "Home_Score": 2,
+          "Away_Score": 4,
+          "Min_Goals_Home": [
+            15,
+            52
+          ],
+          "Min_Goals_Away": [
+            19,
+            27,
+            36,
+            82
+          ],
+          "Match_ID": "OQwTzNJr"
+        },
+        {
+          "Id": "QVB2K1Z1",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 5",
+          "Date": "08/08/2021",
+          "Time": "16:00",
+          "Home": "El Vigia",
+          "Away": "Titanes",
+          "Home_Slug": "atletico-el-vigia-OYcssXWF",
+          "Away_Slug": "titanes-fc-6eug9B26",
+          "Home_Score": 1,
+          "Away_Score": 1,
+          "Odds_1X2_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1": 2.37,
+              "Odd_X": 3.3,
+              "Odd_2": 2.72
+            },
+            {
+              "Bookmaker": "Betfair",
+              "Odd_1": 2.25,
+              "Odd_X": 3.2,
+              "Odd_2": 2.88
+            }
+          ],
+          "Best_Odd_1_FT": 2.37,
+          "Best_Odd_X_FT": 3.3,
+          "Best_Odd_2_FT": 2.88,
+          "Odds_1X2_HT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1": 2.37,
+              "Odd_X": 3.3,
+              "Odd_2": 2.72
+            },
+            {
+              "Bookmaker": "Betfair",
+              "Odd_1": 2.25,
+              "Odd_X": 3.2,
+              "Odd_2": 2.88
+            }
+          ],
+          "Odds_OU_FT": {
+            "OU_0.5": [
+              {
+                "Bookmaker": "Betfair",
+                "Over": 1.02,
+                "Under": 10.0
+              }
+            ],
+            "OU_1.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.27,
+                "Under": 3.1
+              },
+              {
+                "Bookmaker": "Betfair",
+                "Over": 1.22,
+                "Under": 3.8
+              }
+            ],
+            "OU_2.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.8,
+                "Under": 1.8
+              },
+              {
+                "Bookmaker": "Betfair",
+                "Over": 1.8,
+                "Under": 1.91
+              }
+            ],
+            "OU_3.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 2.85,
+                "Under": 1.32
+              },
+              {
+                "Bookmaker": "Betfair",
+                "Over": 3.0,
+                "Under": 1.33
+              }
+            ],
+            "OU_4.5": [
+              {
+                "Bookmaker": "Betfair",
+                "Over": 5.5,
+                "Under": 1.11
+              }
+            ],
+            "OU_5.5": [
+              {
+                "Bookmaker": "Betfair",
+                "Over": 11.0,
+                "Under": 1.01
+              }
+            ]
+          },
+          "Odds_OU_HT": {
+            "OU_0.5": [
+              {
+                "Bookmaker": "Betfair",
+                "Over": 1.02,
+                "Under": 10.0
+              }
+            ],
+            "OU_1.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.27,
+                "Under": 3.1
+              },
+              {
+                "Bookmaker": "Betfair",
+                "Over": 1.22,
+                "Under": 3.8
+              }
+            ],
+            "OU_2.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.8,
+                "Under": 1.8
+              },
+              {
+                "Bookmaker": "Betfair",
+                "Over": 1.8,
+                "Under": 1.91
+              }
+            ],
+            "OU_3.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 2.85,
+                "Under": 1.32
+              },
+              {
+                "Bookmaker": "Betfair",
+                "Over": 3.0,
+                "Under": 1.33
+              }
+            ],
+            "OU_4.5": [
+              {
+                "Bookmaker": "Betfair",
+                "Over": 5.5,
+                "Under": 1.11
+              }
+            ],
+            "OU_5.5": [
+              {
+                "Bookmaker": "Betfair",
+                "Over": 11.0,
+                "Under": 1.01
+              }
+            ]
+          },
+          "Odds_BTTS_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Yes": 1.65,
+              "No": 1.98
+            },
+            {
+              "Bookmaker": "Betfair",
+              "Yes": 1.6,
+              "No": 2.2
+            }
+          ],
+          "Odds_DC_FT": [
+            {
+              "Bookmaker": "Betfair",
+              "Odd_1X": 1.36,
+              "Odd_12": 1.3,
+              "Odd_X2": 1.57
+            }
+          ],
+          "Odds_CS_FT": {
+            "1:0": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 8.0
+              }
+            ],
+            "2:0": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 10.0
+              }
+            ],
+            "2:1": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 8.0
+              }
+            ],
+            "3:0": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 19.0
+              }
+            ],
+            "3:1": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 15.0
+              }
+            ],
+            "3:2": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 21.0
+              }
+            ],
+            "4:0": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 56.0
+              }
+            ],
+            "4:1": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 36.0
+              }
+            ],
+            "4:2": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 56.0
+              }
+            ],
+            "4:3": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "5:0": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "5:1": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "5:2": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "5:3": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "5:4": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "6:0": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "6:1": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "6:2": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "6:3": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "6:4": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "6:5": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "7:0": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "7:1": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "7:2": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "7:3": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "7:4": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "8:0": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "8:1": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "8:2": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "8:3": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "9:0": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "9:1": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "9:2": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "10:0": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "10:1": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "11:0": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "0:0": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 9.5
+              }
+            ],
+            "1:1": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 6.0
+              }
+            ],
+            "2:2": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 11.0
+              }
+            ],
+            "3:3": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 41.0
+              }
+            ],
+            "4:4": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "5:5": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "0:1": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 9.5
+              }
+            ],
+            "0:2": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 13.0
+              }
+            ],
+            "1:2": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 9.0
+              }
+            ],
+            "0:3": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 29.0
+              }
+            ],
+            "1:3": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 19.0
+              }
+            ],
+            "2:3": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 21.0
+              }
+            ],
+            "0:4": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "1:4": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 56.0
+              }
+            ],
+            "2:4": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "3:4": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "0:5": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "1:5": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "2:5": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "3:5": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "4:5": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "0:6": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "1:6": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "2:6": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "3:6": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "4:6": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "5:6": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "0:7": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "1:7": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "2:7": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "3:7": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "4:7": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "0:8": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "1:8": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "2:8": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "3:8": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "0:9": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "1:9": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "2:9": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "0:10": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "1:10": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "0:11": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ]
+          },
+          "Odds_AH_FT": {},
+          "Odds_EH_FT": {},
+          "Min_Goals_Home": [
+            28
+          ],
+          "Min_Goals_Away": [
+            56
+          ],
+          "Match_ID": "QVB2K1Z1"
+        },
+        {
+          "Id": "nuDbLsKe",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 5",
+          "Date": "08/08/2021",
+          "Time": "16:00",
+          "Home": "Urena",
+          "Away": "Barquisimeto",
+          "Home_Slug": "urena-x6MdZOGO",
+          "Away_Slug": "barquisimeto-4rp8eIDa",
+          "Home_Score": 1,
+          "Away_Score": 2,
+          "Odds_1X2_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1": 2.1,
+              "Odd_X": 3.55,
+              "Odd_2": 3.0
+            }
+          ],
+          "Best_Odd_1_FT": 2.1,
+          "Best_Odd_X_FT": 3.55,
+          "Best_Odd_2_FT": 3.0,
+          "Odds_1X2_HT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1": 2.1,
+              "Odd_X": 3.55,
+              "Odd_2": 3.0
+            }
+          ],
+          "Odds_OU_FT": {
+            "OU_1.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.2,
+                "Under": 3.65
+              }
+            ],
+            "OU_2.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.6,
+                "Under": 2.07
+              }
+            ],
+            "OU_3.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 2.4,
+                "Under": 1.44
+              }
+            ]
+          },
+          "Odds_OU_HT": {
+            "OU_1.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.2,
+                "Under": 3.65
+              }
+            ],
+            "OU_2.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.6,
+                "Under": 2.07
+              }
+            ],
+            "OU_3.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 2.4,
+                "Under": 1.44
+              }
+            ]
+          },
+          "Odds_BTTS_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Yes": 1.52,
+              "No": 2.2
+            }
+          ],
+          "Odds_DC_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1X": 2.1,
+              "Odd_12": 3.55,
+              "Odd_X2": 3.0
+            }
+          ],
+          "Odds_CS_FT": {},
+          "Odds_AH_FT": {},
+          "Odds_EH_FT": {},
+          "Min_Goals_Home": [
+            57
+          ],
+          "Min_Goals_Away": [
+            40,
+            69
+          ],
+          "Match_ID": "nuDbLsKe"
+        },
+        {
+          "Id": "vZapqoC2",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 5",
+          "Date": "08/08/2021",
+          "Time": "17:00",
+          "Home": "Rayo Zuliano",
+          "Away": "Llaneros",
+          "Home_Slug": "rayo-zuliano-l0k1Tw5i",
+          "Away_Slug": "llaneros-8QB0oj1F",
+          "Home_Score": 1,
+          "Away_Score": 0,
+          "Min_Goals_Home": [
+            47
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "vZapqoC2"
+        },
+        {
+          "Id": "ryGcb2aG",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 4",
+          "Date": "08/08/2021",
+          "Time": "16:30",
+          "Home": "Bolivar",
+          "Away": "Angostura",
+          "Home_Slug": "bolivar-KpRwCxzH",
+          "Away_Slug": "angostura-IZnAvh6K",
+          "Home_Score": 1,
+          "Away_Score": 1,
+          "Min_Goals_Home": [
+            87
+          ],
+          "Min_Goals_Away": [
+            37
+          ],
+          "Match_ID": "ryGcb2aG"
+        },
+        {
+          "Id": "fDrRtzUr",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 4",
+          "Date": "07/08/2021",
+          "Time": "16:30",
+          "Home": "Fundacion AIFI",
+          "Away": "Atletico La Cruz",
+          "Home_Slug": "fundacion-aifi-QRGzwamI",
+          "Away_Slug": "atletico-la-cruz-GCKnAG4T",
+          "Home_Score": 1,
+          "Away_Score": 2,
+          "Min_Goals_Home": [
+            19
+          ],
+          "Min_Goals_Away": [
+            6,
+            46
+          ],
+          "Match_ID": "fDrRtzUr"
+        },
+        {
+          "Id": "0CQharpA",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 4",
+          "Date": "07/08/2021",
+          "Time": "16:00",
+          "Home": "Dynamo Puerto",
+          "Away": "Libertador",
+          "Home_Slug": "dynamo-puerto-fc-IRzKqzlk",
+          "Away_Slug": "libertador-fc-AVlmQbko",
+          "Home_Score": 0,
+          "Away_Score": 2,
+          "Min_Goals_Home": [],
+          "Min_Goals_Away": [],
+          "Match_ID": "0CQharpA"
+        },
+        {
+          "Id": "jDJkN3kq",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 5",
+          "Date": "07/08/2021",
+          "Time": "16:00",
+          "Home": "Frontera",
+          "Away": "JBL Zulia",
+          "Home_Slug": "real-frontera-4AqkWAQI",
+          "Away_Slug": "jbl-zulia-0dqSS3OK",
+          "Home_Score": 1,
+          "Away_Score": 0,
+          "Min_Goals_Home": [
+            81
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "jDJkN3kq"
+        },
+        {
+          "Id": "MLRl0OU3",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 4",
+          "Date": "07/08/2021",
+          "Time": "16:00",
+          "Home": "Miranda",
+          "Away": "Minerven",
+          "Home_Slug": "deportivo-miranda-bqdjykPk",
+          "Away_Slug": "minerven-tvA8qUVR",
+          "Home_Score": 8,
+          "Away_Score": 0,
+          "Min_Goals_Home": [
+            5,
+            22,
+            35,
+            52,
+            73,
+            77,
+            82,
+            85
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "MLRl0OU3"
+        },
+        {
+          "Id": "zmEKSPRL",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 4",
+          "Date": "01/08/2021",
+          "Time": "16:00",
+          "Home": "Barquisimeto",
+          "Away": "El Vigia",
+          "Home_Slug": "barquisimeto-4rp8eIDa",
+          "Away_Slug": "atletico-el-vigia-OYcssXWF",
+          "Home_Score": 1,
+          "Away_Score": 0,
+          "Odds_1X2_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1": 2.45,
+              "Odd_X": 3.4,
+              "Odd_2": 2.57
+            }
+          ],
+          "Best_Odd_1_FT": 2.45,
+          "Best_Odd_X_FT": 3.4,
+          "Best_Odd_2_FT": 2.57,
+          "Odds_1X2_HT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1": 2.45,
+              "Odd_X": 3.4,
+              "Odd_2": 2.57
+            }
+          ],
+          "Odds_OU_FT": {
+            "OU_1.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.24,
+                "Under": 3.25
+              }
+            ],
+            "OU_2.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.72,
+                "Under": 1.88
+              }
+            ],
+            "OU_3.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 2.7,
+                "Under": 1.35
+              }
+            ]
+          },
+          "Odds_OU_HT": {
+            "OU_1.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.24,
+                "Under": 3.25
+              }
+            ],
+            "OU_2.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.72,
+                "Under": 1.88
+              }
+            ],
+            "OU_3.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 2.7,
+                "Under": 1.35
+              }
+            ]
+          },
+          "Odds_BTTS_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Yes": 1.6,
+              "No": 2.07
+            }
+          ],
+          "Odds_DC_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1X": 2.45,
+              "Odd_12": 3.4,
+              "Odd_X2": 2.57
+            }
+          ],
+          "Odds_CS_FT": {},
+          "Odds_AH_FT": {},
+          "Odds_EH_FT": {},
+          "Min_Goals_Home": [
+            41
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "zmEKSPRL"
+        },
+        {
+          "Id": "U3IgMN4k",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 5",
+          "Date": "04/08/2021",
+          "Time": "16:00",
+          "Home": "Local Andina",
+          "Away": "Yaracuy",
+          "Home_Slug": "union-local-andina-EmDKuKX9",
+          "Away_Slug": "yaracuy-fc-8fMPE5T8",
+          "Home_Score": 0,
+          "Away_Score": 0,
+          "Min_Goals_Home": [],
+          "Min_Goals_Away": [],
+          "Match_ID": "U3IgMN4k"
+        },
+        {
+          "Id": "YXWNRqsS",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 4",
+          "Date": "01/08/2021",
+          "Time": "17:00",
+          "Home": "Llaneros",
+          "Away": "Urena",
+          "Home_Slug": "llaneros-8QB0oj1F",
+          "Away_Slug": "urena-x6MdZOGO",
+          "Home_Score": 1,
+          "Away_Score": 2,
+          "Min_Goals_Home": [
+            70
+          ],
+          "Min_Goals_Away": [
+            80,
+            90
+          ],
+          "Match_ID": "YXWNRqsS"
+        },
+        {
+          "Id": "hOOFT5CF",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 4",
+          "Date": "01/08/2021",
+          "Time": "12:00",
+          "Home": "Local Andina",
+          "Away": "Frontera",
+          "Home_Slug": "union-local-andina-EmDKuKX9",
+          "Away_Slug": "real-frontera-4AqkWAQI",
+          "Home_Score": 0,
+          "Away_Score": 1,
+          "Odds_1X2_FT": [],
+          "Odds_1X2_HT": [],
+          "Odds_OU_FT": {
+            "OU_1.5": [],
+            "OU_2.5": [],
+            "OU_3.5": [],
+            "OU_4.5": []
+          },
+          "Odds_OU_HT": {
+            "OU_1.5": [],
+            "OU_2.5": [],
+            "OU_3.5": [],
+            "OU_4.5": []
+          },
+          "Odds_BTTS_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Yes": 1.62,
+              "No": 2.02
+            }
+          ],
+          "Odds_DC_FT": [],
+          "Odds_CS_FT": {},
+          "Odds_AH_FT": {},
+          "Odds_EH_FT": {},
+          "Min_Goals_Home": [],
+          "Min_Goals_Away": [
+            90
+          ],
+          "Match_ID": "hOOFT5CF"
+        },
+        {
+          "Id": "z5Tt2p0i",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 3",
+          "Date": "01/08/2021",
+          "Time": "16:30",
+          "Home": "Atletico La Cruz",
+          "Away": "Dynamo Puerto",
+          "Home_Slug": "atletico-la-cruz-GCKnAG4T",
+          "Away_Slug": "dynamo-puerto-fc-IRzKqzlk",
+          "Home_Score": 1,
+          "Away_Score": 1,
+          "Min_Goals_Home": [
+            50
+          ],
+          "Min_Goals_Away": [
+            73
+          ],
+          "Match_ID": "z5Tt2p0i"
+        },
+        {
+          "Id": "Kdofvs8p",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 3",
+          "Date": "01/08/2021",
+          "Time": "16:00",
+          "Home": "Minerven",
+          "Away": "Bolivar",
+          "Home_Slug": "minerven-tvA8qUVR",
+          "Away_Slug": "bolivar-KpRwCxzH",
+          "Home_Score": 0,
+          "Away_Score": 3,
+          "Min_Goals_Home": [],
+          "Min_Goals_Away": [
+            13,
+            28,
+            49
+          ],
+          "Match_ID": "Kdofvs8p"
+        },
+        {
+          "Id": "EXPBUoc9",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 4",
+          "Date": "31/07/2021",
+          "Time": "16:30",
+          "Home": "Titanes",
+          "Away": "Yaracuy",
+          "Home_Slug": "titanes-fc-6eug9B26",
+          "Away_Slug": "yaracuy-fc-8fMPE5T8",
+          "Home_Score": 1,
+          "Away_Score": 0,
+          "Odds_1X2_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1": 2.05,
+              "Odd_X": 3.35,
+              "Odd_2": 3.3
+            }
+          ],
+          "Best_Odd_1_FT": 2.05,
+          "Best_Odd_X_FT": 3.35,
+          "Best_Odd_2_FT": 3.3,
+          "Odds_1X2_HT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1": 2.05,
+              "Odd_X": 3.35,
+              "Odd_2": 3.3
+            }
+          ],
+          "Odds_OU_FT": {
+            "OU_1.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.27,
+                "Under": 3.1
+              }
+            ],
+            "OU_2.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.8,
+                "Under": 1.8
+              }
+            ],
+            "OU_3.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 2.87,
+                "Under": 1.31
+              }
+            ]
+          },
+          "Odds_OU_HT": {
+            "OU_1.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.27,
+                "Under": 3.1
+              }
+            ],
+            "OU_2.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.8,
+                "Under": 1.8
+              }
+            ],
+            "OU_3.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 2.87,
+                "Under": 1.31
+              }
+            ]
+          },
+          "Odds_BTTS_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Yes": 1.65,
+              "No": 1.98
+            }
+          ],
+          "Odds_DC_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1X": 2.05,
+              "Odd_12": 3.35,
+              "Odd_X2": 3.3
+            }
+          ],
+          "Odds_CS_FT": {},
+          "Odds_AH_FT": {},
+          "Odds_EH_FT": {},
+          "Min_Goals_Home": [
+            34
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "EXPBUoc9"
+        },
+        {
+          "Id": "pbL7VRs3",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 4",
+          "Date": "30/07/2021",
+          "Time": "16:30",
+          "Home": "JBL Zulia",
+          "Away": "Rayo Zuliano",
+          "Home_Slug": "jbl-zulia-0dqSS3OK",
+          "Away_Slug": "rayo-zuliano-l0k1Tw5i",
+          "Home_Score": 0,
+          "Away_Score": 1,
+          "Odds_1X2_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1": 1.83,
+              "Odd_X": 3.4,
+              "Odd_2": 3.95
+            }
+          ],
+          "Best_Odd_1_FT": 1.83,
+          "Best_Odd_X_FT": 3.4,
+          "Best_Odd_2_FT": 3.95,
+          "Odds_1X2_HT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1": 1.83,
+              "Odd_X": 3.4,
+              "Odd_2": 3.95
+            }
+          ],
+          "Odds_OU_FT": {
+            "OU_1.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.3,
+                "Under": 2.92
+              }
+            ],
+            "OU_2.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.9,
+                "Under": 1.72
+              }
+            ],
+            "OU_3.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 3.05,
+                "Under": 1.28
+              }
+            ]
+          },
+          "Odds_OU_HT": {
+            "OU_1.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.3,
+                "Under": 2.92
+              }
+            ],
+            "OU_2.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.9,
+                "Under": 1.72
+              }
+            ],
+            "OU_3.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 3.05,
+                "Under": 1.28
+              }
+            ]
+          },
+          "Odds_BTTS_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Yes": 1.78,
+              "No": 1.82
+            }
+          ],
+          "Odds_DC_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1X": 1.83,
+              "Odd_12": 3.4,
+              "Odd_X2": 3.95
+            }
+          ],
+          "Odds_CS_FT": {},
+          "Odds_AH_FT": {},
+          "Odds_EH_FT": {},
+          "Min_Goals_Home": [],
+          "Min_Goals_Away": [
+            41
+          ],
+          "Match_ID": "pbL7VRs3"
+        },
+        {
+          "Id": "EeSp14Fc",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 3",
+          "Date": "31/07/2021",
+          "Time": "18:00",
+          "Home": "Angostura",
+          "Away": "Fundacion AIFI",
+          "Home_Slug": "angostura-IZnAvh6K",
+          "Away_Slug": "fundacion-aifi-QRGzwamI",
+          "Home_Score": 2,
+          "Away_Score": 0,
+          "Min_Goals_Home": [
+            53,
+            90
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "EeSp14Fc"
+        },
+        {
+          "Id": "Yakbw1Nj",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 3",
+          "Date": "31/07/2021",
+          "Time": "16:30",
+          "Home": "Libertador",
+          "Away": "Miranda",
+          "Home_Slug": "libertador-fc-AVlmQbko",
+          "Away_Slug": "deportivo-miranda-bqdjykPk",
+          "Home_Score": 2,
+          "Away_Score": 0,
+          "Min_Goals_Home": [
+            7,
+            66
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "Yakbw1Nj"
+        },
+        {
+          "Id": "42rL7Okd",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 3",
+          "Date": "25/07/2021",
+          "Time": "16:00",
+          "Home": "El Vigia",
+          "Away": "Llaneros",
+          "Home_Slug": "atletico-el-vigia-OYcssXWF",
+          "Away_Slug": "llaneros-8QB0oj1F",
+          "Home_Score": 4,
+          "Away_Score": 1,
+          "Odds_1X2_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1": 2.45,
+              "Odd_X": 3.35,
+              "Odd_2": 2.62
+            }
+          ],
+          "Best_Odd_1_FT": 2.45,
+          "Best_Odd_X_FT": 3.35,
+          "Best_Odd_2_FT": 2.62,
+          "Odds_1X2_HT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1": 2.45,
+              "Odd_X": 3.35,
+              "Odd_2": 2.62
+            }
+          ],
+          "Odds_OU_FT": {
+            "OU_1.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.27,
+                "Under": 3.1
+              }
+            ],
+            "OU_2.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.8,
+                "Under": 1.8
+              }
+            ],
+            "OU_3.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 2.85,
+                "Under": 1.32
+              }
+            ]
+          },
+          "Odds_OU_HT": {
+            "OU_1.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.27,
+                "Under": 3.1
+              }
+            ],
+            "OU_2.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.8,
+                "Under": 1.8
+              }
+            ],
+            "OU_3.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 2.85,
+                "Under": 1.32
+              }
+            ]
+          },
+          "Odds_BTTS_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Yes": 1.65,
+              "No": 1.98
+            }
+          ],
+          "Odds_DC_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1X": 2.45,
+              "Odd_12": 3.35,
+              "Odd_X2": 2.62
+            }
+          ],
+          "Odds_CS_FT": {},
+          "Odds_AH_FT": {},
+          "Odds_EH_FT": {},
+          "Min_Goals_Home": [
+            14,
+            19,
+            36,
+            43
+          ],
+          "Min_Goals_Away": [
+            5
+          ],
+          "Match_ID": "42rL7Okd"
+        },
+        {
+          "Id": "dxuD9pLq",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 3",
+          "Date": "25/07/2021",
+          "Time": "16:00",
+          "Home": "Frontera",
+          "Away": "Yaracuy",
+          "Home_Slug": "real-frontera-4AqkWAQI",
+          "Away_Slug": "yaracuy-fc-8fMPE5T8",
+          "Home_Score": 2,
+          "Away_Score": 4,
+          "Odds_1X2_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1": 2.45,
+              "Odd_X": 3.05,
+              "Odd_2": 2.8
+            }
+          ],
+          "Best_Odd_1_FT": 2.45,
+          "Best_Odd_X_FT": 3.05,
+          "Best_Odd_2_FT": 2.8,
+          "Odds_1X2_HT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1": 2.45,
+              "Odd_X": 3.05,
+              "Odd_2": 2.8
+            }
+          ],
+          "Odds_OU_FT": {
+            "OU_1.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.47,
+                "Under": 2.35
+              }
+            ],
+            "OU_2.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 2.32,
+                "Under": 1.47
+              }
+            ],
+            "OU_3.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 4.0,
+                "Under": 1.16
+              }
+            ]
+          },
+          "Odds_OU_HT": {
+            "OU_1.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.47,
+                "Under": 2.35
+              }
+            ],
+            "OU_2.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 2.32,
+                "Under": 1.47
+              }
+            ],
+            "OU_3.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 4.0,
+                "Under": 1.16
+              }
+            ]
+          },
+          "Odds_BTTS_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Yes": 2.02,
+              "No": 1.62
+            }
+          ],
+          "Odds_DC_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1X": 2.45,
+              "Odd_12": 3.05,
+              "Odd_X2": 2.8
+            }
+          ],
+          "Odds_CS_FT": {},
+          "Odds_AH_FT": {},
+          "Odds_EH_FT": {},
+          "Min_Goals_Home": [
+            20,
+            30
+          ],
+          "Min_Goals_Away": [
+            33,
+            77,
+            83,
+            90
+          ],
+          "Match_ID": "dxuD9pLq"
+        },
+        {
+          "Id": "67M3W7Sd",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 3",
+          "Date": "25/07/2021",
+          "Time": "17:00",
+          "Home": "Rayo Zuliano",
+          "Away": "Local Andina",
+          "Home_Slug": "rayo-zuliano-l0k1Tw5i",
+          "Away_Slug": "union-local-andina-EmDKuKX9",
+          "Home_Score": 1,
+          "Away_Score": 0,
+          "Min_Goals_Home": [
+            81
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "67M3W7Sd"
+        },
+        {
+          "Id": "2HbSrNaT",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 2",
+          "Date": "25/07/2021",
+          "Time": "16:30",
+          "Home": "Atletico La Cruz",
+          "Away": "Miranda",
+          "Home_Slug": "atletico-la-cruz-GCKnAG4T",
+          "Away_Slug": "deportivo-miranda-bqdjykPk",
+          "Home_Score": 2,
+          "Away_Score": 2,
+          "Min_Goals_Home": [
+            15,
+            17
+          ],
+          "Min_Goals_Away": [
+            37,
+            85
+          ],
+          "Match_ID": "2HbSrNaT"
+        },
+        {
+          "Id": "fThoEQCS",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 3",
+          "Date": "24/07/2021",
+          "Time": "16:30",
+          "Home": "Urena",
+          "Away": "JBL Zulia",
+          "Home_Slug": "urena-x6MdZOGO",
+          "Away_Slug": "jbl-zulia-0dqSS3OK",
+          "Home_Score": 1,
+          "Away_Score": 0,
+          "Odds_1X2_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1": 2.1,
+              "Odd_X": 3.2,
+              "Odd_2": 3.3
+            }
+          ],
+          "Best_Odd_1_FT": 2.1,
+          "Best_Odd_X_FT": 3.2,
+          "Best_Odd_2_FT": 3.3,
+          "Odds_1X2_HT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1": 2.1,
+              "Odd_X": 3.2,
+              "Odd_2": 3.3
+            }
+          ],
+          "Odds_OU_FT": {
+            "OU_1.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.34,
+                "Under": 2.77
+              }
+            ],
+            "OU_2.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.98,
+                "Under": 1.65
+              }
+            ],
+            "OU_3.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 3.25,
+                "Under": 1.25
+              }
+            ]
+          },
+          "Odds_OU_HT": {
+            "OU_1.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.34,
+                "Under": 2.77
+              }
+            ],
+            "OU_2.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.98,
+                "Under": 1.65
+              }
+            ],
+            "OU_3.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 3.25,
+                "Under": 1.25
+              }
+            ]
+          },
+          "Odds_BTTS_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Yes": 1.78,
+              "No": 1.82
+            }
+          ],
+          "Odds_DC_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1X": 2.1,
+              "Odd_12": 3.2,
+              "Odd_X2": 3.3
+            }
+          ],
+          "Odds_CS_FT": {},
+          "Odds_AH_FT": {},
+          "Odds_EH_FT": {},
+          "Min_Goals_Home": [
+            52
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "fThoEQCS"
+        },
+        {
+          "Id": "OQaOq3pN",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 2",
+          "Date": "24/07/2021",
+          "Time": "16:00",
+          "Home": "Dynamo Puerto",
+          "Away": "Angostura",
+          "Home_Slug": "dynamo-puerto-fc-IRzKqzlk",
+          "Away_Slug": "angostura-IZnAvh6K",
+          "Home_Score": 0,
+          "Away_Score": 1,
+          "Odds_1X2_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1": 2.07,
+              "Odd_X": 3.4,
+              "Odd_2": 3.2
+            }
+          ],
+          "Best_Odd_1_FT": 2.07,
+          "Best_Odd_X_FT": 3.4,
+          "Best_Odd_2_FT": 3.2,
+          "Odds_1X2_HT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1": 2.07,
+              "Odd_X": 3.4,
+              "Odd_2": 3.2
+            }
+          ],
+          "Odds_OU_FT": {
+            "OU_1.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.3,
+                "Under": 2.92
+              }
+            ],
+            "OU_2.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.88,
+                "Under": 1.72
+              }
+            ],
+            "OU_3.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 3.05,
+                "Under": 1.28
+              }
+            ]
+          },
+          "Odds_OU_HT": {
+            "OU_1.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.3,
+                "Under": 2.92
+              }
+            ],
+            "OU_2.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.88,
+                "Under": 1.72
+              }
+            ],
+            "OU_3.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 3.05,
+                "Under": 1.28
+              }
+            ]
+          },
+          "Odds_BTTS_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Yes": 1.75,
+              "No": 1.87
+            }
+          ],
+          "Odds_DC_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1X": 2.07,
+              "Odd_12": 3.4,
+              "Odd_X2": 3.2
+            }
+          ],
+          "Odds_CS_FT": {},
+          "Odds_AH_FT": {},
+          "Odds_EH_FT": {},
+          "Min_Goals_Home": [],
+          "Min_Goals_Away": [
+            60
+          ],
+          "Match_ID": "OQaOq3pN"
+        },
+        {
+          "Id": "javH84zj",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 3",
+          "Date": "25/07/2021",
+          "Time": "12:30",
+          "Home": "Titanes",
+          "Away": "Barquisimeto",
+          "Home_Slug": "titanes-fc-6eug9B26",
+          "Away_Slug": "barquisimeto-4rp8eIDa",
+          "Home_Score": 2,
+          "Away_Score": 1,
+          "Min_Goals_Home": [
+            52,
+            82
+          ],
+          "Min_Goals_Away": [
+            85
+          ],
+          "Match_ID": "javH84zj"
+        },
+        {
+          "Id": "Sb6FoPFA",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 2",
+          "Date": "25/07/2021",
+          "Time": "16:00",
+          "Home": "Minerven",
+          "Away": "Fundacion AIFI",
+          "Home_Slug": "minerven-tvA8qUVR",
+          "Away_Slug": "fundacion-aifi-QRGzwamI",
+          "Home_Score": 2,
+          "Away_Score": 3,
+          "Min_Goals_Home": [],
+          "Min_Goals_Away": [],
+          "Match_ID": "Sb6FoPFA"
+        },
+        {
+          "Id": "6k5JpqVG",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 2",
+          "Date": "24/07/2021",
+          "Time": "16:30",
+          "Home": "Bolivar",
+          "Away": "Libertador",
+          "Home_Slug": "bolivar-KpRwCxzH",
+          "Away_Slug": "libertador-fc-AVlmQbko",
+          "Home_Score": 1,
+          "Away_Score": 0,
+          "Min_Goals_Home": [],
+          "Min_Goals_Away": [],
+          "Match_ID": "6k5JpqVG"
+        },
+        {
+          "Id": "zRxpGnrG",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 2",
+          "Date": "21/07/2021",
+          "Time": "16:30",
+          "Home": "JBL Zulia",
+          "Away": "El Vigia",
+          "Home_Slug": "jbl-zulia-0dqSS3OK",
+          "Away_Slug": "atletico-el-vigia-OYcssXWF",
+          "Home_Score": 2,
+          "Away_Score": 1,
+          "Odds_1X2_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1": 2.92,
+              "Odd_X": 3.4,
+              "Odd_2": 2.2
+            }
+          ],
+          "Best_Odd_1_FT": 2.92,
+          "Best_Odd_X_FT": 3.4,
+          "Best_Odd_2_FT": 2.2,
+          "Odds_1X2_HT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1": 2.92,
+              "Odd_X": 3.4,
+              "Odd_2": 2.2
+            }
+          ],
+          "Odds_OU_FT": {
+            "OU_1.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.22,
+                "Under": 3.5
+              }
+            ],
+            "OU_2.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.65,
+                "Under": 1.98
+              }
+            ],
+            "OU_3.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 2.52,
+                "Under": 1.4
+              }
+            ]
+          },
+          "Odds_OU_HT": {
+            "OU_1.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.22,
+                "Under": 3.5
+              }
+            ],
+            "OU_2.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.65,
+                "Under": 1.98
+              }
+            ],
+            "OU_3.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 2.52,
+                "Under": 1.4
+              }
+            ]
+          },
+          "Odds_BTTS_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Yes": 1.55,
+              "No": 2.15
+            }
+          ],
+          "Odds_DC_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1X": 2.92,
+              "Odd_12": 3.4,
+              "Odd_X2": 2.2
+            }
+          ],
+          "Odds_CS_FT": {},
+          "Odds_AH_FT": {},
+          "Odds_EH_FT": {},
+          "Min_Goals_Home": [
+            64,
+            90
+          ],
+          "Min_Goals_Away": [
+            5
+          ],
+          "Match_ID": "zRxpGnrG"
+        },
+        {
+          "Id": "pxpXIlbc",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 2",
+          "Date": "21/07/2021",
+          "Time": "12:00",
+          "Home": "Local Andina",
+          "Away": "Urena",
+          "Home_Slug": "union-local-andina-EmDKuKX9",
+          "Away_Slug": "urena-x6MdZOGO",
+          "Home_Score": 1,
+          "Away_Score": 1,
+          "Odds_1X2_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1": 1.82,
+              "Odd_X": 3.55,
+              "Odd_2": 3.9
+            }
+          ],
+          "Best_Odd_1_FT": 1.82,
+          "Best_Odd_X_FT": 3.55,
+          "Best_Odd_2_FT": 3.9,
+          "Odds_1X2_HT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1": 1.82,
+              "Odd_X": 3.55,
+              "Odd_2": 3.9
+            }
+          ],
+          "Odds_OU_FT": {
+            "OU_1.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.21,
+                "Under": 3.55
+              }
+            ],
+            "OU_2.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.62,
+                "Under": 2.02
+              }
+            ],
+            "OU_3.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 2.45,
+                "Under": 1.42
+              }
+            ],
+            "OU_4.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 3.7,
+                "Under": 1.19
+              }
+            ]
+          },
+          "Odds_OU_HT": {
+            "OU_1.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.21,
+                "Under": 3.55
+              }
+            ],
+            "OU_2.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.62,
+                "Under": 2.02
+              }
+            ],
+            "OU_3.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 2.45,
+                "Under": 1.42
+              }
+            ],
+            "OU_4.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 3.7,
+                "Under": 1.19
+              }
+            ]
+          },
+          "Odds_BTTS_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Yes": 1.57,
+              "No": 2.12
+            }
+          ],
+          "Odds_DC_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1X": 1.82,
+              "Odd_12": 3.55,
+              "Odd_X2": 3.9
+            }
+          ],
+          "Odds_CS_FT": {},
+          "Odds_AH_FT": {},
+          "Odds_EH_FT": {},
+          "Min_Goals_Home": [
+            52
+          ],
+          "Min_Goals_Away": [
+            13
+          ],
+          "Match_ID": "pxpXIlbc"
+        },
+        {
+          "Id": "t4wtHSS9",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 2",
+          "Date": "21/07/2021",
+          "Time": "16:00",
+          "Home": "Frontera",
+          "Away": "Rayo Zuliano",
+          "Home_Slug": "real-frontera-4AqkWAQI",
+          "Away_Slug": "rayo-zuliano-l0k1Tw5i",
+          "Home_Score": 0,
+          "Away_Score": 0,
+          "Odds_1X2_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1": 2.07,
+              "Odd_X": 3.35,
+              "Odd_2": 3.2
+            }
+          ],
+          "Best_Odd_1_FT": 2.07,
+          "Best_Odd_X_FT": 3.35,
+          "Best_Odd_2_FT": 3.2,
+          "Odds_1X2_HT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1": 2.07,
+              "Odd_X": 3.35,
+              "Odd_2": 3.2
+            }
+          ],
+          "Odds_OU_FT": {
+            "OU_1.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.32,
+                "Under": 2.85
+              }
+            ],
+            "OU_2.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.93,
+                "Under": 1.7
+              }
+            ],
+            "OU_3.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 3.15,
+                "Under": 1.26
+              }
+            ]
+          },
+          "Odds_OU_HT": {
+            "OU_1.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.32,
+                "Under": 2.85
+              }
+            ],
+            "OU_2.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.93,
+                "Under": 1.7
+              }
+            ],
+            "OU_3.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 3.15,
+                "Under": 1.26
+              }
+            ]
+          },
+          "Odds_BTTS_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Yes": 1.78,
+              "No": 1.83
+            }
+          ],
+          "Odds_DC_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1X": 2.07,
+              "Odd_12": 3.35,
+              "Odd_X2": 3.2
+            }
+          ],
+          "Odds_CS_FT": {},
+          "Odds_AH_FT": {},
+          "Odds_EH_FT": {},
+          "Min_Goals_Home": [],
+          "Min_Goals_Away": [],
+          "Match_ID": "t4wtHSS9"
+        },
+        {
+          "Id": "EHylF6cM",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 2",
+          "Date": "21/07/2021",
+          "Time": "17:00",
+          "Home": "Llaneros",
+          "Away": "Titanes",
+          "Home_Slug": "llaneros-8QB0oj1F",
+          "Away_Slug": "titanes-fc-6eug9B26",
+          "Home_Score": 1,
+          "Away_Score": 0,
+          "Min_Goals_Home": [
+            42
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "EHylF6cM"
+        },
+        {
+          "Id": "S0ZyI8D3",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 2",
+          "Date": "21/07/2021",
+          "Time": "16:00",
+          "Home": "Barquisimeto",
+          "Away": "Yaracuy",
+          "Home_Slug": "barquisimeto-4rp8eIDa",
+          "Away_Slug": "yaracuy-fc-8fMPE5T8",
+          "Home_Score": 1,
+          "Away_Score": 0,
+          "Min_Goals_Home": [
+            90
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "S0ZyI8D3"
+        },
+        {
+          "Id": "6ooTJUri",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 1",
+          "Date": "18/07/2021",
+          "Time": "16:00",
+          "Home": "Barquisimeto",
+          "Away": "Llaneros",
+          "Home_Slug": "barquisimeto-4rp8eIDa",
+          "Away_Slug": "llaneros-8QB0oj1F",
+          "Home_Score": 5,
+          "Away_Score": 1,
+          "Min_Goals_Home": [
+            15,
+            31,
+            44,
+            66,
+            70
+          ],
+          "Min_Goals_Away": [
+            55
+          ],
+          "Match_ID": "6ooTJUri"
+        },
+        {
+          "Id": "Yy7Bn504",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 1",
+          "Date": "17/07/2021",
+          "Time": "18:00",
+          "Home": "Angostura",
+          "Away": "Minerven",
+          "Home_Slug": "angostura-IZnAvh6K",
+          "Away_Slug": "minerven-tvA8qUVR",
+          "Home_Score": 7,
+          "Away_Score": 0,
+          "Min_Goals_Home": [],
+          "Min_Goals_Away": [],
+          "Match_ID": "Yy7Bn504"
+        },
+        {
+          "Id": "bsuDDgMH",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 1",
+          "Date": "17/07/2021",
+          "Time": "17:00",
+          "Home": "Rayo Zuliano",
+          "Away": "Yaracuy",
+          "Home_Slug": "rayo-zuliano-l0k1Tw5i",
+          "Away_Slug": "yaracuy-fc-8fMPE5T8",
+          "Home_Score": 0,
+          "Away_Score": 0,
+          "Min_Goals_Home": [],
+          "Min_Goals_Away": [],
+          "Match_ID": "bsuDDgMH"
+        },
+        {
+          "Id": "vwE2lRVi",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 1",
+          "Date": "17/07/2021",
+          "Time": "16:30",
+          "Home": "Fundacion AIFI",
+          "Away": "Bolivar",
+          "Home_Slug": "fundacion-aifi-QRGzwamI",
+          "Away_Slug": "bolivar-KpRwCxzH",
+          "Home_Score": 1,
+          "Away_Score": 4,
+          "Min_Goals_Home": [
+            90
+          ],
+          "Min_Goals_Away": [
+            3,
+            11,
+            66,
+            90
+          ],
+          "Match_ID": "vwE2lRVi"
+        },
+        {
+          "Id": "M137moob",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 1",
+          "Date": "17/07/2021",
+          "Time": "16:30",
+          "Home": "Libertador",
+          "Away": "Atletico La Cruz",
+          "Home_Slug": "libertador-fc-AVlmQbko",
+          "Away_Slug": "atletico-la-cruz-GCKnAG4T",
+          "Home_Score": 1,
+          "Away_Score": 0,
+          "Min_Goals_Home": [
+            73
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "M137moob"
+        },
+        {
+          "Id": "0nFbk7Go",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 1",
+          "Date": "16/07/2021",
+          "Time": "12:00",
+          "Home": "Miranda",
+          "Away": "Dynamo Puerto",
+          "Home_Slug": "deportivo-miranda-bqdjykPk",
+          "Away_Slug": "dynamo-puerto-fc-IRzKqzlk",
+          "Home_Score": 1,
+          "Away_Score": 1,
+          "Odds_1X2_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1": 1.78,
+              "Odd_X": 3.25,
+              "Odd_2": 4.55
+            },
+            {
+              "Bookmaker": "Betfair",
+              "Odd_1": 1.65,
+              "Odd_X": 3.25,
+              "Odd_2": 5.0
+            }
+          ],
+          "Best_Odd_1_FT": 1.78,
+          "Best_Odd_X_FT": 3.25,
+          "Best_Odd_2_FT": 5.0,
+          "Odds_1X2_HT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Odd_1": 1.78,
+              "Odd_X": 3.25,
+              "Odd_2": 4.55
+            },
+            {
+              "Bookmaker": "Betfair",
+              "Odd_1": 1.65,
+              "Odd_X": 3.25,
+              "Odd_2": 5.0
+            }
+          ],
+          "Odds_OU_FT": {
+            "OU_0.5": [
+              {
+                "Bookmaker": "Betfair",
+                "Over": 1.03,
+                "Under": 9.0
+              }
+            ],
+            "OU_1.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.31,
+                "Under": 2.87
+              },
+              {
+                "Bookmaker": "Betfair",
+                "Over": 1.29,
+                "Under": 3.3
+              }
+            ],
+            "OU_2.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.91,
+                "Under": 1.7
+              },
+              {
+                "Bookmaker": "Betfair",
+                "Over": 1.95,
+                "Under": 1.75
+              }
+            ],
+            "OU_3.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 3.1,
+                "Under": 1.27
+              },
+              {
+                "Bookmaker": "Betfair",
+                "Over": 3.6,
+                "Under": 1.25
+              }
+            ],
+            "OU_4.5": [
+              {
+                "Bookmaker": "Betfair",
+                "Over": 7.0,
+                "Under": 1.07
+              }
+            ]
+          },
+          "Odds_OU_HT": {
+            "OU_0.5": [
+              {
+                "Bookmaker": "Betfair",
+                "Over": 1.03,
+                "Under": 9.0
+              }
+            ],
+            "OU_1.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.31,
+                "Under": 2.87
+              },
+              {
+                "Bookmaker": "Betfair",
+                "Over": 1.29,
+                "Under": 3.3
+              }
+            ],
+            "OU_2.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 1.91,
+                "Under": 1.7
+              },
+              {
+                "Bookmaker": "Betfair",
+                "Over": 1.95,
+                "Under": 1.75
+              }
+            ],
+            "OU_3.5": [
+              {
+                "Bookmaker": "Betano.br",
+                "Over": 3.1,
+                "Under": 1.27
+              },
+              {
+                "Bookmaker": "Betfair",
+                "Over": 3.6,
+                "Under": 1.25
+              }
+            ],
+            "OU_4.5": [
+              {
+                "Bookmaker": "Betfair",
+                "Over": 7.0,
+                "Under": 1.07
+              }
+            ]
+          },
+          "Odds_BTTS_FT": [
+            {
+              "Bookmaker": "Betano.br",
+              "Yes": 1.78,
+              "No": 1.82
+            },
+            {
+              "Bookmaker": "Betfair",
+              "Yes": 1.85,
+              "No": 1.85
+            }
+          ],
+          "Odds_DC_FT": [
+            {
+              "Bookmaker": "Betfair",
+              "Odd_1X": 1.13,
+              "Odd_12": 1.3,
+              "Odd_X2": 2.1
+            }
+          ],
+          "Odds_CS_FT": {
+            "1:0": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 6.0
+              }
+            ],
+            "2:0": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 7.0
+              }
+            ],
+            "2:1": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 7.0
+              }
+            ],
+            "3:0": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 12.0
+              }
+            ],
+            "3:1": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 13.0
+              }
+            ],
+            "3:2": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 21.0
+              }
+            ],
+            "4:0": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 26.0
+              }
+            ],
+            "4:1": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 26.0
+              }
+            ],
+            "4:2": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 56.0
+              }
+            ],
+            "4:3": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "5:0": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "5:1": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "5:2": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "5:3": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "5:4": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "6:0": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "6:1": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "6:2": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "6:3": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "6:4": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "6:5": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "7:0": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "7:1": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "7:2": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "7:3": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "7:4": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "8:0": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "8:1": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "8:2": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "8:3": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "9:0": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "9:1": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "9:2": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "10:0": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "10:1": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "11:0": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "0:0": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 8.5
+              }
+            ],
+            "1:1": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 6.0
+              }
+            ],
+            "2:2": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 13.0
+              }
+            ],
+            "3:3": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 61.0
+              }
+            ],
+            "4:4": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "5:5": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "0:1": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 12.0
+              }
+            ],
+            "0:2": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 21.0
+              }
+            ],
+            "1:2": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 13.0
+              }
+            ],
+            "0:3": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 61.0
+              }
+            ],
+            "1:3": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 36.0
+              }
+            ],
+            "2:3": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 41.0
+              }
+            ],
+            "0:4": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "1:4": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "2:4": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "3:4": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "0:5": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "1:5": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "2:5": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "3:5": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "4:5": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "0:6": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "1:6": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "2:6": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "3:6": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "4:6": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "5:6": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "0:7": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "1:7": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "2:7": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "3:7": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "4:7": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "0:8": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "1:8": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "2:8": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "3:8": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "0:9": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "1:9": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "2:9": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "0:10": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "1:10": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ],
+            "0:11": [
+              {
+                "Bookmaker": "Betfair",
+                "Odd": 67.0
+              }
+            ]
+          },
+          "Odds_AH_FT": {},
+          "Odds_EH_FT": {},
+          "Min_Goals_Home": [
+            28
+          ],
+          "Min_Goals_Away": [
+            61
+          ],
+          "Match_ID": "0nFbk7Go"
+        },
+        {
+          "Id": "vugsdRjp",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 1",
+          "Date": "17/07/2021",
+          "Time": "16:30",
+          "Home": "Titanes",
+          "Away": "JBL Zulia",
+          "Home_Slug": "titanes-fc-6eug9B26",
+          "Away_Slug": "jbl-zulia-0dqSS3OK",
+          "Home_Score": 2,
+          "Away_Score": 0,
+          "Min_Goals_Home": [
+            33,
+            50
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "vugsdRjp"
+        },
+        {
+          "Id": "n7y9EZ6B",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 1",
+          "Date": "17/07/2021",
+          "Time": "16:30",
+          "Home": "Urena",
+          "Away": "Frontera",
+          "Home_Slug": "urena-x6MdZOGO",
+          "Away_Slug": "real-frontera-4AqkWAQI",
+          "Home_Score": 0,
+          "Away_Score": 1,
+          "Min_Goals_Home": [],
+          "Min_Goals_Away": [
+            74
+          ],
+          "Match_ID": "n7y9EZ6B"
+        },
+        {
+          "Id": "IVioeo6j",
+          "League": "Venezuela - Segunda Division",
+          "Round": "Round 1",
+          "Date": "11/07/2021",
+          "Time": "16:00",
+          "Home": "El Vigia",
+          "Away": "Local Andina",
+          "Home_Slug": "atletico-el-vigia-OYcssXWF",
+          "Away_Slug": "union-local-andina-EmDKuKX9",
+          "Home_Score": 2,
+          "Away_Score": 0,
+          "Min_Goals_Home": [
+            3,
+            30
+          ],
+          "Min_Goals_Away": [],
+          "Match_ID": "IVioeo6j"
+        }
+      ]
+    }
+  ]
+}
